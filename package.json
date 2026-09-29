@@ -1,0 +1,14 @@
+{
+  "name": "median-xl-webrepo",
+  "version": "1.0.0",
+  "description": "Median XL Local Cloud Warehouse & Save Manager",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "terser": "^5.51.2"
+  }
+}

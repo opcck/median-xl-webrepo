@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Median XL 本地云仓库 - 作者:西西 QQ:596162014</title>
+<link rel="stylesheet" href="assets/filter_panel.css?v=3">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { min-height: 100vh; }
+  body { margin: 0; background: #12141a; color: #cfd2da; font: 14px/1.5 "Segoe UI", "Microsoft YaHei", sans-serif; }
+  #dropOverlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(10, 14, 26, 0.9); z-index: 9999; display: none; flex-direction: column; align-items: center; justify-content: center; border: 4px dashed #3b82f6; pointer-events: none; }
+  #dropOverlay.active { display: flex; }
+  #dropOverlay .d-box { background: #1e2433; border: 1px solid #3b82f6; border-radius: 12px; padding: 30px 50px; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.8); }
+  #dropOverlay h2 { margin: 0 0 10px; color: #60a5fa; font-size: 22px; }
+  #dropOverlay p { margin: 0; color: #94a3b8; font-size: 14px; }
+  header { padding: 14px 20px; border-bottom: 1px solid #262a35; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  h1 { font-size: 18px; margin: 0; color: #4aa3df; letter-spacing: 1px; }
+  #charInfo { color: #9aa0ad; }
+  #charInfo b { color: #e8eaee; }
+  main { padding: 12px 20px; }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+  .toolbar input[type=text] { background: #1b1e27; border: 1px solid #2c3140; color: #cfd2da; padding: 4px 10px; border-radius: 4px; width: 220px; font-size: 13px; }
+  .toolbar select { background: #1b1e27; border: 1px solid #2c3140; color: #cfd2da; padding: 4px 6px; border-radius: 4px; font-size: 13px; }
+  button { background: #2b3140; border: 1px solid #3a4154; color: #cfd2da; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 13px; }
+  button:hover { background: #36405a; }
+  button.primary { background: #1d4ed8; border-color: #2f66f0; }
+  button.primary:hover { background: #2a5cf0; }
+  button.active { background: #2f66f0; border-color: #2f66f0; color: #fff; }
+  #dropzone { border: 2px dashed #2c3140; border-radius: 8px; padding: 60px 20px; text-align: center; color: #6b7280; margin: 40px auto; max-width: 600px; }
+  #dropzone.drag { border-color: #4aa3df; color: #4aa3df; }
+  #stats { color: #6b7280; font-size: 12px; white-space: nowrap; }
+  /* 品质分组 + 药丸 */
+  .qgroup { margin: 10px 0 4px; }
+  .qgroup-header { display: flex; align-items: baseline; gap: 8px; border-bottom: 1px solid #262a35; padding-bottom: 3px; margin-bottom: 5px; }
+  .qgroup-header .cnt { color: #6b7280; font-size: 11px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 3px 4px; }
+  .pill { display: inline-flex; align-items: center; gap: 5px; background: #1a1d26; border: 1px solid #262a35; border-radius: 10px; padding: 1px 9px; font-size: 13px; cursor: default; line-height: 20px; }
+  .pill:hover { border-color: #3a4154; background: #22262f; cursor: pointer; }
+  .pill.selected, tr.selected td { border-color: #2f66f0 !important; background: #1d4ed855 !important; box-shadow: 0 0 0 1px #2f66f0; }
+  .pill.locked { opacity: 0.55; cursor: not-allowed; }
+  .pill img { width: 22px; height: 22px; image-rendering: pixelated; background: #0d0f14; border-radius: 3px; }
+  .pill .aff { display: block; font-size: 11px; color: #7b8cff; line-height: 14px; }
+  .pill .aff.neg { color: #ff6b6b; }
+  .pill2 { display: inline-block; padding: 2px 6px; }
+  .pill2 .aff { margin-top: 1px; }
+  /* ============ 现代预览工具栏与筛选面板 (Preview Toolbar & Filter Panels) ============ */
+  .preview-toolbar { background: #161922; border: 1px solid #2b3140; border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; display: flex; flex-direction: column; gap: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+  .toolbar-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .t-col { display: flex; align-items: center; gap: 6px; }
+  .t-input { background: #11131a; border: 1px solid #2e3547; color: #cfd2da; border-radius: 4px; padding: 5px 10px; font-size: 13px; outline: none; width: 240px; }
+  .t-input:focus { border-color: #2563eb; }
+  .t-select { background: #11131a; border: 1px solid #2e3547; color: #cfd2da; border-radius: 4px; padding: 5px 8px; font-size: 13px; outline: none; cursor: pointer; }
+  .t-dropdown { position: relative; }
+  .t-summary { list-style: none; cursor: pointer; background: #202431; border: 1px solid #363d52; border-radius: 4px; padding: 4px 10px; font-size: 13px; user-select: none; display: flex; align-items: center; gap: 6px; color: #cfd2da; }
+  .t-summary::-webkit-details-marker { display: none; }
+  .t-summary:hover, details[open] > .t-summary { background: #2b3142; border-color: #4a5470; }
+  .t-badge { display: inline-block; min-width: 18px; text-align: center; background: #2563eb; color: #fff; border-radius: 10px; font-size: 10px; font-weight: bold; padding: 0 5px; }
+  .t-panel { position: absolute; z-index: 60; top: calc(100% + 4px); left: 0; background: #161922; border: 1px solid #363d52; border-radius: 6px; padding: 10px 12px; min-width: 280px; max-height: 480px; overflow: auto; box-shadow: 0 8px 32px rgba(0,0,0,0.65); }
+  .t-subdropdown { border: 1px solid #282e3d; border-radius: 4px; margin-bottom: 6px; background: #1a1e29; }
+  .t-subsummary { padding: 5px 8px; font-size: 12px; font-weight: 600; color: #a0a6b8; background: #202431; border-radius: 4px; cursor: pointer; list-style: none; display: flex; align-items: center; }
+  .t-subsummary::-webkit-details-marker { display: none; }
+  .t-subpanel { padding: 6px 8px; }
+  .t-btn-xs { font-size: 10px; padding: 1px 6px; background: #2a3040; border: 1px solid #3e475e; color: #a0a6b8; border-radius: 3px; cursor: pointer; }
+  .t-btn-xs:hover { background: #384258; color: #fff; }
+  .t-flags-grid { display: flex; flex-wrap: wrap; gap: 4px; padding: 6px; }
+  .flagbtn { font-size: 11px; padding: 3px 8px; border-radius: 4px; border: 1px solid #363d52; background: #202431; color: #8a90a0; cursor: pointer; transition: all 0.15s ease; }
+  .flagbtn:hover { background: #2b3142; color: #cfd2da; }
+  .flagbtn.st-yes { background: #1e3a8a; border-color: #2563eb; color: #93c5fd; font-weight: 600; }
+  .flagbtn.st-no { background: #451a1a; border-color: #991b1b; color: #fca5a5; text-decoration: line-through; }
+  .t-btn-group { display: flex; border: 1px solid #363d52; border-radius: 4px; overflow: hidden; }
+  .t-view-btn { background: #202431; border: none; border-radius: 0; color: #8a90a0; padding: 4px 10px; cursor: pointer; display: flex; align-items: center; }
+  .t-view-btn:hover { background: #2b3142; color: #cfd2da; }
+  .t-view-btn.active { background: #2563eb; color: #fff; }
+  .t-btn-sm { font-size: 12px; padding: 3px 10px; border-radius: 4px; }
+  .t-btn-info { background: #154e63; border: 1px solid #0891b2; color: #67e8f9; }
+  .t-btn-info:hover { background: #0e7490; color: #fff; }
+  .t-btn-secondary { background: #27272a; border: 1px solid #3f3f46; color: #a1a1aa; }
+  .t-btn-secondary:hover { background: #3f3f46; color: #fff; }
+  .preview-bulk { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 6px; border-top: 1px solid #252a38; margin-top: 2px; }
+  .preview-stats { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 6px; border-top: 1px dashed #282e3d; margin-top: 4px; }
+  .preview-stat-chip { display: inline-flex; align-items: center; background: #1f2430; border: 1px solid #2e3547; border-radius: 4px; font-size: 11px; padding: 2px 8px; gap: 6px; }
+  .preview-stat-chip strong { color: #8b92a5; font-weight: 500; }
+  .preview-stat-chip span { color: #e2e8f0; font-weight: 700; }
+
+  /* 表格视图 */
+  table.items { border-collapse: collapse; width: 100%; font-size: 13px; }
+  table.items th { text-align: left; color: #8a90a0; font-weight: 600; border-bottom: 1px solid #2c3140; padding: 4px 10px; font-size: 12px; }
+  table.items td { border-bottom: 1px solid #1e222c; padding: 3px 10px; }
+  table.items tr:hover td { background: #1d212b; }
+  table.items .muted { color: #6b7280; font-size: 12px; }
+  /* quality colors (D2 convention) */
+  .q-low { color: #9a9a9a; } .q-normal { color: #ffffff; } .q-superior { color: #d8d8d8; }
+  .q-magic { color: #7b7bff; } .q-set { color: #4adf4a; } .q-rare { color: #ffff64; }
+  .q-unique { color: #c7b377; } .q-crafted { color: #ff8000; } .q-honorific { color: #50c8c8; }
+  /* hover popup (现代固定悬浮窗与交互式折叠面板) */
+  #popup {
+    position: fixed;
+    display: none;
+    background: rgba(12, 16, 26, 0.98);
+    backdrop-filter: blur(8px);
+    border: 1px solid #3b455b;
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 430px;
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 999;
+    pointer-events: auto;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.85), 0 0 0 1px rgba(255,255,255,0.06);
+    font-size: 13px;
+    line-height: 1.45;
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 #181d2a;
+  }
+  #popup::-webkit-scrollbar { width: 6px; }
+  #popup::-webkit-scrollbar-track { background: #131722; border-radius: 3px; }
+  #popup::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+  #popup::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+  #popup .pname { font-weight: 700; font-size: 14px; margin-bottom: 5px; }
+  #popup .pname.q-set { color: #4ade80; text-shadow: 0 0 10px rgba(74, 222, 128, 0.4); }
+  #popup .pname.q-unique { color: #d4a359; text-shadow: 0 0 10px rgba(212, 163, 89, 0.4); }
+  #popup .pmeta { color: #94a3b8; font-size: 12px; margin-bottom: 4px; }
+  #popup .prow { margin: 1px 0; }
+  #popup .prow.q-set { color: #22c55e; }
+  #popup .psec-title { font-weight: 600; font-size: 12px; margin: 6px 0 3px; color: #94a3b8; letter-spacing: 0.5px; }
+  #popup .psec-title.q-set { color: #22c55e; }
+  #popup .pprops { margin-top: 4px; white-space: pre-line; }
+  #popup .pprops .prop { color: #7b8cff; }
+  #popup .pprops .prop.neg { color: #ff6b6b; }
+  #popup .pprops.q-set-props .prop { color: #86efac; }
+  #popup hr.pdiv { border: none; border-top: 1px solid #2d3342; margin: 8px 0; }
+  .copybtn { background: #1e293b; border: 1px solid #334155; color: #cbd5e1; font-size: 11px; padding: 2px 8px; border-radius: 4px; cursor: pointer; float: right; transition: all 0.15s; }
+  .copybtn:hover { color: #fff; background: #2563eb; border-color: #3b82f6; }
+  #popup .pdesc { color: #b8bcc8; font-size: 12px; margin: 4px 0; line-height: 1.5; }
+
+  /* 悬浮窗折叠区域 Collapsible */
+  .p-collapsible {
+    margin: 6px 0;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid #283347;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .p-collapse-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    background: #151b27;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: #cbd5e1;
+    outline: none;
+    user-select: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .p-collapse-btn:hover { background: #1e2637; color: #fff; }
+  .p-collapse-btn.q-set { color: #4ade80; }
+  .p-collapse-btn.q-set:hover { color: #86efac; background: #12281c; }
+  .p-collapse-hint {
+    font-size: 11px;
+    color: #64748b;
+    font-weight: normal;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .p-collapse-btn:hover .p-collapse-hint { color: #93c5fd; }
+  .p-collapse-btn.q-set:hover .p-collapse-hint { color: #86efac; }
+  .p-collapse-icon { display: inline-block; font-size: 10px; transition: transform 0.15s ease; }
+  .p-collapse-content {
+    display: none;
+    padding: 8px 12px;
+    background: #0d111b;
+    border-top: 1px solid #1e2637;
+    font-size: 12px;
+  }
+  .p-collapse-content.expanded { display: block; }
+  
+  /* 职业专属角标 */
+  .badge.cls { background: #451a03; color: #fbbf24; border: 1px solid #b45309; font-weight: 600; }
+  
+  /* 存取日志弹窗与抽屉 */
+  #logModal {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(4px);
+    display: none; align-items: center; justify-content: center; z-index: 1000;
+  }
+  #logModal.active { display: flex; }
+  .log-dialog {
+    background: #0f172a; border: 1px solid #334155; border-radius: 8px;
+    width: 92%; max-width: 960px; max-height: 85vh; display: flex; flex-direction: column;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+  }
+  .log-header {
+    padding: 14px 18px; border-bottom: 1px solid #1e293b;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .log-body { padding: 12px 18px; overflow-y: auto; flex: 1; max-height: 65vh; }
+  .log-entry {
+    display: flex; align-items: center; gap: 12px; padding: 8px 12px;
+    border-bottom: 1px solid #1e293b; font-size: 13px;
+  }
+  .log-entry:hover { background: #1e293b; }
+  .log-time { color: #64748b; font-family: monospace; font-size: 12px; white-space: nowrap; }
+  .log-badge {
+    padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .log-badge.store { background: #064e3b; color: #34d399; border: 1px solid #059669; }
+  .log-badge.retrieve_char { background: #1e3a8a; color: #93c5fd; border: 1px solid #2563eb; }
+  .log-badge.retrieve_personal { background: #4c1d95; color: #c4b5fd; border: 1px solid #7c3aed; }
+  .log-badge.retrieve_shared { background: #78350f; color: #fcd34d; border: 1px solid #d97706; }
+  .log-item { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .log-route { color: #94a3b8; font-size: 12px; white-space: nowrap; }
+  
+  /* 保存按钮动画效果 */
+  #btnSaveDirect.pulse {
+    animation: savePulse 1.5s infinite;
+  }
+  @keyframes savePulse {
+    0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+    70% { box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  }
+
+  footer { padding: 10px 20px; border-top: 1px solid #262a35; color: #6b7280; font-size: 12px; }
+</style>
+<script>
+  // 禁用右键菜单（彻底阻断通过 WebView“另存为”导出前端源码）
+  // 开发者如需右键调试，可按住 Ctrl + Alt 呼出
+  window.addEventListener('contextmenu', function(e) {
+    if (e.ctrlKey && e.altKey) return;
+    e.preventDefault();
+  });
+</script>
+</head>
+<body>
+<div id="dropOverlay">
+  <div class="d-box">
+    <h2>📂 松开鼠标立即载入</h2>
+    <p>支持 save 文件夹或 .d2s / .stash / .shared 存档文件</p>
+  </div>
+</div>
+<header>
+  <h1>MEDIAN XL — 本地仓库 <span style="font-size:12px;font-weight:normal;color:#94a3b8;margin-left:8px;vertical-align:middle">作者:西西 QQ:596162014</span></h1>
+  <button class="primary" id="openDirInputBtn">📁 选择存档文件夹</button>
+  <button id="openFilesBtn">📄 选择存档文件 (多选)</button>
+  <button id="openBtn" style="font-size:11px;opacity:0.6" title="使用 Chromium 实验性目录句柄 API（注：AppData 敏感目录会被浏览器阻断）">目录API</button>
+  <span id="charInfo">未加载存档</span>
+  <span id="resourceSourceBadge" style="margin-left:auto;font-size:11px;background:#064e3b;color:#a7f3d0;padding:2px 8px;border-radius:4px;border:1px solid #059669" title="当前加载的页面与数据源">📦 检测资源中...</span>
+</header>
+<main>
+  <div id="dropzone" style="cursor:pointer;padding:45px 24px">
+    <div style="font-size:18px;font-weight:700;color:#60a5fa;margin-bottom:8px">📁 推荐操作：直接点击上方【选择存档文件夹】或拖入文件！</div>
+    <div style="font-size:13px;color:#cbd5e1;line-height:1.7;max-width:560px;margin:0 auto">
+      <b>3 种最简单的读取方式（任选其一，1秒搞定）：</b><br>
+      <div style="margin-top:6px;color:#94a3b8;font-size:12px;text-align:left;line-height:1.8">
+        1️⃣ <b>点击上方【📁 选择存档文件夹】按钮</b>：直接选择 <code>save</code> 目录，浏览器自动一次性读取所有角色与仓库（绝不报错！）；<br>
+        2️⃣ <b>全选拖入</b>：进入 <code>save</code> 文件夹，按 <kbd>Ctrl</kbd> + <kbd>A</kbd> 全选所有文件直接拖入网页；<br>
+        3️⃣ <b>点击【📄 选择存档文件】按钮</b>：在弹出框中全选文件打开。<br>
+        <span style="color:#4aa3df">✨ 智能持久记忆：只要载入过一次仓库，之后单独拖入 <code>.d2s</code> 角色即可自动关联！</span>
+      </div>
+    </div>
+    <input type="file" id="dirInput" webkitdirectory directory style="display:none">
+    <input type="file" id="fileInput" accept=".d2s,.stash,.shared" multiple style="display:none">
+  </div>
+  <div id="savePicker" style="display:none"></div>
+  <div id="content" style="display:none">
+    <div id="tabs" style="display:flex;gap:6px;margin-bottom:8px;align-items:center;flex-wrap:wrap">
+      <button id="tabChar" class="active">🎒 角色背包 (<span id="charCount">0</span>)</button>
+      <button id="tabPersonal">📦 个人仓库 (<span id="personalCount">0</span>)</button>
+      <button id="tabShared">🌐 共享仓库 (<span id="sharedCount">0</span>)</button>
+      <button id="tabRepo">☁️ 本地云仓库 (<span id="repoCount">0</span>)</button>
+      <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
+        <button type="button" class="t-btn-sm" id="btnLogModal" style="background:#1e293b;border:1px solid #475569;color:#cbd5e1;cursor:pointer">📜 存取日志 (<span id="logCountBadge">0</span>)</button>
+        <button type="button" class="t-btn-sm" id="btnSaveDirect" style="background:#059669;border:1px solid #10b981;color:#ffffff;font-weight:600;cursor:pointer">💾 保存修改</button>
+      </div>
+    </div>
+
+    <!-- 预览工具栏 Preview Toolbar -->
+    <div class="preview-toolbar">
+      <div class="toolbar-row">
+        <!-- 搜索框 -->
+        <div class="t-col">
+          <input type="text" id="search" class="t-input" placeholder="搜索名称, 类型, 属性, 词缀...">
+        </div>
+
+        <!-- 存放位置筛选 -->
+        <div class="t-col">
+          <select id="storageSelect" class="t-select">
+            <option value="all">全部位置</option>
+            <option value="unequipped">未装备 (背包/储物箱/方块)</option>
+            <option value="inventory">背包</option>
+            <option value="equipped">已装备</option>
+            <option value="stash">储物箱</option>
+            <option value="cube">赫拉迪克方块</option>
+            <option value="merc">佣兵/铁傀儡</option>
+          </select>
+        </div>
+
+        <!-- Median XL 官方同款多维胶囊与树形筛选器 (Official Style Hierarchy Filter) -->
+        <div class="t-col">
+          <details class="repository-tag-filter repository-view-group-toggle" id="repository-view-filters-wrap">
+            <summary>
+              <span>筛选</span>
+              <span id="repository-view-filters-badge" class="repository-view-filter-badge" hidden>0</span>
+            </summary>
+            <div class="repository-tag-filter-panel repository-group-panel">
+              <!-- Quality Filter -->
+              <details class="repository-tag-filter" id="repository-view-quality-filter-wrap">
+                <summary><span id="repository-view-quality-summary-label">品质</span></summary>
+                <div class="repository-tag-filter-panel">
+                  <div class="repository-tag-filter-actions">
+                    <strong style="font-size:11px;color:#cfcfcf">品质匹配 (任意)</strong>
+                    <button type="button" id="repository-view-quality-clear" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size:10px" disabled>清空</button>
+                  </div>
+                  <div class="repository-tag-filter-options" id="repository-view-quality-options"></div>
+                </div>
+              </details>
+
+              <!-- Type Filter -->
+              <details class="repository-tag-filter" id="repository-view-type-tree-wrap">
+                <summary><span id="repository-view-type-tree-summary-label">类型</span></summary>
+                <div class="repository-tag-filter-panel repository-type-tree-panel">
+                  <div class="repository-tag-filter-actions">
+                    <strong style="font-size:11px;color:#cfcfcf">类型匹配 (任意)</strong>
+                    <span class="repository-type-tree-buttons">
+                      <button type="button" id="repository-view-type-tree-collapse" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size:10px" title="全部折叠">折叠</button>
+                      <button type="button" id="repository-view-type-tree-clear" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size:10px" disabled>清空</button>
+                    </span>
+                  </div>
+                  <div class="repository-type-search">
+                    <input type="search" id="repository-view-type-search" class="form-control form-control-sm" placeholder="搜索类型... (如: 爪, helm, 符文)" aria-label="搜索类型" autocomplete="off">
+                  </div>
+                  <div class="repository-type-tiers" id="repository-view-tier-options" role="group" aria-label="Tier and condition">
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-sacred" data-tier="Sacred" aria-pressed="false">神圣 (Sacred)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-angelic" data-tier="Angelic" aria-pressed="false">天使 (Angelic)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-mastercrafted" data-tier="Mastercrafted" aria-pressed="false">大师匠工 (Mastercrafted)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-1" data-tier="1" aria-pressed="false">1阶 (Tier 1)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-2" data-tier="2" aria-pressed="false">2阶 (Tier 2)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-3" data-tier="3" aria-pressed="false">3阶 (Tier 3)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-4" data-tier="4" aria-pressed="false">4阶 (Tier 4)<span class="n">0</span></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn tier-none" data-tier="__EMPTY__" aria-pressed="false">无品阶 (No tier)<span class="n">0</span></button>
+                    <span class="repository-type-tiers-divider" aria-hidden="true"></span>
+                    <button type="button" class="btn btn-sm btn-outline-secondary tier-btn cond-superior" data-condition="Superior" aria-pressed="false">特质 (Superior)<span class="n">0</span></button>
+                  </div>
+                  <div class="repository-type-tree" id="repository-view-type-tree" role="tree"></div>
+                </div>
+              </details>
+
+              <!-- Flags Filter -->
+              <details class="repository-tag-filter" id="repository-view-flag-filter-wrap">
+                <summary><span id="repository-view-flag-summary-label">标志</span></summary>
+                <div class="repository-tag-filter-panel repository-flag-filter-panel">
+                  <div class="repository-tag-filter-actions">
+                    <strong style="font-size:11px;color:#cfcfcf">点击切换：任意 / 是 / 否</strong>
+                    <button type="button" id="repository-view-flag-reset" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size:10px" disabled>重置</button>
+                  </div>
+                  <div class="repository-flag-filter-options">
+                    <button type="button" class="btn btn-sm btn-outline-secondary flag-btn st-any" data-flag="eth">无形 (Ethereal)</button>
+                    <button type="button" class="btn btn-sm btn-outline-success flag-btn st-any" data-flag="blessed">神圣赐福 (Blessed)</button>
+                    <button type="button" class="btn btn-sm btn-outline-danger flag-btn st-any" data-flag="corrupted">腐化 (Corrupted)</button>
+                    <button type="button" class="btn btn-sm flag-btn flag-luckied st-any" data-flag="luckied">幸运 (Luckied)</button>
+                    <button type="button" class="btn btn-sm btn-outline-warning flag-btn st-any" data-flag="moed">MO强化 (MO'ed)</button>
+                    <button type="button" class="btn btn-sm btn-outline-info flag-btn st-any" data-flag="sock">带孔 (Sockets)</button>
+                    <button type="button" class="btn btn-sm btn-outline-primary flag-btn st-any" data-flag="rw">符文之语 (Runeword)</button>
+                  </div>
+                </div>
+              </details>
+
+              <!-- 一键清空所有筛选 -->
+              <button type="button" id="repository-view-clear-filters" class="btn btn-sm btn-outline-secondary" aria-label="Clear filters" title="清空全部筛选条件 (品质、类型、阶级、标志)">✕</button>
+            </div>
+          </details>
+        </div>
+
+        <!-- 设置 Dropdown -->
+        <div class="t-col">
+          <details class="t-dropdown" id="settingsWrap">
+            <summary class="t-summary"><span>设置</span></summary>
+            <div class="t-panel">
+              <div class="t-setting-item">
+                <select id="groupBy" class="t-select" style="width:100%">
+                  <option value="quality">分组：品质</option>
+                  <option value="type">分组：类型</option>
+                  <option value="storage">分组：存放位置</option>
+                  <option value="none">不分组</option>
+                </select>
+              </div>
+              <div style="display:flex;gap:6px;margin-top:8px">
+                <button type="button" id="btnToggleAff" class="t-btn-sm">词缀显示</button>
+                <button type="button" id="btnToggleImg" class="t-btn-sm active">图标显示</button>
+              </div>
+            </div>
+          </details>
+        </div>
+
+        <!-- 视图切换 -->
+        <div class="t-col" style="margin-left:auto">
+          <div class="t-btn-group">
+            <button type="button" id="viewGrid" class="t-view-btn active" title="网格视图">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/></svg>
+            </button>
+            <button type="button" id="viewTable" class="t-view-btn" title="表格视图">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 计数 -->
+        <div class="t-col text-muted" style="font-size:12px;white-space:nowrap">
+          <span id="visibleCount">0</span> / <span id="totalCount">0</span> 件物品
+        </div>
+      </div>
+
+      <!-- 批量操作栏 Bulk Action Bar -->
+      <div id="bulkBar" class="preview-bulk">
+        <span style="font-size:12px;margin-right:6px">已选 <b id="selCount" style="color:#2f66f0">0</b> 件</span>
+        <button type="button" class="t-btn-sm t-btn-info" id="selShown">选择当前显示</button>
+        <button type="button" class="t-btn-sm t-btn-info" id="selAll">全选全部</button>
+        <button type="button" class="t-btn-sm t-btn-secondary" id="clearShown">清空当前显示</button>
+        <button type="button" class="t-btn-sm t-btn-secondary" id="selNone">清空全部</button>
+        <button type="button" class="primary t-btn-sm" id="bulkAction" style="margin-left:12px"></button>
+        <button type="button" class="primary t-btn-sm" id="btnRetrievePersonal" style="display:none;margin-left:6px;background:#059669;border-color:#10b981">📦 取回到个人仓库</button>
+        <button type="button" class="primary t-btn-sm" id="btnRetrieveShared" style="display:none;margin-left:6px;background:#d97706;border-color:#b45309">🌐 取回到共享仓库</button>
+        <span id="bulkStatus" style="font-size:12px;margin-left:8px"></span>
+      </div>
+
+      <!-- 状态芯片汇总栏 Stats Chips Summary Bar -->
+      <div id="statsChips" class="preview-stats"></div>
+    </div>
+    <div id="list"></div>
+    <div id="tableView" style="display:none">
+      <table class="items">
+        <thead><tr><th>物品</th><th>品质</th><th>类型</th><th>位置</th><th>物品等级</th></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<div id="logModal">
+  <div class="log-dialog">
+    <div class="log-header">
+      <div style="font-weight:700;font-size:15px;color:#f8fafc;display:flex;align-items:center;gap:8px">
+        <span>📜 物品存取操作审计日志</span>
+        <span style="font-size:12px;color:#94a3b8;font-weight:normal" id="logCountSub">共 0 条记录</span>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button type="button" id="btnCopyLogs" class="t-btn-sm" style="background:#334155;color:#f1f5f9;cursor:pointer">📋 复制全部日志</button>
+        <button type="button" id="btnClearLogs" class="t-btn-sm" style="background:#7f1d1d;color:#fecaca;cursor:pointer">🗑️ 清空日志</button>
+        <button type="button" id="btnCloseLogs" class="t-btn-sm" style="background:#1e293b;color:#94a3b8;cursor:pointer">✕ 关闭</button>
+      </div>
+    </div>
+    <div class="log-body" id="logList">
+      <p style="color:#64748b;text-align:center;padding:30px">暂无存取日志记录</p>
+    </div>
+  </div>
+</div>
+
+<div id="warnModal" style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;z-index:1000">
+  <div class="log-dialog" style="max-width:720px">
+    <div class="log-header">
+      <div style="font-weight:700;font-size:15px;color:#f8fafc;display:flex;align-items:center;gap:8px">
+        <span style="color:#d8a940">⚠ 存档解析警告与跳过记录</span>
+        <span style="font-size:12px;color:#94a3b8;font-weight:normal" id="warnCountSub">共 0 条</span>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <button type="button" id="btnCopyWarns" class="t-btn-sm" style="background:#334155;color:#f1f5f9;cursor:pointer">📋 复制警告信息</button>
+        <button type="button" id="btnCloseWarns" class="t-btn-sm" style="background:#1e293b;color:#94a3b8;cursor:pointer">✕ 关闭</button>
+      </div>
+    </div>
+    <div class="log-body" id="warnList" style="padding:16px 20px">
+      <p style="color:#64748b;text-align:center;padding:20px">暂无警告记录</p>
+    </div>
+  </div>
+</div>
+
+<div id="popup"></div>
+<footer>本地静态工具 · 数据不出本机 · 只读模式（写入功能后续版本提供）</footer>
+<script src="assets/strings_indexed.js?v=3"></script>
+<script>
+/* descfunc 31/34 字符串表（param = 索引） */
+window.STR_INDEXED = typeof STR_TBL !== 'undefined' ? STR_TBL.values : (window.STR_INDEXED || []);
+window.STR_KEYIDX = typeof STR_TBL !== 'undefined' ? STR_TBL.keyToIdx : (window.STR_KEYIDX || {});
+</script>
+<script src="assets/icons_manifest.js?v=3"></script>
+<script src="data_tables.js?v=3"></script>
+<script src="assets/engine_data.js?v=3"></script>
+<script>
+  window.DATA_TABLES = (typeof DATA_TABLES !== 'undefined') ? DATA_TABLES : (window.DATA_TABLES || {});
+  window.ICON_FILES = (typeof ICON_FILES !== 'undefined') ? ICON_FILES : (window.ICON_FILES || new Set());
+  window.ENGINE_DATA = (typeof ENGINE_DATA !== 'undefined') ? ENGINE_DATA : (window.ENGINE_DATA || {});
+</script>
+<!-- 官方同款类型树结构数据 (带官方中英文映射) -->
+<script src="assets/item_hierarchy.js?v=3"></script>
+<!-- 核心底层模块 -->
+<script src="js/core/bitstream.js?v=3"></script>
+<script src="js/core/parser.js?v=3"></script>
+<script src="js/core/writer.js?v=3"></script>
+<!-- 属性计算与汉化引擎 -->
+<script src="js/engine/props.js?v=3"></script>
+<!-- 存储与存取事务模块 -->
+<script src="js/store/storage.js?v=3"></script>
+<script src="js/store/transfers.js?v=3"></script>
+<!-- UI 交互与模态框 -->
+<script src="js/ui/tooltip.js?v=3"></script>
+<script src="js/ui/modals.js?v=3"></script>
+<script src="js/ui/filter_tree.js?v=3"></script>
+<!-- 应用主调度入口 -->
+<script src="js/app.js?v=3"></script>
+</body>
+</html>

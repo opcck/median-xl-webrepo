@@ -1,0 +1,161 @@
+#stat	name_zh	desc_en	category
+item_skillonattack	近战攻击时施展	on Melee Attack	施展技能
+item_skillongetmeleed	被近战攻击时施展	when Attacked	施展技能
+item_skillonhit	击中时施展	on Striking	施展技能
+item_skillongethit	被击中时施展	when Struck	施展技能
+item_skillondamaged	受到伤害时施展	when you Take Damage	施展技能
+item_skillongetmissilehit	被远程击中时施展	when Struck by a Missile	施展技能
+item_skillonkill	击杀怪物时施展	on Kill	施展技能
+item_skillonpkill	击杀玩家时施展	on Player Kill	施展技能
+item_skillondeath	死亡时施展	when you Die	施展技能
+item_skillonanydeath	死亡时施展	on any Death	施展技能
+item_skillonlevelup	升级时施展	when you Level-Up	施展技能
+item_skillonanykill	致命一击时施展	on Death Blow	施展技能
+item_thunderfury	触发雷霆狂怒	Thunderfury	施展技能
+item_warp_blue	触发蓝色传送	Warp Blue	施展技能
+item_warpskillonattack	扭曲攻击时施展	on Attack (warped)	施展技能
+item_amazinggrace	奇异恩典时施展	Amazing Grace	施展技能
+item_megaimpact	极效冲击时施展	Mega Impact	施展技能
+item_addclassskills	单职业技能等级		职业技能
+item_nonclassskill	额外技能 (Oskill)		额外技能
+item_singleskill	单技能等级		技能相关
+item_allskills	所有技能等级	to All Skills	技能相关
+allskills	所有技能等级	to All Skills	技能相关
+item_elemskill	元素技能等级		技能相关
+item_addskill_tab	单系技能等级		技能相关
+item_charged_skill	充能技能	Charges	充能技能
+item_aura	装备时赋予光环	Aura When Equipped	光环技能
+skill_cooldown_reduce	技能冷却缩减	Skill Cooldown Reduced	技能相关
+special_syn1	技能协同效果1	Skill Synergy 1	技能相关
+special_syn2	技能协同效果2	Skill Synergy 2	技能相关
+special_syn3	技能协同效果3	Skill Synergy 3	技能相关
+special_syn4	技能协同效果4	Skill Synergy 4	技能相关
+item_reanimate	复活怪物	Reanimate	复活怪物
+strength	力量	to Strength	基础属性
+dexterity	敏捷	to Dexterity	基础属性
+vitality	体质	to Vitality	基础属性
+energy	精力	to Energy	基础属性
+item_strength_percent	力量百分比加成	Strength %	基础属性
+item_dexterity_percent	敏捷百分比加成	Dexterity %	基础属性
+item_vitality_percent	体质百分比加成	Vitality %	基础属性
+item_energy_percent	精力百分比加成	Energy %	基础属性
+maxhp	最大生命	to Life	生命法力
+maxmana	最大法力	to Mana	生命法力
+maxstamina	最大耐力	Maximum Stamina	生命法力
+item_maxhp_percent	生命上限百分比	Maximum Life %	生命法力
+item_maxmana_percent	法力上限百分比	Maximum Mana %	生命法力
+hpregen	每秒生命恢复	Replenish Life	生命法力
+manarecoverybonus	法力恢复速度	Regenerate Mana	生命法力
+staminarecoverybonus	耐力恢复速度	Regenerate Stamina	生命法力
+item_healafterkill	击杀怪物获得生命	Life after each Kill	生命法力
+item_manaafterkill	击杀怪物获得法力	Mana after each Kill	生命法力
+item_healonstriking	击中获得生命	Life on Striking	生命法力
+item_manaonstriking	击中获得法力	Mana on Striking	生命法力
+item_healwhenstruck	被击中时恢复生命	Life when Struck	生命法力
+item_manawhenstruck	被击中时恢复法力	Mana when Struck	生命法力
+lifedrainmindam	击中偷取生命 (LL)	Life Stolen per Hit	生命法力
+manadrainmindam	击中偷取法力 (LM)	Mana Stolen per Hit	生命法力
+item_damagetomana	受损生命转化为法力	Damage Taken Goes to Mana	生命法力
+fireresist	抗火	Fire Resist	抗性防护
+lightresist	抗电	Lightning Resist	抗性防护
+coldresist	抗冰	Cold Resist	抗性防护
+poisonresist	抗毒	Poison Resist	抗性防护
+maxfireresist	最大抗火	Maximum Fire Resist	抗性防护
+maxlightresist	最大抗电	Maximum Lightning Resist	抗性防护
+maxcoldresist	最大抗冰	Maximum Cold Resist	抗性防护
+maxpoisonresist	最大抗毒	Maximum Poison Resist	抗性防护
+magicresist	魔法抗性	Magic Resist	抗性防护
+maxmagicresist	最大魔法抗性	Maximum Magic Resist	抗性防护
+damageresist	物理抗性 (DR%)	Damage Resist	抗性防护
+normal_damage_reduction	物理伤害减少	Damage Reduced	伤害防御
+magic_damage_reduction	魔法伤害减少	Magic Damage Reduced	抗性防护
+curse_resistance	诅咒抗性 (诅咒时间缩短)	Curse Resistance	抗性防护
+item_poisonlengthresist	毒素持续时间缩短 (PLR)	Poison Length Reduced	抗性防护
+item_absorbfire_percent	吸收火焰百分比	Absorb Fire %	抗性防护
+item_absorbfire	吸收火焰	Absorb Fire	抗性防护
+item_absorblight_percent	吸收闪电百分比	Absorb Lightning %	抗性防护
+item_absorblight	吸收闪电	Absorb Lightning	抗性防护
+item_absorbmagic_percent	吸收魔法百分比	Absorb Magic %	抗性防护
+item_absorbmagic	吸收魔法	Absorb Magic	抗性防护
+item_absorbcold_percent	吸收冰冷百分比	Absorb Cold %	抗性防护
+item_absorbcold	吸收冰冷	Absorb Cold	抗性防护
+item_pierce_fire	穿透敌人火焰抗性	-% to Enemy Fire Resistance	被动特技
+passive_fire_pierce	穿透敌人火焰抗性	-% to Enemy Fire Resistance	被动特技
+item_pierce_ltng	穿透敌人闪电抗性	-% to Enemy Lightning Resistance	被动特技
+passive_ltng_pierce	穿透敌人闪电抗性	-% to Enemy Lightning Resistance	被动特技
+item_pierce_cold	穿透敌人冰冷抗性	-% to Enemy Cold Resistance	被动特技
+passive_cold_pierce	穿透敌人冰冷抗性	-% to Enemy Cold Resistance	被动特技
+item_pierce_pois	穿透敌人毒素抗性	-% to Enemy Poison Resistance	被动特技
+passive_pois_pierce	穿透敌人毒素抗性	-% to Enemy Poison Resistance	被动特技
+passive_mag_pierce	穿透敌人魔法抗性	-% to Enemy Magic Resistance	被动特技
+passive_phys_pierce	穿透敌人物理抗性	-% to Enemy Physical Resistance	被动特技
+item_fasterattackrate	攻击速度 (IAS)	Increased Attack Speed	速度攻击
+item_fastercastrate	快速施法速度 (FCR)	Faster Cast Rate	速度攻击
+item_fastergethitrate	快速打击恢复 (FHR)	Faster Hit Recovery	速度攻击
+item_fasterblockrate	格挡速度加成 (FBR)	Block Speed	速度攻击
+item_fastermovevelocity	跑步行走速度 (FRW)	Faster Run/Walk	速度攻击
+tohit	攻击准确率	to Attack Rating	伤害防御
+toblock	格挡几率	Base Block Chance	战斗特技
+item_tohit_percent	额外准确率加成	Bonus to Attack Rating	伤害防御
+item_crushingblow	压碎性打击 (CB)	Chance of Crushing Blow	战斗特技
+item_deadlystrike	致命攻击 (DS)	Deadly Strike	战斗特技
+item_openwounds	撕开伤口 (OW)	Chance of Open Wounds	战斗特技
+item_knockback	击退	Knockback	战斗特技
+item_freeze	冻结目标	Freezes Target	战斗特技
+item_slow	减缓目标速度	Slows Target	战斗特技
+item_slowthorns	减缓攻击者速度	Slows Attacker by	战斗特技
+item_ignoretargetac	无视目标防御 (ITD)	Ignore Target's Defense	战斗特技
+item_fractionaltargetac	目标防御百分比	Target Defense	战斗特技
+item_preventheal	阻止怪物自疗	Prevent Monster Heal	战斗特技
+item_halffreezeduration	冰冻时间减半	Half Freeze Duration	战斗特技
+item_howl	击中使怪物逃跑	Hit Causes Monster to Flee	战斗特技
+item_stupidity	击中致盲	Hit Blinds Target	战斗特技
+item_armor_percent	防御力强化	Enhanced Defense	伤害防御
+item_maxdamage_percent	强化伤害	Enhanced Maximum Damage	伤害防御
+item_mindamage_percent	强化最小伤害	Enhanced Minimum Damage	伤害防御
+mindamage	最小物理伤害	to Minimum Damage	伤害防御
+maxdamage	最大物理伤害	to Maximum Damage	伤害防御
+damagepercent	物理伤害加成	Enhanced Physical Damage	伤害防御
+armorclass	防御力	Defense	伤害防御
+armorclass_vs_missile	对远程攻击防御	Defense vs. Missile	伤害防御
+armorclass_vs_hth	对近战攻击防御	Defense vs. Melee	伤害防御
+item_attackertakesdamage	攻击者受到反伤	Attacker Takes Damage	战斗特技
+firemindam	最小火焰伤害	Minimum Fire Damage	伤害防御
+firemaxdam	最大火焰伤害	Maximum Fire Damage	伤害防御
+lightmindam	最小闪电伤害	Minimum Lightning Damage	伤害防御
+lightmaxdam	最大闪电伤害	Maximum Lightning Damage	伤害防御
+coldmindam	最小冰冷伤害	Minimum Cold Damage	伤害防御
+coldmaxdam	最大冰冷伤害	Maximum Cold Damage	伤害防御
+poisonmindam	最小毒素伤害	Minimum Poison Damage	伤害防御
+poisonmaxdam	最大毒素伤害	Maximum Poison Damage	伤害防御
+magicmindam	最小魔法伤害	Minimum Magic Damage	伤害防御
+magicmaxdam	最大魔法伤害	Maximum Magic Damage	伤害防御
+passive_fire_mastery	火焰法术伤害加成	to Fire Spell Damage	被动特技
+passive_ltng_mastery	闪电法术伤害加成	to Lightning Spell Damage	被动特技
+passive_cold_mastery	冰冷法术伤害加成	to Cold Spell Damage	被动特技
+passive_pois_mastery	毒素法术伤害加成	to Poison Spell Damage	被动特技
+passive_dodge	闪避近/远程攻击 (Dodge)	Dodge	被动特技
+passive_avoid	躲避远程攻击 (Avoid)	Avoid	被动特技
+passive_evade	移动时回避近/远程攻击 (Evade)	Evade	被动特技
+passive_critical_strike	致命一击几率	Critical Strike	战斗特技
+passive_weaponblock	武器格挡几率	Weapon Block	战斗特技
+passive_summon_resist	召唤生物抗性	Summon Resist	被动特技
+item_magicbonus	魔法物品获得率 (MF)		特殊效果
+item_goldbonus	获得额外金币 (GF)	Extra Gold from Monsters	特殊效果
+item_addexperience	经验值获得	Increased Experience	特殊效果
+item_indesctructible	无法破坏	Indestructible	特殊效果
+item_cannotbefrozen	无法被冻结	Cannot Be Frozen	特殊效果
+item_numsockets	凹槽数 (孔)	Sockets	特殊效果
+item_replenish_durability	自动回复耐久度	Repairs Durability	特殊效果
+item_replenish_quantity	自动回复数量	Replenishes Quantity	特殊效果
+item_extra_stack	额外堆叠数量	Increased Stack Size	特殊效果
+item_restinpeace	杀死怪物后恢复平静	Slain Monsters Rest in Peace	特殊效果
+item_req_percent	需求属性百分比 (REQ)	Requirements	特殊效果
+item_levelreq	需求等级调整	Level Requirement	基础属性
+item_reducedprices	降低商人价格	Reduces All Vendor Prices	特殊效果
+item_lightradius	光照范围	Light Radius	特殊效果
+skill_minion_hp_percent	召唤生物生命百分比	to Summoned Minion Life	随从属性
+skill_minion_dmg_percent	召唤生物伤害百分比	to Summoned Minion Damage	随从属性
+minion_resist_all	召唤生物全抗性	to Summoned Minion Resistances	随从属性
+item_minion_attack	召唤生物攻击准确率加成	to Summoned Minion Attack Rating	随从属性
+item_hpregen_perlevel	随等级增加每秒生命恢复	Life Regenerated per Level	生命法力

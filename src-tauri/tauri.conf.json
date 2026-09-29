@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "median-xl-repo",
+  "version": "0.1.0",
+  "identifier": "com.medianxl.webrepo",
+  "build": {
+    "frontendDist": "../dist",
+    "beforeDevCommand": "node scripts/prepare_dist.js",
+    "beforeBuildCommand": "node scripts/prepare_dist.js"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Median XL 本地云仓库 - 作者:西西 QQ:596162014",
+        "width": 1380,
+        "height": 880,
+        "resizable": true,
+        "fullscreen": false,
+        "url": "index.html"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "debugApplicationIdSuffix": ".debug"
+    }
+  }
+}

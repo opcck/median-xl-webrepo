@@ -1,0 +1,95 @@
+&75	ÿc8神秘球体 Mystic Orb}纷争之苹果 Apple of Discord
+&79	ÿc8神秘球体 Mystic Orb}ÿc8奥莉尔的专注 Auriel's Focus
+&90	ÿc8神秘球体 Mystic Orb}ÿc8泪之晶 Crystal of Tears
+&91	ÿc8神秘球体 Mystic Orb}ÿc8伊瑟瑞尔的精华 Essence of Itherael
+&94	ÿc8神秘球体 Mystic Orb}探索者之球 Explorer's Globe
+&74	ÿc8神秘球体 Mystic Orb}马利克之眼 Eye of Malic
+&72	ÿc8神秘球体 Mystic Orb}ÿc8法恩汉丢失的弹珠 Farnham's Lost Marble
+&68	ÿc8神秘球体 Mystic Orb}冰霜之心 Heart of Frost
+&76	ÿc8神秘球体 Mystic Orb}星之像 Idol of Stars
+&66	ÿc8神秘球体 Mystic Orb}卡菈的小饰物 Kara's Trinket
+&81	ÿc8神秘球体 Mystic Orb}拉苏克的炮弹 Larzuk's Round Shot
+&93	ÿc8神秘球体 Mystic Orb}磁石 Lodestone
+&71	ÿc8神秘球体 Mystic Orb}ÿc8神射手之眼 Marksman's Eye
+&67	ÿc8神秘球体 Mystic Orb}怪兽球 Monsterball
+&77	ÿc8神秘球体 Mystic Orb}ÿc8娜迦珍珠 Nagapearl
+&83	ÿc8神秘球体 Mystic Orb}诺尔·提拉的烈焰球体 Nor Tiraj's Flaming Sphere
+&86	ÿc8神秘球体 Mystic Orb}毁灭之球 Orb of Annihilation
+&92	ÿc8神秘球体 Mystic Orb}ÿc8生命护身符 Periapt of Life
+&69	ÿc8神秘球体 Mystic Orb}亚瑞斯之手 Hand of Yaerius
+&80	ÿc8神秘球体 Mystic Orb}ÿc8独行 Solitude
+&88	ÿc8神秘球体 Mystic Orb}全倒球 Ten Pin Striker
+&84	ÿc8神秘球体 Mystic Orb}恶魔核心 The Demon Core
+&70	ÿc8神秘球体 Mystic Orb}ÿc8无尽之光 The Endless Light
+&78	ÿc8神秘球体 Mystic Orb}ÿc8月之水晶 The Moon Crystal
+&95	ÿc8神秘球体 Mystic Orb}风暴之眼 Eye of the Storm
+&85	ÿc8神秘球体 Mystic Orb}ÿc8乌迪贤之魂 Uldyssian's Spirit
+&82	ÿc8神秘球体 Mystic Orb}维兹郡的滚珠 Vizjun's Ball Bearing
+&87	ÿc8神秘球体 Mystic Orb}战争使者 Warbringer
+&89	ÿc8神秘球体 Mystic Orb}盛怒之魂 Wrathspirit
+&73	ÿc8神秘球体 Mystic Orb}扎伊尔的灵魂球 Zayl's Soul Orb
+
+en5a	ÿc3最大火焰抗性 +1%}火焰抗性 +20%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en5b	ÿc3最大冰冷抗性 +1%}冰冷抗性 +20%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en5c	ÿc3最大闪电抗性 +1%}闪电抗性 +20%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en5d	ÿc3最大毒素抗性 +2%}毒素抗性 +30%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en5e	ÿc3物理抗性 +5%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en5f	ÿc3魔法抗性 +5%}ÿc0与 一条腰带 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2a	ÿc3+20% 火焰法术伤害}+60 法术专注}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2b	ÿc3+20% 冰冷法术伤害}+60 法术专注}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2c	ÿc3+20% 闪电法术伤害}+60 法术专注}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2d	ÿc3+20% 毒素法术伤害}+60 法术专注}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2e	ÿc3+20% 物理/魔法法术伤害}+60 法术专注}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2f	ÿc3+10% 固有元素伤害 (IED)}+5% 所有属性}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2g	ÿc3武器物理伤害 +75%}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en2h	ÿc3法力恢复 +15%}+2 所有技能}ÿc0与 一件身体护甲 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3a	ÿc3+8% 每击中生命偷取}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3b	ÿc3+100 每秒生命恢复}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3c	ÿc3打击时 1% 几率施放等级 5 〈生命闪耀〉}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3d	ÿc3+20 最大耐力}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3e	ÿc3+60 杀敌获取生命}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4a	ÿc3总角色防御 +50%}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4b	ÿc32% 几率躲避伤害}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4c	ÿc3物理伤害减少 70}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4d	ÿc3元素/魔法伤害减少 70}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4e	ÿc3闪电吸收 1%}冰冷吸收 1%}火焰吸收 1%}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6a	ÿc3+30% 攻击速度}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6b	ÿc3+30% 施法速度}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6c	ÿc3+40% 打击恢复}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6d	ÿc3+40% 格挡速度}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6e	ÿc3+25 杀敌获取法力}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6f	ÿc3+20% 魔法物品获取率 (MF)}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en6g	ÿc3+(5-10)% 获得的经验}+(1-5) 光照范围}ÿc0与 护符 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7a	ÿc3+30% 加成至召唤仆从准确率}+15% 加成至召唤仆从伤害}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7b	ÿc3+10% 加成至召唤仆从抗性}+25% 加成至召唤仆从生命}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7c	ÿc3+35 力量}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7d	ÿc3+35 敏捷}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7e	ÿc3+35 体力}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en7f	ÿc3+35 精力}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8a	ÿc3持续时间: +20%}法术伤害(除毒素): +10%}物理伤害: +15%}ÿc4强化你的固有技能}ÿc0与〈神圣太阳石〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8b	ÿc3持续时间: +30%}治疗: +20%}ÿc4强化你的固有技能}ÿc0与〈暗影涡流〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8c	ÿc3持续时间: +50%}防御: +20%}最大生命: +5%}ÿc4强化你的固有技能}ÿc0与〈世界之石球体〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8d	ÿc3持续时间: +25%}元素法术伤害: +5%}物理伤害: +10%}攻击速度: +10%}ÿc4强化你的固有技能}ÿc0与〈草·杜拉水果〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8e	ÿc3ÿc3冷却时间减少 20%}ÿc4强化你的固有技能}ÿc0与〈灵魂石碎片〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8f	ÿc3持续时间: +25%}武器物理伤害: +25%}ÿc4强化你的固有技能}ÿc0与〈神力之眼〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en8g	ÿc3伤害吸收提高 20%}被击中时 9% 更少的法力损耗}ÿc4强化你的固有技能}ÿc0与〈枢纽水晶〉于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1a	ÿc850% 溅射攻击 (AoE)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1b	ÿc3近战攻击时 15% 几率施放等级 10〈生命闪耀〉(Life Spark)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1c	ÿc8〈闪电场〉伤害提高 1000%}ÿc3+20〈闪电场〉(Lightning Arena)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1d	ÿc8〈女鬼〉增益持续时间提高 66%}ÿc3+10〈女鬼〉(Churel)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1e	ÿc5300% 的致命攻击(DS)加至伤害乘数加成}200% 的致命攻击(DS)加至火焰穿透}ÿc8烈焰路径:}ÿc3+20 至 烈焰路径 (Path of Flames)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1f	ÿc8〈黑暗之力〉增加 1% 固有元素伤害 (IED) - 每技能等级}ÿc3+10 〈黑暗之力〉(Dark Power)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1g	ÿc8〈火焰舞步〉不增加法术伤害}ÿc3+10〈火焰舞步〉(Firedance)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1h	ÿc5〈蜂巢〉持续时间设为 30 秒}ÿc8〈蜂巢〉增加 1% 毒素法术伤害 - 每技能等级}ÿc3+15 〈蜂巢〉(Hive)}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en1i	ÿc8菇毒: 2000% 的固有伤害(IED)加成至伤害乘数}ÿc3+28 至 菇毒 (Amatoxin)}ÿc1禁用远程技能}ÿc0与 头盔 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en9a	ÿc3+30% 移动速度}+200 每秒生命回复}ÿc0与"法杖"类武器重塑获得加成}}方块重塑材料 Cube Reagent
+en7g	ÿc3中毒持续时间减少 30%}ÿc0与 戒指 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en3f	ÿc3+2 打击时获取法力}ÿc0与 手套 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en4f	ÿc330% 减少诅咒持续时间}ÿc0与 鞋子 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en09	ÿc8强化卷轴：武器 Scroll of Enchantment: Weapon
+en9b	ÿc3+200% 对亡灵伤害}30% 提高攻击速度}增加 25 - 50 伤害}近战攻击时 5% 几率施放等级 30 〈雷锤新星〉(Thunder Hammer Nova)}ÿc4亡灵杀手 Undead Slayer}ÿc0与 一把钉锤 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en9c	ÿc3+20% 法术伤害}+200 法术专注}ÿc840% 更少的来自药水的治疗}ÿc4鲁莽之力 Reckless Power}ÿc0与 一把稀有/锻造权杖 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en9d	ÿc3减慢目标 +10%}最大生命 -5%}致死一击 10% 几率施放等级 1 〈腐化藤蔓〉(Corrupted Vines)}ÿc4腐化者 Corruptor}ÿc0与 一把锤 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+en9e	ÿc5不可作用于无法破坏的物品}ÿc3物品变为无形}ÿc4银尖 Silver Point}ÿc0与 一把稀有/锻造匕首 于方块中重塑以增加额外属性}}方块重塑材料 Cube Reagent
+
+

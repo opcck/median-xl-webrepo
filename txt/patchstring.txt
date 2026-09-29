@@ -1,0 +1,2522 @@
+Cutthroat1	巴图克的猛击 Bartuc's Cut-Throat
+ModStr5d	耐力最大值
+Mauler	巴图克的猛击 Bartuc's Cut-Throat
+StrSkill41	伤害
+D2bnetHelp13	/whisper 〈*accountname〉, /w 〈*accountname〉
+D2bnetHelp13b	/msg 〈*accountname〉, /m 〈*accountname〉
+D2bnetHelp15	/squelch 〈*accountname〉
+D2bnetHelp15b	/ignore 〈*accountname〉
+D2bnetHelp16	/unsquelch 〈*accountname〉
+D2bnetHelp16b	/unignore 〈*accountname〉
+D2bnetHelp21	/ban 〈*accountname〉
+D2bnetHelp23	/designate 〈*accountname〉
+D2bnetHelp24	/kick 〈*accountname〉
+D2bnetHelp26	/whois 〈*accountname〉, /where 〈*accountname〉
+D2bnetHelp26b	/whereis 〈*accountname〉
+D2bnetHelp32	/stats 〈*accountname〉 〈programID〉
+x	地狱
+x	噩梦
+x	普通
+x	选择游戏难度
+ModStr6ee	更快精力消耗
+xhm	翼盔【扩展】
+Hsarus' Defense	哈斯拉柏的防御 Hsarus' Defense
+strModEnhancedDamage	增强伤害 (ED)
+strModAllResistances	所有抗性 +%d
+strModAllSkillLevels	+%d 到所有技能等级
+strModFireDamage	+%d 火焰伤害
+strModFireDamageRange	增加 %d-%d 火焰伤害
+strModColdDamage	+%d 冰冷伤害
+strModColdDamageRange	增加 %d-%d 冰冷伤害
+strModLightningDamage	+%d 闪电伤害
+strModLightningDamageRange	增加 %d-%d 闪电伤害
+strModMagicDamage	+%d 魔法伤害
+strModMagicDamageRange	增加 %d-%d 魔法伤害
+strModPoisonDamage	+%d 毒素伤害维持 %d 秒
+strModPoisonDamageRange	增加 %d-%d 毒素伤害维持 %d 秒
+strModMinDamage	+%d 伤害
+strModMinDamageRange	增加 %d-%d 伤害
+strModEnhancedDamage	增强伤害 (ED)
+ModStre9j	火焰伤害降低
+ModStre9k	冰冷伤害降低
+ModStre9l	闪电伤害降低
+ModStre9m	毒素伤害降低
+ModStre9n	吸收魔法伤害
+ModStre9o	吸收火焰伤害
+ModStre9p	吸收冰冷伤害
+ModStre9q	吸收闪电伤害
+ModStre9r	吸收毒素伤害
+of the Wraith	怨灵之
+of Equilibrium	均衡之
+Valkyrie's	女武神
+Maiden's	女战士
+Blank	虚无之
+strEskilllighttoattack	 对你的攻击
+StrSklTabItem1	+%d 镖枪和长矛技能
+StrSklTabItem2	+%d 被动和魔法技能
+StrSklTabItem3	+%d 弓和十字弓技能
+StrSklTabItem4	+%d 防御性光环
+StrSklTabItem5	+%d 攻击性光环
+StrSklTabItem6	+%d 战斗技能
+StrSklTabItem6	+%d 召唤技能
+StrSklTabItem7	+%d 毒素和白骨技能
+StrSklTabItem8	+%d 诅咒
+StrSklTabItem10	+%d 战嚎
+StrSklTabItem11	+%d 战斗技能
+StrSklTabItem12	+%d 支配性
+StrSklTabItem13	+%d 冰冷系技能
+StrSklTabItem14	+%d 闪电系技能
+StrSklTabItem15	+%d 火焰系技能
+StrSklTabItem16	+%d 召唤系技能
+StrSklTabItem17	+%d 变形系技能
+StrSklTabItem18	+%d 元素系技能
+StrSklTabItem19	+%d 陷阱
+StrSklTabItem20	+%d 影子训练
+StrSklTabItem21	+%d 武学艺术
+x	人物 '%s' 已经超过3个月未使用且时效已过。
+upgraderestrictEx	不能放入魔法、已镶嵌、稀有、独特或套装物品。不接受珠宝。不能留空，塞垃圾。
+UndeadDescriptX	亡灵
+DemonID	恶魔
+strScaryMonDescA	
+strScaryMonDescB	所有伤害无效
+strScaryMonDesc1	火焰系无效
+strScaryMonDesc2	冰冷系无效
+strScaryMonDesc3	闪电系无效
+strScaryMonDesc4	毒素系无效
+strScaryMonDesc5	实体攻击无效
+strScaryMonDesc6	魔法系无效
+PlayerNameOnItemstring	%s的
+PlayerNameOnItemstringX	%s的
+SetItemFormatX	%0
+x	SC天梯
+x	HC天梯
+D2bnetHelp47a	EXPANSION LADDER 依照经验值排名，显示优秀的人物。预设为显示所有排名，你也可以选取职业(By Class)项目检视所有排序过的列表。
+D2bnetHelp48a	EXPANSION HARDCORE LADDER 依照经验值排名，显示优秀的专家模式人物。预设为显示所有排名，你也可以选取职业(By Class)项目检视所有排序过的列表。
+x	全面修复
+x	修复所有装备: 
+x	没有需要修复的装备物品
+Druid	德鲁伊
+Assassin	刺客
+partychardru	德鲁伊
+partycharass	刺客
+x	无法进入游戏。暗黑破坏神II的人物，无法加入由暗黑破坏神II资料片之人物所建立的游戏中。
+x	无法进入游戏。一位暗黑破坏神II资料片的人物无法加入一个由暗黑破坏神II所创建的游戏。
+charmonsterX	%s：%d%%
+charmontohit1X	力量伤害加成:
+charmontohit2X	敏捷伤害加成:
+Party1X	%s和你签订了生死状。
+Party2X	%s和你签订了生死状。
+Party10	%s不再让你拿取他尸体上的东西。
+Party11	%s不再让你拿取她尸体上的东西。
+Party12	你对其他玩家展现敌意
+Party13	%s对你产生敌意，但是你对他仍保持友善
+Party14	%s对你产生敌意，但是你对她仍保持友善
+Party 15	%s对你产生友善，但是你对他仍保持敌意
+Party16	%s对你产生友善，但是你对她仍保持敌意
+Party17	你对其他人表示友善
+Party18	你可以搜括其他人的尸体
+Party19	%s可以搜括你的尸体，但是你无法搜括他的尸体
+Party20	%s可以搜括你的尸体，但是你无法搜括她的尸体
+Party21	%s无法搜括你的尸体，但是你可以搜括他的尸体
+Party22	%s无法搜括你的尸体，但是你可以搜括她的尸体
+Party23	你们之中任何人都无法搜括其他人的尸体
+Civerb's Ward	希弗柏的防护 Civerb's Ward
+Civerb's Icon	希弗伯的图案 Civerb's Icon
+Civerb's Cudgel	希弗伯的短棍 Civerb's Cudgel
+Hsarus' Iron Heel	哈斯拉柏的铁后跟 Hsarus' Iron Heel
+Hsarus' Iron Fist	哈斯拉柏的铁拳 Hsarus' Iron Fist
+Hsarus' Iron Stay	哈斯拉柏的铁胸衣 Hsarus' Iron Stay
+Cleglaw's Tooth	克雷得劳之牙 Cleglaw's Tooth
+Cleglaw's Claw	克雷得劳之爪 Cleglaw's Claw
+Cleglaw's Pincers	克雷得劳之钳 Cleglaw's Pincers
+Iratha's Cord	依雷撒之绳 Iratha's Cord
+Iratha's Coil	依雷撒的线圈 Iratha's Coil
+Iratha's Cuff	依雷撒的袖口 Iratha's Cuff
+Iratha's Collar	依雷撒的项圈 Iratha's Collar
+Isenhart's Horns	依森哈德的号角 Isenhart's Horns
+Isenhart's Case	依森哈德的外壳 Isenhart's Case
+Isenhart's Parry	依森哈德的闪避 Isenhart's Parry
+Isenhart's Lightbrand	依森哈德的光之烙铁 Isenhart's Lightbrand
+Vidala's Snare	维达拉的陷阱 Vidala's Snare
+Vidala's Ambush	维达拉的突袭 Vidala's Ambush
+Vidala's Fetlock	维达拉的距毛 Vidala's Fetlock
+Vidala's Barb	维达拉之倒刺 Vidala's Barb
+Milabrega's Robe	米拉伯佳之袍 Milabrega's Robe
+Milabrega's Diadem	米拉伯佳的王冠 Milabrega's Diadem
+Milabrega's Rod	米拉伯佳之杖 Milabrega's Rod
+Milabrega's Orb	米拉伯佳之球 Milabrega's Orb
+Cathan's Seal	卡珊的封印 Cathan's Seal
+Cathan's Sigil	卡珊的魔咒 Cathan's Sigil
+Cathan's Visage	卡珊的容貌 Cathan's Visage
+Cathan's Mesh	卡珊之网 Cathan's Mesh
+Cathan's Rule	卡珊之尺 Cathan's Rule
+Tancred's Crowbill	坦克雷的鸦嘴钳 Tancred's Crowbill
+Tancred's Spine	坦克雷的脊柱 Tancred's Spine
+Tancred's Hobnails	坦克雷的平头钉 Tancred's Hobnails
+Tancred's Weird	坦克雷的怪诞 Tancred's Weird
+Tancred's Skull	坦克雷之骷髅 Tancred's Skull
+Sigon's Visor	西刚之面甲 Sigon's Visor
+Sigon's Shelter	西刚的遮蔽 Sigon's Shelter
+Sigon's Gage	西刚的挑战 Sigon's Gage
+Sigon's Sabot	西刚的木鞋 Sigon's Sabot
+Sigon's Wrap	西刚的披肩 Sigon's Wrap
+Sigon's Guard	西刚的守护 Sigon's Guard
+Infernal Cranium	地狱头骨 Infernal Cranium
+Infernal Torch	地狱火炬 Infernal Torch
+Infernal Sign	地狱符号 Infernal Sign
+Berserker's Headgear	狂战士的头戴 Berserker's Headgear
+Berserker's Hauberk	狂战士的锁子甲 Berserker's Hauberk
+Berserker's Hatchet	狂战士的手斧 Berserker's Hatchet
+Death's Hand	死亡之手 Death's Hand
+Death's Guard	死亡的守护 Death's Guard
+Death's Touch	死亡之触 Death's Touch
+Angelic Sickle	天使的镰刀 Angelic Sickle
+Angelic Mantle	天使的披风 Angelic Mantle
+Angelic Halo	天使之光 Angelic Halo
+Angelic Wings	天使之翼 Angelic Wings
+Arctic Horn	北极号角 Arctic Horn
+Arctic Furs	北极毛皮 Arctic Furs
+Arctic Binding	北极捆缚 Arctic Binding
+Arctic Mitts	北极手套 Arctic Mitts
+Arcanna's Sign	阿卡娜的符号 Arcanna's Sign
+Arcanna's Deathwand	阿卡娜的死亡之杖 Arcanna's Deathwand
+Arcanna's Head	阿卡娜的头 Arcanna's Head
+Arcanna's Flesh	阿卡娜的血肉 Arcanna's Flesh
+skillxname0	 
+skillxsd0	 
+skillxld0	 
+skillxan0	 
+skillxname1	 
+skillxsd1	 
+skillxld1	 
+skillxan1	 
+skillxname2	 
+skillxsd2	 
+skillxld2	 
+skillxan2	 
+skillxname3	 
+skillxsd3	 
+skillxld3	 
+skillxan3	 
+skillxname4	 
+skillxsd4	 
+skillxld4	 
+skillxan4	 
+skillxname5	 
+skillxsd5	 
+skillxld5	 
+skillxan5	 
+skillxname6	 
+skillxsd6	 
+skillxld6	 
+skillxan6	 
+skillxname7	 
+skillxsd7	 
+skillxld7	 
+skillxan7	 
+skillxname8	 
+skillxsd8	 
+skillxld8	 
+skillxan8	 
+skillxname9	 
+skillxsd9	 
+skillxld9	 
+skillxan9	 
+skillxname10	 
+skillxsd10	 
+skillxld10	 
+skillxan10	 
+skillxname11	 
+skillxsd11	 
+skillxld11	 
+skillxan11	 
+skillxname12	 
+skillxsd12	 
+skillxld12	 
+skillxan12	 
+skillxname13	 
+skillxsd13	 
+skillxld13	 
+skillxan13	 
+skillxname14	 
+skillxsd14	 
+skillxld14	 
+skillxan14	 
+skillxname15	 
+skillxsd15	 
+skillxld15	 
+skillxan15	 
+skillxname16	 
+skillxsd16	 
+skillxld16	 
+skillxan16	 
+skillxname17	 
+skillxsd17	 
+skillxld17	 
+skillxan17	 
+skillxname18	 
+skillxsd18	 
+skillxld18	 
+skillxan18	 
+skillxname19	 
+skillxsd19	 
+skillxld19	 
+skillxan19	 
+skillxname20	 
+skillxsd20	 
+skillxld20	 
+skillxan20	 
+skillxname21	 
+skillxsd21	 
+skillxld21	 
+skillxan21	 
+skillxname22	 
+skillxsd22	 
+skillxld22	 
+skillxan22	 
+skillxname23	 
+skillxsd23	 
+skillxld23	 
+skillxan23	 
+skillxname24	 
+skillxsd24	 
+skillxld24	 
+skillxan24	 
+skillxname25	 
+skillxsd25	 
+skillxld25	 
+skillxan25	 
+skillxname26	 
+skillxsd26	 
+skillxld26	 
+skillxan26	 
+skillxname27	 
+skillxsd27	 
+skillxld27	 
+skillxan27	 
+skillxname28	 
+skillxsd28	 
+skillxld28	 
+skillxan28	 
+skillxname29	 
+skillxsd29	 
+skillxld29	 
+skillxan29	 
+skillxname30	 
+skillxsd30	 
+skillxld30	 
+skillxan30	 
+skillxname31	 
+skillxsd31	 
+skillxld31	 
+skillxan31	 
+skillxname32	 
+skillxsd32	 
+skillxld32	 
+skillxan32	 
+skillxname33	 
+skillxsd33	 
+skillxld33	 
+skillxan33	 
+skillxname34	 
+skillxsd34	 
+skillxld34	 
+skillxan34	 
+skillxname35	 
+skillxsd35	 
+skillxld35	 
+skillxan35	 
+skillxname36	 
+skillxsd36	 
+skillxld36	 
+skillxan36	 
+skillxname37	 
+skillxsd37	 
+skillxld37	 
+skillxan37	 
+skillxname38	 
+skillxsd38	 
+skillxld38	 
+skillxan38	 
+skillxname39	 
+skillxsd39	 
+skillxld39	 
+skillxan39	 
+skillxname40	 
+skillxsd40	 
+skillxld40	 
+skillxan40	 
+skillxname41	 
+skillxsd41	 
+skillxld41	 
+skillxan41	 
+skillxname42	 
+skillxsd42	 
+skillxld42	所有敌人的生命}创造一道闪电结界，降低附近
+skillxan42	 
+skillxname43	 
+skillxsd43	 
+skillxld43	 
+skillxan43	 
+skillxname44	 
+skillxsd44	 
+skillxld44	 
+skillxan44	 
+skillxname45	 
+skillxsd45	 
+skillxld45	 
+skillxan45	 
+skillxname46	 
+skillxsd46	 
+skillxld46	 
+skillxan46	 
+skillxname47	 
+skillxsd47	 
+skillxld47	 
+skillxan47	 
+skillxname48	 
+skillxsd48	 
+skillxld48	 
+skillxan48	 
+skillxname49	 
+skillxsd49	 
+skillxld49	 
+skillxan49	 
+skillxname50	 
+skillxsd50	 
+skillxld50	 
+skillxan50	 
+skillxname51	 
+skillxsd51	 
+skillxld51	 
+skillxan51	 
+skillxname52	 
+skillxsd52	 
+skillxld52	 
+skillxan52	 
+skillxname53	 
+skillxsd53	 
+skillxld53	 
+skillxan53	 
+skillxname54	 
+skillxsd54	 
+skillxld54	 
+skillxan54	 
+skillxname55	 
+skillxsd55	 
+skillxld55	 
+skillxan55	 
+skillxname56	 
+skillxsd56	 
+skillxld56	 
+skillxan56	 
+skillxname57	 
+skillxsd57	 
+skillxld57	 
+skillxan57	 
+skillxname58	 
+skillxsd58	 
+skillxld58	 
+skillxan58	 
+skillxname59	 
+skillxsd59	 
+skillxld59	 
+skillxan59	 
+skillxname60	 
+skillxsd60	 
+skillxld60	 
+skillxan60	 
+skillxsname61	 
+skillxsd61	 
+skillxld61	 
+skillxan61	 
+skillxname62	 
+skillxsd62	 
+skillxld62	 
+skillxan62	 
+skillxname63	 
+skillxsd63	被动-增加闪电伤害
+skillxld63	被动-增加闪电法术所造成的所有伤害
+skillxan63	 
+skillxname64	 
+skillxsd64	 
+skillxld64	 
+skillxan64	 
+skillxname65	 
+skillxsd65	 
+skillxld65	 
+skillxan65	 
+skillxname66	 
+skillxsd66	 
+skillxld66	 
+skillxan66	 
+skillxname67	 
+skillxsd67	 
+skillxld67	 
+skillxan67	 
+skillxname68	 
+skillxsd68	 
+skillxld68	 
+skillxan68	 
+skillxname69	 
+skillxsd69	 
+skillxld69	 
+skillxan69	 
+skillxname70	 
+skillxsd70	 
+skillxld70	 
+skillxan70	 
+skillxname71	 
+skillxsd71	 
+skillxld71	 
+skillxan71	 
+skillxname72	 
+skillxsd72	 
+skillxld72	 
+skillxan72	 
+skillxname73	 
+skillxsd73	 
+skillxld73	 
+skillxan73	 
+skillxname74	 
+skillxsd74	 
+skillxld74	 
+skillxan74	 
+skillxname75	 
+skillxsd75	 
+skillxld75	 
+skillxan75	 
+skillxname76	 
+skillxsd76	 
+skillxld76	 
+skillxan76	 
+skillxname77	 
+skillxsd77	 
+skillxld77	 
+skillxan77	 
+skillxname78	 
+skillxsd78	 
+skillxld78	 
+skillxan78	 
+skillxname79	 
+skillxsd79	 
+skillxld79	 
+skillxan79	 
+skillxname80	 
+skillxsd80	 
+skillxld80	 
+skillxan80	 
+skillxname81	 
+skillxsd81	 
+skillxld81	 
+skillxan81	 
+skillxname82	 
+skillxsd82	 
+skillxld82	 
+skillxan82	 
+skillxname83	 
+skillxsd83	 
+skillxld83	 
+skillxan83	 
+skillxname84	 
+skillxsd84	 
+skillxld84	 
+skillxan84	 
+skillxname85	 
+skillxsd85	 
+skillxld85	 
+skillxan85	 
+skillxname86	 
+skillxsd86	 
+skillxld86	此诅咒无法被其他诅咒抵消}其他周边怪物的目标，}诅咒一只怪物变成
+skillxan86	 
+skillxname87	 
+skillxsd87	 
+skillxld87	 
+skillxan87	 
+skillxname88	 
+skillxsd88	 
+skillxld88	 
+skillxan88	 
+skillxname89	 
+skillxsd89	 
+skillxld89	 
+skillxan89	 
+skillxname90	 
+skillxsd90	 
+skillxld90	 
+skillxan90	 
+skillxname91	 
+skillxsd91	 
+skillxld91	 
+skillxan91	 
+skillxname92	 
+skillxsd92	 
+skillxld92	 
+skillxan92	 
+skillxname93	 
+skillxsd93	 
+skillxld93	 
+skillxan93	 
+skillxname94	 
+skillxsd94	 
+skillxld94	 
+skillxan94	 
+skillxname95	 
+skillxsd95	 
+skillxld95	 
+skillxan95	 
+skillxname96	 
+skillxsd96	 
+skillxld96	 
+skillxan96	 
+skillxname97	 
+skillxsd97	 
+skillxld97	 
+skillxan97	 
+skillxname98	 
+skillxsd98	 
+skillxld98	 
+skillxan98	 
+skillxname99	 
+skillxsd99	 
+skillxld99	 
+skillxan99	 
+skillxname100	 
+skillxsd100	 
+skillxld100	 
+skillxan100	 
+skillxname101	 
+skillxsd101	 
+skillxld101	 
+skillxan101	 
+skillxname102	 
+skillxsd102	 
+skillxld102	 
+skillxan102	 
+skillxname103	 
+skillxsd103	 
+skillxld103	 
+skillxan103	 
+skillxname104	 
+skillxsd104	 
+skillxld104	 
+skillxan104	 
+skillxname105	 
+skillxsd105	 
+skillxld105	 
+skillxan105	 
+skillxname106	 
+skillxsd106	 
+skillxld106	 
+skillxan106	 
+skillxname107	 
+skillxsd107	 
+skillxld107	 
+skillxan107	 
+skillxname108	 
+skillxsd108	 
+skillxld108	 
+skillxan108	 
+skillxname109	 
+skillxsd109	 
+skillxld109	 
+skillxan109	 
+skillxname110	 
+skillxsd110	 
+skillxld110	 
+skillxan110	 
+skillxname111	 
+skillxsd111	 
+skillxld111	 
+skillxan111	 
+skillxname112	 
+skillxsd112	 
+skillxld112	 
+skillxan112	 
+skillxname113	 
+skillxsd113	 
+skillxld113	 
+skillxan113	 
+skillxname114	 
+skillxsd114	 
+skillxld114	 
+skillxan114	 
+skillxname115	 
+skillxsd115	 
+skillxld115	 
+skillxan115	 
+skillxname116	 
+skillxsd116	 
+skillxld116	 
+skillxan116	 
+skillxname117	 
+skillxsd117	 
+skillxld117	 
+skillxan117	 
+skillxname118	 
+skillxsd118	 
+skillxld118	在你的攻击中增加闪电伤害}伤害周边的怪物，}当动作时，光环引发电击脉冲
+skillxan118	 
+skillxname119	 
+skillxsd119	 
+skillxld119	 
+skillxan119	 
+skillxname120	 
+skillxsd120	 
+skillxld120	 
+skillxan120	 
+skillxname121	 
+skillxsd121	 
+skillxld121	 
+skillxan121	 
+skillxname122	 
+skillxsd122	光环 - 增加攻击速度和伤害
+skillxld122	伤害、攻击速度和准确率}当你发挥之后，光环会增加你和你队伍人士的
+skillxan122	 
+skillxname123	 
+skillxsd123	光环 - 软弱敌人
+skillxld123	 
+skillxan123	 
+skillxname124	 
+skillxsd124	 
+skillxld124	中的人员重获法力和生命}被杀死敌人的灵魂，让你和队伍}当启用时，光环会试着利用
+skillxan124	 
+skillxname125	 
+skillxsd125	 
+skillxld125	 
+skillxan125	 
+skillxname126	 
+skillxsd126	 
+skillxld126	 
+skillxan126	 
+skillxname127	 
+skillxsd127	 
+skillxld127	 
+skillxan127	 
+skillxname128	 
+skillxsd128	 
+skillxld128	 
+skillxan128	 
+skillxname129	 
+skillxsd129	 
+skillxld129	 
+skillxan129	 
+skillxname130	 
+skillxsd130	 
+skillxld130	 
+skillxan130	 
+skillxname131	 
+skillxsd131	 
+skillxld131	 
+skillxan131	 
+skillxname132	 
+skillxsd132	 
+skillxld132	 
+skillxan132	 
+skillxname133	 
+skillxsd133	 
+skillxld133	 
+skillxan133	 
+skillxname134	 
+skillxsd134	 
+skillxld134	 
+skillxan134	 
+skillxname135	 
+skillxsd135	 
+skillxld135	 
+skillxan135	 
+skillxname136	 
+skillxsd136	 
+skillxld136	 
+skillxan136	 
+skillxname137	 
+skillxsd137	 
+skillxld137	 
+skillxan137	 
+skillxname138	 
+skillxsd138	 
+skillxld138	 
+skillxan138	 
+skillxname139	 
+skillxsd139	 
+skillxld139	 
+skillxan139	 
+skillxname140	 
+skillxsd140	 
+skillxld140	 
+skillxan140	 
+skillxname141	 
+skillxsd141	 
+skillxld141	 
+skillxan141	 
+skillxname142	 
+skillxsd142	 
+skillxld142	 
+skillxan142	 
+skillxname143	 
+skillxsd143	 
+skillxld143	 
+skillxan143	 
+skillxname144	 
+skillxsd144	 
+skillxld144	 
+skillxan144	 
+skillxname145	 
+skillxsd145	 
+skillxld145	 
+skillxan145	 
+skillxname146	 
+skillxsd146	 
+skillxld146	 
+skillxan146	 
+skillxname147	 
+skillxsd147	 
+skillxld147	 
+skillxan147	 
+skillxname148	 
+skillxsd148	 
+skillxld148	 
+skillxan148	 
+skillxname149	 
+skillxsd149	 
+skillxld149	 
+skillxan149	 
+skillxname150	 
+skillxsd150	 
+skillxld150	 
+skillxan150	 
+skillxname151	 
+skillxsd151	 
+skillxld151	 
+skillxan151	 
+skillxname152	 
+skillxsd152	 
+skillxld152	 
+skillxan152	 
+skillxname153	 
+skillxsd153	 
+skillxld153	 
+skillxan153	 
+skillxname154	 
+skillxsd154	 
+skillxld154	 
+skillxan154	 
+skillxname155	 
+skillxsd155	 
+skillxld155	 
+skillxan155	 
+strHostileTimeout	与这位玩家宣告敌对，你必须等待一小段时间。
+ShrId0	空的圣坛
+ShrId1	恢复圣坛
+ShrId2	生命圣坛
+ShrId3	法力圣坛
+ShrId4	生命交换圣坛
+ShrId5	法力交换圣坛
+ShrId6	装甲圣坛
+ShrId7	作战圣坛
+ShrId8	抗火焰圣坛
+ShrId9	抗冰冻圣坛
+ShrId10	抗闪电圣坛
+ShrId11	抗毒素圣坛
+ShrId12	技能圣坛
+ShrId13	法力补充圣坛
+ShrId14	耐力圣坛
+ShrId15	经验圣坛
+ShrId16	鉴定圣坛
+ShrId17	传送圣坛
+ShrId18	宝石圣坛
+ShrId19	火焰圣坛
+ShrId20	怪物圣坛
+ShrId21	爆裂圣坛
+ShrId22	毒素圣坛
+x	创建新
+CfgSkillPick	快捷技能条
+x	核对密码
+MercX101	伐德哈卡
+MercX102	可汗
+MercX103	克理斯克
+MercX104	柏斯
+MercX105	波姆
+MercX106	卫格莱夫
+MercX107	霍勒斯加
+MercX108	西勒德
+MercX109	海尔夫坦
+MercX110	海波加
+MercX111	海尔干特
+MercX112	海加力克
+MercX113	艾格索
+MercX114	波丹
+MercX115	伍夫加
+MercX116	希尔德
+MercX117	希斯洛夫
+MercX118	魏德
+MercX119	维克海亚特
+MercX120	安佛斯
+MercX121	席格庞特
+MercX122	希尔穆特
+MercX123	罕格斯特
+MercX124	弗克魏尔德
+MercX125	弗雷斯坦
+MercX126	巴希尔
+MercX127	高斯里夫
+MercX128	欧斯拉夫
+MercX129	亚门拉夫
+MercX130	加门得
+MercX131	菲瓦夫
+MercX132	艾得格理斯
+MercX133	奥蕾那
+MercX134	戴米安
+MercX135	艾弗
+MercX136	沃斯坦
+MercX137	沃夫
+MercX138	布温
+MercX139	理夫
+MercX140	马格纳斯
+MercX141	格拉图
+MercX142	图鲁斯
+MercX143	候克
+MercX144	科杜
+MercX145	犹瑟r
+MercX146	艾普
+MercX147	伍夫
+MercX148	撒尔
+MercX149	卡林姆
+MercX150	乌瑞克
+MercX151	艾拉瑞克
+MercX152	爱瑟瑞得
+MercX153	卡登
+MercX154	伊尔吉夫
+MercX155	托斯提克
+MercX156	艾尔昆
+MercX157	艾蒙特
+MercX158	席古德
+MercX159	格姆
+MercX160	荷理斯
+MercX161	拉格那
+MercX162	托克尔
+MercX163	沃夫斯坦
+MercX164	阿尔班
+MercX165	巴洛克
+MercX166	比尔
+MercX167	狄奥多理
+r16	ÿc;符文：破 Io (16#)
+r16L	Io
+r13	ÿc;符文：夏 Shael (13#)
+r13L	Shael
+r31	ÿc;符文：乔 Jah (31#)
+r31L	Jah
+DarkStalker	黑暗偷袭者
+VileArcher	邪恶弓箭手
+Runeword22	迪勒瑞姆 Delirium
+Whichwild String	狂野之弦 Witchwild String
+x	本程序使用未经Battle.net授权的毁灭之王CD-KEY安装。
+x	您使用的毁灭之王CD-KEY已经被Battle.net停止使用了。请联系技术支援部门寻求进一步的协助。
+x	您的毁灭之王CD-KEY正在被使用中，使用者是:
+x	您用来安装的毁灭之王CD-KEY是属于其他产品所用的。请使用正确的CD-KEY重新进行安装。
+Playersubtitles29	溜了溜了！
+AmaOnly	(只限亚马逊)
+SorOnly	(只限法师)
+NecOnly	(只限死灵法师)
+PalOnly	(只限圣骑士)
+BarOnly	(只限野蛮人)
+DruOnly	(只限德鲁伊)
+AssOnly	(只限刺客)
+Chatcaps	聊天
+Newscaps	新闻
+Laddercaps	天梯
+LaddeCharacter	天梯角色
+x	天梯角色只能在天梯赛季内，与其他在同一赛季期间创建的天梯角色一同进行游戏。而当天梯赛季结束后，天梯角色将被转换为非天梯角色。要继续吗？
+x	无法进入游戏。非天梯角色无法加入由天梯角色所创建的游戏。
+x	无法进入游戏。天梯角色无法加入由非天梯角色所创建的游戏。
+Sksyn	协同加成
+Damplev	% 物理伤害 - 每基础等级
+ElemDampLev	元素伤害每等级
+Firedplev	火焰伤害每等级
+Colddplev	冰冻伤害每等级
+Ltngdplev	雷电伤害每等级
+Poisdplev	% 毒素伤害 - 每基础等级
+Magdplev	魔法伤害每等级
+Rangplev	射程每等级
+RateFireplev	火焰机率每等级
+AttRateplev	命中率每等级
+AttSpeedplev	攻击速度每等级
+Defplev	防御每等级
+Manacoredplev	法力耗费每等级
+Missplev1	投射每等级
+Missplev2	+1投射每等级
+Missplev3	+1投射每%d等级
+Boltplev1	箭矢每等级
+Boltplev2	+1箭矢每等级
+Boltplev3	+1箭矢每%d等级
+Shotplev1	射击每等级
+Shotplev2	+1射击每等级
+Shotplev3	+1射击每%d等级
+Hpplev	生命值每等级
+WRSpeedplev	走路/跑步速度每等级
+Durateplev	持续每等级
+CoLenplev	寒冷时间每等级
+FrezLenplev	冰冻时间每等级
+PoisLenplev	毒素时间每等级
+Convphy2magplev	每等级转换 %d%% 物理伤害为魔法
+Convphy2elemplev	每等级转换 %d%% 物理伤害为元素
+Convphy2magalt	转换 %d%% 物理伤害为元素
+Convphy2elemalt	转换 %d%% 物理伤害为魔法
+Secplev1	秒每等级
+Secplev2	秒每等级
+Damabsplev	伤害吸收每等级
+WeapDamsk	武器伤害
+Hbdplev	圣光弹伤害每等级
+Healplev	治疗每等级
+Healplev2	治疗每2秒
+FanYDam	你的伤害: 
+PartDam	团队伤害: 
+AFDImm	火焰伤害平均值依秒
+Cgslow	迟缓敌人: 
+Corexpdam	尸爆伤害：
+ModitemAura	装备时赋予等级 %d %s光环
+Moditem2allattrib	所有属性
+Moditem2ExpG	经验值获得
+ModitemHPaK	生命值在杀死后获得
+ModitemRedVendP	所有商人的价格
+ModitemSMRIP	杀死怪物回复平静
+ModitemAttratvsM	转为命中率相对
+Moditemdamvsm	转为伤害相对
+Moditemslayat	杀死:
+Moditemreanimas	复生为:
+Moditemenrescoldsk	敌人冰冻系抗性
+Moditemenresfiresk	敌人火焰系抗性
+Moditemenresltngsk	敌人闪电系抗性
+Moditemenrespoissk	敌人毒素系抗性
+ModitemdamFiresk	火焰法术伤害
+ModitemdamColdsk	冰冷法术伤害
+ModitemdamLtngsk	闪电法术伤害
+ModitemdamPoissk	毒素法术伤害
+Moditemskondeath	当你死去 %d%% 几率施展等级 %d %s
+ModitemskonLevel	当你升级 %d%% 几率施展等级 %d %s
+ModitemskonKill	杀敌时 %d%% 几率施放等级 %d %s
+Skillname224	狼人变化 (Werewolf)
+Skillsd224	变形成狼人
+Skillld224	变形成狼人
+Skillan224	狼人
+StrSkill43a	骷髅法师
+StrSkill44a	骷髅法师
+StrSklTabItem9	+%d 召唤技能
+SOJSold	%d颗乔丹之石卖给商人
+DiabloWalksEarth	迪亚波罗现身地表
+neg	地狱爪牙之骨 Hellspawn Skull【精华】【轻】
+TrappDoor	陷阱门
+uhf	传说之锤 Legendary Mallet
+skillxld124P	中的人员重获法力和生命}被杀死敌人的灵魂，让你和队伍}当启用时，光环会试着利用
+7wa	狂战士斧 Berserker Axe【精华】
+skillld42	对附近所有敌人}创造一个可以损伤生命的电力场
+xhg	巨战手套【扩展】
+Fiendra	魔蝠
+Wraithra	怨灵
+Fiend	魔鬼
+Wraith	恶灵
+D2bnetHelp10	ÿc3蓝色文字ÿc4表示这个举动已有其他聊天频道中的人做过了。
+ItemStats1r	格挡几率：
+x	服务器已满
+x	此刻无法创建新游戏。请加入既有的游戏，或稍后再试。
+merca239	贾鲁夫
+StrSkill63Patch	结束
+x	你已加入创建新游戏的等待队列。请尝试加入既有的游戏，以避免等待。
+X	游戏等待队列
+x	太多游戏同时创建，请加入其它游戏或在游戏队列中静候
+x	你在等待队列中的顺位是：
+x	在游戏等待队列中
+9bl	小剑【扩展】
+eats and spits corpses	吃下并吐出死尸
+qstsa2q63f	探索塔·拉夏的墓穴
+Shocking Hit	震惊攻击
+11032	石头澡: 冷却减少 1.5 秒
+11033	蛇咬: 忽视敌人防御与格挡
+ModStr3u	击中使怪物逃跑
+ModStr4c	额外的准确率加成
+11036	剜心剔骨: +2 投射物
+ModStr6f	机会使目标复活
+ModStr6d	击中使目标目盲
+x	输入主控端IP地址以加入游戏
+StrSkill61	多重攻击
+D2bnetHelp13c	/reply
+D2bnethelp13d	准许你不需输入帐户名称回复特定耳语
+D2bnetHelp52	/whisper, /msg, /reply
+D2bnetHelp10a	ÿc9黄色文字ÿc4代表从Battle.net直接传递的特别消息
+BnetnewGameTime	游戏时间:
+D2bnetHelp12c	当使用进阶指令时，你也可以对在同一个国度中的角色使用〈人物名称〉，而在其他国度使用〈人物名称@国度〉的方式。
+D2bnetHelp12d	对于Battle.net上的任何人，包含在如星际争霸等其他的游戏玩家， 你必须使用〈*帐户名称〉的表示方法。
+D2bnetHelp12b	当有指令要求使用〈帐户名称〉时，请使用下列〈人物名称〉，〈人物名称@国度〉，或〈*帐户名称〉的表示方法之一。
+x	网关: %s
+x	更改密码
+x	更改密码
+x	目前使用的密码
+x	新密码
+x	确认新密码
+x	选择地区网关
+x	如果目前的网关不能正确代表您的实际位置，请选择其他的Battle.net地区连接网关。
+x	改变服务器
+x	目前的服务器
+x	这个服务器已经有一个名称为「%s」的角色。
+D2bnetHelp6a	ÿc5灰色文本ÿc4同样代表聊天频道中其他人的行动。
+D2bnetHelp10aPatch	ÿc3蓝色文本ÿc4代表由 Battle.net 或暴雪工作人员直接发送的特别消息。
+x	发送
+x	密码警告
+x	你不能把自己的密码发送给Battle.net上的其他玩家。暴雪绝不会因任何理由而询问你的密码。
+x	连接中...
+x	《暗黑破坏神II》无法连上服务器。 你所选择的服务器可能无法使用，也可能是你遭遇了网络连接的问题。 请确认你的网络连接运作正常，以及防火墙设置有打开port 6112。
+x	更多
+x	你在本服务器已经拥有超过 8 个角色。同一时间只能显示 8 个角色。
+x	想看到更多的角色，你必须删除其中一个现有角色。这个删除的动作将是永久的，角色一旦删除后就无法复原。
+X	服务条款
+X	登录Battle.net代表您已经详读并同意其目前的服务条款。
+x	%0 %1
+GemXp1	手套、腰带、鞋子:
+GemXp2	盾牌：
+GemXp3	武器：
+GemXp4	装甲：
+strCharSelectHardcoreCharacter	专家级人物
+x	头盔：
+EskillLowersResistX	降低抵抗
+ExInsertSocketsX	可以放入镶孔物品
+EskillToMeleeX	对肉搏攻击
+eskillincasemasteryX	%d几率做出暴击 (CS)
+CfgSay7X	说撤退
+champghostlyX	幽灵的
+champfanaticX	狂热的
+champpossessedX	着魔的
+champberserkX	凶暴的
+PalMercExST1X	变形 Shapeshifter
+PalMercEXST3X	战斗法师 Fighter Mage
+PalMercEXST4X	典型 Exemplar
+increaseswithplaylevelX	(以角色等级决定)
+RankX	阶级 Rank
+x	
+x	输入你的 email 地址，可让我们得以提供额外的服务，像是忘记帐号密码之类的问题都可以因此解决。请浏览 median-xl.com 来取得更多的信息。
+x	电子邮件地址：
+x	确认电子邮件地址：
+x	注册
+x	不要注册
+x	请确定两组电子邮件地址相符。
+x	无效的电子邮件地址
+x	您所输入的电子邮件地址无效。请输入一组有效的电子邮件地址。
+x	如果不注册电子邮件，你将无法取回忘记的帐号密码。你将没有别的机会来使用电子邮件地址注册这个帐号。
+x	假如您忘记密码，但已使用有效的电子邮件地址注册此帐号，您可以点击「发送」以要求发送一组新密码至您的电子邮件地址。
+x	已经收到您变更新密码的请求。假如您是以一组有效的电子邮件地址注册此帐号，我们将会发送给您一封引导您完成密码变更的信件。
+x	继续
+x	忘记您的密码了吗？请点击「帐号设置」。
+x	您所输入的密码错误，您可以点击「帐号设置」来取得新密码。
+x	帐号设置
+x	帐号设置
+x	如果您知道自己的密码，但想变更它的话，请点击这里。
+x	如果您已经忘记密码，或是密码无法通过验证的话，请点击这里。
+DAntlers (Grade 6)	如果您需要变更注册的电子邮件地址，请点击这里。
+DAntlers (Sacred)	取得新密码
+DAspis (Grade 1)	取得新密码
+DAspis (Grade 2)	变更电子邮件地址
+DAspis (Grade 3)	变更电子邮件地址
+DAspis (Grade 4)	原始电子邮件地址：
+DAspis (Grade 5)	新的电子邮件地址：
+DAspis (Grade 6)	核对新邮件地址：
+DAspis (Sacred)	如果您已经为本帐号注册了电子邮件地址，您可以在此进行变更。注意：如果想进行变更，前后两个电子邮件的地址都必须处于激活的状态。
+DAssault Helmet (Grade 1)	您输入的原始与新邮件地址相同。请输入不同的电子邮件地址。
+DAssault Helmet (Grade 2)	请确认输入的两栏新邮件地址是否相符。
+DAssault Helmet (Grade 3)	最新消息
+DAssault Helmet (Grade 4)	完成的上一个难度：
+DAssault Helmet (Grade 5)	无
+DAssault Helmet (Grade 6)	输入聊天
+DAssault Helmet (Sacred)	}www.median-xl.com}
+DAthulua's Hand (Grade 1)	不安全的密码
+DAthulua's Hand (Grade 2)	您所选择的密码并不安全，请输入新的密码。
+DAthulua's Hand (Grade 3)	光盘序列号警告
+DAthulua's Hand (Grade 4)	您不能把自己的光盘序列号发送给 Battle.net 上的其他玩家。暴雪绝不会因任何理由而向您索取光盘序号。
+DAthulua's Hand (Grade 5)	将在今日过期
+DAthulua's Hand (Grade 6)	将在 %d 天后过期
+DAthulua's Hand (Sacred)	RIP
+DAvenger Guard (Grade 1)	
+DAvenger Guard (Grade 2)	
+DAvenger Guard (Grade 3)	
+DAvenger Guard (Grade 4)	
+DAvenger Guard (Grade 5)	
+DAvenger Guard (Grade 6)	
+DAvenger Guard (Sacred)	
+DBanded Plate (Grade 1)	
+DBanded Plate (Grade 2)	《暗黑破坏神II》的角色必须持续进行游戏，否则就会过期失效。当你创建新角色时，其过期时间为最后一次使用的6个月后。
+DBanded Plate (Grade 3)	角色一旦过期，就会从服务器永久删除。
+DBanded Plate (Grade 4)	你的人物'%s'没有得到足够的关注而死掉了。
+DBanded Plate (Grade 5)	ÿc1吞噬板条甲 Devouring Banded Plate
+DBanded Plate (Grade 6)	ÿc1吞噬板条甲 Devouring Banded Plate
+DBanded Plate (Sacred)	ÿc1吞噬板条甲 Devouring Banded Plate
+DBelt (Grade 1)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Grade 2)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Grade 3)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Grade 4)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Grade 5)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Grade 6)	ÿc1吞噬腰带 Devouring Belt
+DBelt (Sacred)	ÿc1吞噬腰带 Devouring Belt
+DBlackguard Helm (Grade 1)	ÿc1吞噬黑守卫头盔 Devouring Blackguard Helm
+DBlackguard Helm (Grade 2)	ÿc1吞噬黑守卫头盔 Devouring Blackguard Helm
+DBlackguard Helm (Grade 3)	刺客技能
+DBlackguard Helm (Grade 4)	ÿc1吞噬黑守卫头盔 Devouring Blackguard Helm
+DBlackguard Helm (Grade 5)	ÿc1吞噬黑守卫头盔 Devouring Blackguard Helm
+DBlackguard Helm (Grade 6)	你使用的 CD-KEY 序号被禁止连上服务器进行游戏。但你可以继续进行单一玩家或开放 Battle.net 游戏。
+DBlackguard Helm (Sacred)	你的连接暂时被禁止连上这个服务器。 请择期再尝试登录一次。
+toa	ÿc8颠茄萃取物 Belladonna Extract
+DBladed Shield (Grade 2)	扭曲的苦痛精华 Twisted Essence of Suffering
+DBladed Shield (Grade 3)	充盈的憎恨精华 Charged Essence of Hatred
+DBladed Shield (Grade 4)	燃烧的恐惧精华 Burning Essence of Terror
+DBladed Shield (Grade 5)	物品等级
+AkaraMenu1b	重置属性与技能点数 (50级前任意洗点)
+DBladed Shield (Sacred)	ÿc1吞噬刃盾 Devouring Bladed Shield
+x	-- BEGIN SIGMA CORE --
+x	The following lines are hardcoded -- Marco
+x	游戏设置
+x	保存并退出
+x	返回游戏
+x	
+x	
+x	
+x	
+x	
+x	
+x	
+x	
+x	
+x	
+x	
+x	-- END 1.1 --
+x	%ls后关卡锁定}一项新的任务已开始
+Rusted	锈蚀的
+x	(需求等级: %d)
+Used	用过的
+x	将在以下时间后关闭: %s
+x	请加入另一场游戏以再次进入}此场景已被锁定
+x	【一旦离开，无法再返回】
+LegionX	军团卫兵 Legionnaire
+EternalVigil	永恒警戒 Eternal Vigil
+TerrQ	恐惧之
+Leviath	海皇
+Peace	和平*
+Mana	法力*
+ZakQ	萨卡兰姆之
+DrQ	龙之
+boxX	盒子
+barrelX	箭筒
+spines	脊骨*
+slammer	号子
+prophetX	先知
+charmX	迷惑
+strBodyLocItemHead	头盔
+strBodyLocItemNeck	项链
+strBodyLocItemTorso	身体护甲
+strBodyLocItemRArm	右手物品
+strBodyLocItemLArm	左手物品
+strBodyLocItemRRin	右手戒指
+strBodyLocItemLRin	左手戒指
+strBodyLocItemBelt	腰带
+strBodyLocItemBoots	鞋子
+strBodyLocItemGloves	手套
+strBodyLocItemRArmSwitch	右手的第二物品
+strBodylocItemLArmSwitch	左手的第二物品
+strDurabilityWarningDamaged	已受损}已装备物品}一件或以上的
+strDurabilityWarningCritical	已严重受损}已装备物品}一件或以上的
+strDurabilityWarningBroken	已损坏}已装备物品}一件或以上的
+strRaidNotif	以加入任务：ÿc8%Sÿc4。}加入以下名称的游戏}一项新的讨伐任务已被激活，
+strRaidNotifOwnGame	已在本场游戏中激活。}
+StrAmmoWarningLow	余弹数量低}已装备物品}一件或以上的
+StrAmmoWarningCritical	弹药即将耗尽}已装备物品}一件或以上的
+StrAmmoWarningEmpty	弹药已耗尽}已装备物品}一件或以上的
+StrLevelUpNotif	升级
+StrStatPointsNotif	新属性点
+StrSkillPointsNotif	新技能点
+StrQuestUpdateNotif	你的任务已取得新进度
+StrCfgTabHotkey	}控制设置
+StrCfgTabNotif	}界面和显示设置
+StrCfgTabDisplay	}偏好设置
+StrCfgTabVideoSound	}通知
+StrDisplayAlvl	场景等级: 
+x	扭曲之刃类
+CfgNoPickup	物品拾取切换
+CfpMapReveal	点亮地图
+CfgNotifNewArea	小地图
+CfgNotifDurability	小地图设置
+CfgNotifAmmo	界面主题
+CfgNotifGold	金币变化
+CfgNotifLevelUp	升级
+CfgNotifNewStats	新属性点
+CfgNotifNewSkills	新技能点
+CfgNotifActiveBuffs	展示生效的增益与减益状态
+CfgNotifRealmWhispers	好友动态私聊
+CfgDisplayHp	常显生命值
+CfgDisplayMp	常显法力值
+CfgDisplayGameTime	自动地图显示游戏经过时间
+CfgDisplayIlvl	显示物品的等级
+CfgDisplayGameName	使用小地图时显示游戏名称
+CfgDisplayGamePwd	使用小地图时显示游戏密码
+CfgDisplayAlvl	使用小地图时显示场景的等级
+CfgVolume	游戏音量
+CfgMusicVolume	音乐音量
+CfgContrast	对比度
+CfgGamma	亮度
+x	法力护盾: +20% 伤害减少
+x	每次施法〈自我牺牲〉伤害保持不变}+3 秒至〈仪式烽火〉增益持续时间
+x	〈异教徒仪式〉也恢复法力
+1263	〈超级野兽〉替代法术伤害以 50% 的效能增加致命攻击 (DS) 
+x	+30% 穿透几率至〈精神鞭笞〉
+x	+8 〈暴风乌鸦〉投射物 - 如果最近没有受到武器伤害
+x	+60 准确率 - 每高于 105 的人物等级}〈狮子姿态〉不减少你的物理抗性
+x	+40% 穿透几率至〈暴风之眼图腾〉
+x	+200% 火焰伤害至〈竞技场〉
+x	墓场: +2 额外投射物
+x	黄 昏 将 至  Ragh nar Rook
+x	〈龙的祝福〉属性加成减半
+x	法力护盾: 被击中时减少吸取 54% 法力
+x	法力护盾: 被击中时减少吸取 65% 法力
+x	月之光线: 增益持续时间加倍
+x	50% 你的火焰与毒素法术伤害加为防御加成
+11276	狩猎恶灵: +2 投射物
+StrCfgAssignHotkey	或按任意键分配}按 DEL 取消分配按键}按 ESC 取消
+x	你无法造成火焰、闪电或毒素伤害}每点体力加成的最大生命降低 0.9}100% 的体力加为冰冷伤害至武器
+x	凛冬将至 Remorseless Winter
+x	ÿc5(半径范围取决于损耗的耐力)}ÿc8前路漫漫清风相伴
+x	''知识就是力量''
+x	"凯恩的弹珠"依旧获得经验加成 - 超过等级 100}+2% 法术伤害 - 每 1% 额外经验获取
+x	ÿc5石头澡: 冷却时间减少 1 秒}轰雷掌: 冷却时间减少 4 秒}ÿc8如果你没有加点于 〈战斗姿态〉 :
+x	ÿc1变形死亡领主 Deathlord Morph
+x	烈焰前线: +30% 伤害乘数加成
+x	+2% 致命攻击 (DS) - 每〈火焰舞步〉基础等级
+x	〈索格伦之像〉没有冷却时间
+11288	灰烬之灵: +25% 总伤害
+11289	灰烬之灵: +10% 总伤害
+11290	法力狂扫: +30% 总伤害, 不偷取法力
+x	堡垒: +60% 穿透几率}双持时: 没有冷却时间，直至技能等级 16
+x	+60% 穿透几率至〈堡垒〉
+x	速速天降正义 Celeri Caelesti Iustitia
+11294	20% 的闪电抗性加为闪电法术伤害
+x	120 级后 物理抗性 +15%}120 级及以下 +25% 获得的经验
+x	变形树木守卫 Treewarden Morph
+x	雷破: +100% 闪电伤害加成
+11298	ÿc5+8% 物理/魔法法术伤害}+25% 防御加成}+10 杀敌获取生命}ÿc0(每镶有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11300	+180% 伤害 - 对萨卡兰姆 (The Zakarum)
+x	ÿc5+20% 至 元素抗性}+0.75% 基础格挡率}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+x	吉吉国王万岁!
+x	无法被反镶嵌
+x	每秒吸取 2% 生命
+x	+1〈狩猎恶灵〉/〈灰烬之灵〉投射物}每秒吸取 2% 生命
+x	+1 〈狩猎恶灵〉/〈灰烬之灵〉投射物
+x	+2〈狩猎恶灵〉投射物}ÿc8〈灰烬之灵〉无效化 (Nullified)
+x	+3〈灰烬之灵〉投射物}ÿc8〈狩猎恶灵〉无效化 (Nullified)
+x	随机元素抗性加成
+x	随机移动速度加成
+x	雷暴: +3 投射物
+x	+150% 〈魔仆〉总伤害
+x	+8 最大〈渡鸦魔仆〉技能等级
+11313	ÿc5增加至火焰和闪电伤害}10-15% 基础体力}20-30% 的基础力量与敏捷}+5% 固有元素伤害}ÿc8等级 10 〈奈非天之灵光环〉
+x	幽灵旋舞: +300% 魔法伤害加成
+x	+1% 物理抗性 - 每 18% 法力恢复
+x	强化〈死亡波动〉}+1% 物理/魔法法术伤害 - 每 20 体力 
+x	右键点击以开启时空裂缝}
+x	-5% 致命攻击 (DS) - 每 1% 攻击速度}+400% 致命攻击 (DS)
+x	铁盾娘子: +15% 武器物理伤害 (WPD) - 每高于 120 的角色等级
+11320	无法升级
+11321	+50% 穿透几率至〈精神鞭笞〉
+11322	旋涡五式箭弹: +25% 魔法伤害加成
+11323	-1% 冰冷法术伤害 - 每 1 光照范围}+3% 火焰法术伤害 - 每 1 光照范围}+5 法术专注 - 每 1 光照范围
+11324	ÿc5法力恢复 +40%}恢复 2.8% 生命 - 每秒}ÿc8等级 20 鹰姿态}精神鞭笞: +2 投射物
+11325	等级 10 狼姿态
+11326	增加 140% 你的物理/魔法法术伤害为武器物理伤害加成 (WPD)}增加 140% 你的火焰法术伤害为武器物理伤害加成 (WPD)
+11327	-1% 敌人毒素抗性 - 每 25 力量
+11328	ÿc5增加 75-150 火焰伤害}+30% 攻击速度}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11329	法力脉动: +50% 持续时间
+11330	增加 300% 的压碎性打击为火焰与冰冷法术伤害
+11331	+200% 魔法伤害加成至〈幽灵旋舞〉
+11332	闪电护盾: +(18 ~ 30) 闪电伤害至武器 - 每技能等级}〈雷神〉新星造成 5000 闪电伤害}风雷斩: +1 投射物
+11333	裁决化身: +3 目标
+11334	+1% 致命攻击 (DS) - 每 6% 火焰法术伤害}总防御减少 25%
+11335	死亡塑像: +1 最大〈塑像〉数量
+11336	+3 〈魔法飞弹〉投射物
+11337	ÿc526.6 码半径}你与亡灵类仆从的最大生命 +6%}ÿc8等级 1 魔血光环
+11338	技能取代法力耗费生命
+11339	ÿc5-4% 敌人毒素抗性}+30 杀敌获取生命}+2.5% 物理抗性}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11340	惩戒化身: 0.7% 伤害偷取为生命
+11341	刀锋女王: +2500 闪电伤害
+11342	-6% 武器物理伤害 (WPD) - 每 1% 压碎性打击 (CB)
+11343	ÿc8〈海妖姿态〉: +3% 伤害 - 每基础等级于〈圣殿骑士〉技能树}ÿc5增加 150-375 火焰, 冰冷, 和闪电伤害}ÿc8等级 30 〈海妖姿态〉(Kraken Stance)
+11344	不造成元素或魔法伤害
+11345	无惧邪恶 Fear No Evil
+11346	50% 你的总防御加成加为体力
+11347	ÿc5+600 法术专注}+25% 物理抗性}+33% 致命攻击 (DS)}+100% 魔法物品获取率 (MF)}+50% 施法速度}ÿc8〈惊雷娘子〉、〈血色仪式〉与〈龙威圣典〉:}如果你没有点数于〈母狮〉、〈铁盾娘子〉、
+11348	飞锤之路: -30% 敌人闪电抗性}惊雷之路: +150 杀敌恢复生命
+11349	处刑: 投射物总数增加 25%
+11350	暗影庇护: 每基础等级 -1% 敌人火焰，冰冷与闪电抗性
+11351	+30% 持续时间至〈日耀〉
+11352	〈涌动〉+1 投射物
+11353	你仅可使用近战、召唤与辅助技能
+11354	火焰穿透减少冰冷穿透}火焰法术伤害减少冰冷法术伤害}冰河新星: +150% 总伤害
+11355	ÿc5 增加 20 秒冷却时间至所有〈闪电〉技能树法术}ÿc8若你有任意点数加至〈复仇能量〉、〈灵焰〉或〈冰雪皇后〉
+11356	泽瑞伊圣裁: 双倍闪电伤害加成至〈能量转移〉
+11357	如被玩家装备 +20% 致命攻击 (DS)}如被雇佣兵装备 +100% 魔法物品获取率 (MF)
+11358	一次召唤两个仆从
+11359	如果你最近未被击中, +20% 〈精神鞭笞〉总伤害
+11360	-3% 敌人毒素抗性 - 每〈蛇姿态〉基础等级
+11361	ÿc5-1% 敌人火焰与闪电抗性 - 每 60 属性}+200% 火焰与闪电法术伤害}增加 3-5 闪电伤害 - 每 20 属性}增加 3-5 火焰伤害 - 每 20 属性}ÿc8当使用〈旋风形态〉(Windform) 时:
+11362	〈仆从伤害〉也会以 50% 的效能提高你的法术伤害}-1 最大〈图腾〉数量
+11363	+1% 攻击速度与攻击准确率 - 每 25 力量
+11364	ÿc5+0.5% 最大元素抗性}+250 生命}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11365	不造成闪电伤害
+x	
+x	
+11368	恭喜!
+11369	根据你的职业进行重塑以获得不同的属性
+11370	+48% 〈分叉闪电〉伤害乘数加成
+11371	不造成压碎性打击 (CB)}65% 的仆从生命提高加为防御加成}10% 的仆从伤害提高加为致命攻击 (DS)
+11372	(重塑时间: 1 分钟的光环交集)}于杀死英普瑞斯与马萨伊尔后重塑
+11373	与精华/符文石重塑以随机化属性 (Roll Stat)
+11374	可用〈鬼魂出窍〉升级
+11375	躲避伤害的几率变为 0%
+11376	ÿc5(镶嵌在该装备的珠宝效果加倍)}ÿc81% 总体力增加至精力 - 每个镶嵌在装备里的珠宝
+11377	增加 1-4 火焰、冰冷与闪电伤害至武器 - 每 1 法术专注(直至上限 1000)
+11378	若装备有权杖 +120% 武器物理伤害 (WPD)
+11379	ÿc5+1 投射物至〈寒冰爆发〉}ÿc8当以双持装备此武器时:
+11380	ÿc5 山蝠: 魔法伤害协同加倍}ÿc8当以双持装备此武器时:
+11381	你不可直接召唤〈冰元素〉
+11382	你不可直接召唤〈刀刃之灵〉
+11383	ÿc57.3 码半径}-18% 敌人元素抗性}最大火焰抗性 +5%}ÿc8等级 8〈地狱火光环〉
+11384	强化〈死亡波动〉(Death Ripple)}祸根 (Bane): +100% 持续时间
+11385	+33% 提高〈跳跃〉速度
+11386	〈 群箭齐射〉(Arrow Swarm):发射 50% 更多的投射物
+11387	〈血契〉每秒恢复 2% 最大生命
+11388	〈喜极而狂〉不降低你的防御
+11389	蝎刀: +2 投射物
+11390	〈守卫者英灵〉继承 100% 你的致命攻击 (DS)
+11391	帷幕之王: +100% 基础生命与伤害
+11392	〈死亡领主〉令你对所有伤害更显著地脆弱
+11393	ÿc5+3% 武器物理伤害 (WPD) - 每〈瞬怒〉技能等级}+0.5% 压碎性打击 (CB) - 每〈瞬怒〉技能等级}+0.5% 致命攻击 (DS) - 每〈瞬怒〉技能等级}ÿc8当使用〈瞬怒〉(Tantrum) 时:
+11394	墓场: +40% 总伤害 以及 +2 投射物}不造成火焰、闪电或冰冷伤害
+11395	ÿc5(总是分裂为 7 个)}ÿc8"吸附激光"在你身旁分裂为地雷}每有一点〈之道〉系列被动技能等级: +1% 冰冷法术伤害}吸附激光: +1 投射物
+11396	巫毒训练:打击时 +1% 额外几率生成一具尸体
+11397	炎阳击: +25% 火焰伤害加成 - 每基础等级于〈弓〉技能树}〈炎阳击〉发射 1 投射物
+11398	寄生: +200% 魔法伤害加成
+11399	-3% 敌人元素抗性 - 每〈残杀〉基础等级
+11400	此火焰伤害提高 15% - 每〈野火〉基础等级}增加 2000 火焰伤害至〈索格伦之像〉
+11401	尖笑鬼魂: +8% 魔法伤害加成 - 每〈召唤系技能〉基础等级
+11402	ÿc5+10% 武器物理伤害}-7% 敌人冰冷抗性}增加 10% 武器物理伤害 (WPD)}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11403	增加 (80 ~ 110)% 的敏捷为魔法伤害至武器
+11404	Three's a Company'' )}( ''Cross the Wide, Somber Seas I Will Sail}''三人行，重洋尽，所向深海阴''
+11405	( ''Cross the Wide, Somber Seas I Will Sail'' )}''重洋尽，海波平，吾孑然孤行''
+11406	ÿc5+25% 防御加成}-5% 元素抗性}+5% 物理抗性}ÿc0(每有 1 个高级/元素符文加成)}ÿc8字数对应法 Gematria
+11407	狩猎恶灵: +2 投射物
+11408	狩猎恶灵: +3 投射物
+11409	-4% 敌人元素抗性 - 每〈奈非天之灵〉基础等级
+11410	〈释雷〉造成你的〈阿斯卡利雷劫〉伤害至主要目标
+11411	ÿc5 1% 减少持续时间 (最少至 6.6 秒)}ÿc5 1% 提高伤害 (上至 100%)}ÿc8每 5% 对恶魔伤害:}ÿc8驱魔 (Exorcism): 
+11412	〈浴血〉持续生效
+11413	(最大: 1 分钟的交集时间)}于杀死拉斯玛与孟德恩后合成
+StrCfgAutomapMode	小型自动地图
+StrCfgTextOnlyNotif	通知仅显示文本
+StrCfgDebugUi	启用调试界面
+StrCfgColorblind	启用色盲调节
+StrMinute	 分钟
+StrMinutes	 分钟
+11420	+500% 武器物理伤害 (WPD)
+11421	-70% 敌人元素抗性
+11422	ÿc58 码半径}沉默范围内大部分敌方传送技能}减少附近敌人移动速度 20%}ÿc8等级 20 扭曲力场 光环
+11423	〈炼金术补给〉无效化
+StrCfgShowAutomapParty	显示召唤物与雇佣兵
+11425	+1 额外〈帷幕之王〉数量
+11426	夜鹰: +10% 总伤害 以及 +2 额外〈夜鹰〉数量}帷幕之王: +25% 总伤害
+11427	+1 额外〈火焰之心图腾〉数量
+11428	狰狞残相: 光环等级提高 5 级
+11429	ÿc5+160% 〈钢铁魔像〉伤害}+20% 压碎性打击 (CB)}+20% 致命攻击 (DS)}ÿc8当〈钢铁魔像〉消耗此物品:
+11430	+1 额外〈图腾〉数量
+11431	
+11432	杀死怪物回复平静 (RIP)
+11433	ÿc5并抓紧时间重塑你的已解锁血瓶}并在十一与十二分钟之间的半分钟内杀死他}以使赫拉迪姆方块被虚无所腐化}在末日使者的攻击下生存足够长的时间}ÿc3致真正的勇士或疯子:}}
+11434	ÿc5+50 生命}+25 法力}+5% 魔法物品获取率(MF)}+1% 物理抗性}+10 杀敌获取生命}ÿc0(基于奖杯)}ÿc8荣誉勋章 Medals of Honor
+11435	ÿc4每次召唤 2 位〈艾迪伦〉}可在任意地点召唤〈艾迪伦〉}ÿc5+50% 压碎性打击几率 (CB)}+20% 生命加为伤害}20% 复生为: ÿc9艾迪伦 Edyremÿc5}ÿc8 〈召唤艾迪伦〉:
+11436	〈 召唤艾迪伦 〉: +5000 防御
+11437	ÿc5+10 精力}+10 敏捷}ÿc8 与 1 个奖杯合成以增加额外属性: 
+11438	ÿc5+10 体力}+10 力量}ÿc8 与 1 个奖杯合成以增加额外属性:
+11439	蝎蛰: 每基础等级 +1% 穿透几率至〈 闪电之怒 〉(Lightning Fury)
+11440	机枪岗哨: +10 闪电伤害 - 每等级}爱国者导弹岗哨: +20 火焰伤害 - 每等级
+11441	+250% 〈帷幕之王〉生命与伤害
+11442	以解锁它真正的力量}}ÿc5符文：列维 Lew}符文：普勒 Phul}2 个学习印章G}ÿc3将此物品与以下物品重塑:
+11443	以解锁它真正的力量}}ÿc5任意高级符文}2 个学习印章G}ÿc3将此物品与以下物品重塑:
+11444	冰枪:投射 1 额外的冰枪
+11445	伽马力场: 提高伤害并降低持续时间
+11446	〈裂魂〉(Soulshatter): +200 火焰伤害 - 每等级
+11447	ÿc8 〈幻魔焰〉(Ignis Fatuus)加成提高 50%}天启: +100% 至伤害上限 - 取决于最大法力和生命差
+11448	ÿc8〈暴风雪〉与〈冰封球〉: +1% 总伤害 - 每 5% 魔法物品寻获率 (MF)
+11449	ÿc4〈 命运 〉冷却时间提高 0.3 秒}ÿc8〈 命运 〉(Wyrd): 眩晕目标 0.2 秒
+11450	恭喜!
+11451	增加 4000-5000 魔法伤害
+11452	ÿc516.6 码半径}附近敌人: -30% 攻击准确率 与 25% 武器伤害}ÿc8绝望 (Despair)
+11453	ÿc5- 魔邪赝造 Demonic Forgery -
+11454	ÿc5- 战神之咒 Curse of the Warlord -
+11455	ÿc5- 天命所归 Divine Mandate -
+11456	ÿc5- 奥术启明 Arcane Guidance -
+11457	ÿc5- 永恒统御 Eternal Reign -
+11458	ÿc5- 炼狱烈火 Infernal Blaze -
+11459	ÿc5- 癫狂疯魔 Demonic Delirium -
+11460	ÿc5- 枯萎恩典 Blighted Grace -
+11461	ÿc5- 荣归阿斯卡利 Askari Valor -
+11462	ÿc5- 元素奇艺 Virtuosity of the Elements -
+11463	ÿc5- 诡诈网罗 Web of Deception -
+11464	ÿc5- 恶邪消弭 Vile Dissolution -
+11465	ÿc5- 能量合成 Power Synthesis -
+11466	ÿc5- 始源之光 Glimmer of Genesis -
+11467	ÿc5- 异道参悟 Revelations of the Cult -
+11468	ÿc5- 先祖遗赠 Legacy of the Ancients -
+11469	ÿc5- 阴影之拥 Shadow's Embrace -
+11470	ÿc5- 黑星之耀 Glow of the Dark Star -
+11471	ÿc5- 平衡法则 Axioms of Equilibrium -
+11472	ÿc5- 毁灭圣痕 Stigma of Excidium -
+11473	(此护甲将根据配方被分解)}若与〈长眠〉于方块中重塑，〈长眠〉可再次进行〈觉醒〉
+11474	ÿc5- 阿苏拉的决意 Athulua's Determination -
+11475	ÿc5一件曾经强大的装甲的残片...
+11476	难度: 60%}恭喜!
+11477	难度: 65%}恭喜!
+11478	难度: 70%}恭喜!
+11479	难度: 75%}恭喜!
+11480	难度: 80%}恭喜!
+11481	难度: 90%}恭喜!
+11482	难度: 100%}恭喜!
+11483	ÿc3与〈天堂之魂〉重塑: 恢复 +20%}ÿc5最大元素抗性 +3%}防御加成 +50%}+2 所有技能}ÿc0(基于恢复百分比)}ÿc8还原 Restitution
+11484	ÿc3与〈天堂之魂〉重塑: 恢复 +4%}ÿc5最大生命 +7%}物理抗性 +15%}+50% 作战速度 (Combat Speeds)}ÿc0(基于恢复百分比)}ÿc8还原 Restitution
+11485	ÿc3与〈天堂之魂〉重塑: 恢复 +5%}ÿc5+50% 魔法物品获取率 (MF)}+10 所有技能}+150 杀敌获取生命}-50% 敌人冰冷抗性}变为所有职业可用}ÿc0(基于恢复百分比)}ÿc8还原 Restitution
+11486	ÿc5最大元素抗性 +3%}总角色防御 +50%}+2 所有技能}ÿc8众魂之佑 Blessing of Souls
+11487	ÿc5最大生命 +7%}物理抗性 +15%}+50% 作战速度 (Combat Speeds)}ÿc8众魂之佑 Blessing of Souls
+11488	ÿc5+50% 魔法物品获取率 (MF)}+10 所有技能}+150 杀敌恢复生命}ÿc8众魂之佑 Blessing of Souls
+11489	50% 的力量加为火焰伤害至武器
+11490	33% 的敏捷加为冰冷伤害至武器
+11491	36% 的敏捷加为闪电伤害至武器
+11492	37% 的敏捷加为三元素伤害至武器
+11493	ÿc5获得激发频率 增益 - 取决于释放的充能数}ÿc5充能释放 - 当你静止或达到上限时}ÿc8移动速度积累至"充沛"充能数
+11494	+1% 〈陷阱〉伤害 - 每 5 基础力量
+11495	ÿc5如果拥有〈溅射攻击 (AoE)〉词缀来源}ÿc8则 60% 的力量加为额外魔法伤害至〈溅射攻击 (AoE)〉词缀
+11496	+1.5% 物理抗性 - 每〈复苏〉基础等级}+1% 最大元素抗性 - 每个对应属性图腾的最大数量
+11497	为你的陷阱 -25% 敌人元素抗性
+11498	ÿc3武器物理伤害 (WPD) -150%}ÿc8增加 5-7 火焰伤害至武器 - 每 2% 攻击速度
+11499	〈浴血〉持续时间提高 5 秒
+11500	背刺: (Dodge)闪避几率降低 100%}背刺: 持续时间提高 8 秒
+11501	ÿc8+10% 毅力值}ÿc8〈法力脉动〉伤害并冰冻一大片区域}增加 50% 当前法力为冰冷伤害}当狼人形态持续时:
+11502	狼人形态持续时 -75% 法力吸取
+11503	〈金属鼓舞〉(Metal Solace) : 同样回血〈图腾〉
+11504	+1 投射物至〈天谴连弹〉(Punishers)
+11505	ÿc5〈吉坦之门〉施放 9 次〈召唤火元素〉}ÿc8如果附近至少有一个敌人
+11506	召唤火元素: 冷却时间减少 10%
+11507	+3% 闪电法术伤害 - 每 5% 金币获取量 (GF)
+11508	+3 额外的 〈翼龙〉(Dragon Wyrms)
+11509	龙息 (Dragon Breath): 减少武器物理伤害 (WPD) 25%
+11510	重装步兵: +5% 毒素穿透 - 每〈瘟疫〉基础等级
+11511	〈翼龙〉数量减少 5}〈翼龙〉发射两个火弹
+11512	ÿc2}ÿc0(B祝福 (B Blessing) 期间生效)}ÿc8奈非天荣耀 Nephalem Glory}
+11513	ÿc2}ÿc0(V-祝福 (V- Blessing) 期间生效)}ÿc8尖牙之眼 Sharp-Tooth Eye}
+11514	应用在此物品上的〈球体〉效果增加到四倍
+11515	受到武器伤害时于 5 秒内恢复 15% 生命
+11516	+20% 总伤害至〈箭毒〉
+11517	ÿc5-150% 召唤仆从伤害}+375 每秒恢复生命}+30% 〈夜行者〉技能伤害}ÿc8若你没有〈终极技能〉:
+11518	暗金〈球体〉增加 +7 额外需求等级
+11519	ÿc5〈洗礼〉偷取生命}ÿc8当装备〈催化〉与〈判决〉时:
+11520	ÿc5+24% 〈黎明浩劫〉法术伤害 - 每〈时空力场〉基础等级}+12% 〈黎明浩劫〉法术伤害 - 每〈进攻性奥术技能〉基础等级}ÿc8当装备〈催化〉与〈判决〉时:
+11521	ÿc5〈蜂巢〉增加 0.75% 体力至精力 - 每基础等级于〈奥术〉技能树 (最高 40%)}ÿc8当装备〈催化〉与〈判决〉时:
+11522	〈蜂巢〉持续时间减少至 30 秒
+11523	+20% 〈夜行者〉技能伤害
+11524	28% 的力量加为闪电伤害至武器
+11525	法力狂扫: -25% 总伤害, 不偷取法力
+11526	狂怒: +4 秒基础持续时间
+11527	15% 的敏捷加为武器物理伤害 (WPD)}-1% 敌人毒素抗性 - 每 1% 格挡几率
+11528	+5 斧头数至〈杀绝〉
+11529	+15 闪电伤害 - 每 1 闪电穿透 (Lightning Pierce)
+11530	装备时拥有〈苹果〉治疗效果
+11531	ÿc5+2 所有技能}+20% 元素法术伤害}+50 法术专注}ÿc0(每有一件〈隐藏圣坛〉锻造的手工装备加成)}ÿc8隐藏圣物 Hidden Reliquary
+11532	33% 的敏捷加为闪电伤害至武器
+11533	+1 额外〈复活者〉数量
+11534	分裂箭: +8 投射物
+11535	+2 〈沙暴〉投射物
+11536	〈冰冷之锥〉尺寸提高 50%
+11537	+1 〈 病畜 〉投射物
+11538	+4% 〈愉悦〉穿透
+11539	+1 额外〈火焰之心图腾〉 数量
+11540	+1 额外〈冰霜之爪图腾〉 数量
+11541	+1 额外〈暴风之眼图腾〉 数量
+11542	烈焰前线: +10% 伤害乘数加成
+11543	+1 额外〈守卫者英灵〉 数量
+11544	
+11545	+1 额外〈重装步兵〉 数量
+11546	+1 额外〈冰元素〉 数量
+11547	+1 〈 寒冰长枪 〉投射物
+11548	+5 〈 石雹 〉投射物
+11549	+1 额外〈雷熊〉 数量
+11550	
+11551	+1 〈 剃刀脊刺 〉投射物
+11552	〈月之光线〉持续时间提高 3 秒
+11553	〈噩梦〉减少物理抗性 6%
+11554	〈 爆裂波 〉冷却时间减半
+11555	+3 斧头数至〈杀绝〉
+11556	+1 〈 痛苦灵魂 〉投射物
+11557	〈寄生〉获得 5 额外目标
+11558	+500 总精力至〈通灵环〉
+11559	切碎: +50% 持续时间
+11560	〈希望闪耀〉持续时间提高 50 秒
+11561	+10 〈回弹〉投射物
+11562	剜心剔骨: +1 投射物
+11563	+2 〈撼石击〉投射物
+11564	+2 每次召唤的〈英勇仆人〉 数量
+11565	〈号鹰〉持续时间提高 3 秒
+11566	+1 〈 银镖 〉投射物
+11567	20% 闪电穿透至〈杀手〉(Slayers)
+11568	日耀: +30% 持续时间
+11569	〈孢子击〉魔法伤害提高 100%
+11570	+1〈 嚎风 〉投射物
+11571	+2 〈暴风乌鸦〉投射物
+11572	+2 额外〈收割者〉数量
+11573	+25% 火焰穿透至〈火元素〉
+11574	鲜血骷髅:〈狰狞残相〉光环等级提高 5
+11575	+3 最大〈夜鹰〉数量
+11576	魔灵: +4 〈地狱火光环〉
+11577	+1 额外〈拉弥亚〉 数量
+11578	+1 额外〈暴徒〉 数量
+11579	+15% 元素法术伤害至〈魔血光环〉
+11580	帷幕之王: +8% 致命攻击(DS)
+11581	〈 传送 〉冷却时间减少 0.5 秒 (最小: 2 秒)
+11582	+3 最大〈雷暴〉投射物
+11583	+1 额外〈剧毒之云图腾〉 数量
+11584	于鸮人形态 +30% 武器物理伤害 (WPD)
+11585	当在复生者(Revenant)附近时 +25% 魔法物品获取率 (MF)
+11586	猎人标记: 提高每一击伤害
+11587	+3 〈翼龙击〉目标
+11588	庇护之地斗士 Champion of Sanctuary
+11589	致命切口：+1〈蝎刀〉投射物
+11590	绝命燃爆：爆炸的半径提升 2 码
+11591	+10%〈 闪电之怒 〉伤害
+11592	使用〈闪现〉后恢复耐力 - 如果你有加点于〈召唤魔仆〉
+11593	+2 〈血星〉投射物
+11594	+30% 伤害加成至〈末日〉
+11595	施放〈 吉坦之门 〉后 +75% 速度 (Velocity)
+11596	进击: +1 最大〈狂怒〉集气
+11597	+8% 总〈念力风暴〉伤害
+11598	+1 投射物至〈天谴弹〉(Punisher)
+11599	
+ModitemEleInnateSeq	ÿc0固有火焰伤害: ÿc1%dÿc0 (%.1f%% 的%s)
+x	ÿc0固有闪电伤害: ÿc9%d ÿc0(%.1f%% 的%s)
+x	ÿc0固有冰冷伤害: ÿc3%d ÿc0(%.1f%% 的%s)
+x	ÿc0固有毒素伤害: ÿc2%d ÿc0(%.1f%% 的%s)
+x	ÿc0固有魔法伤害: ÿc8%d ÿc0(%.1f%% 的%s)
+x	ÿc0固有三元素伤害: ÿc4%d ÿc0(%.1f%% 的%s)
+x	%d %.1f %s
+x	%d %.1f %s
+x	%d %.1f %s
+x	%d %.1f %s
+11610	
+11611	等级 14 灵鹤姿态
+11612	等级 1 灵鹤姿态
+11613	等级 3 灵鹤姿态
+11614	等级 7 灵鹤姿态
+11615	ÿc510% 武器物理伤害 (WPD)}10% 压碎性打击}28% 打击恢复}40% 移动速度}28% 攻击速度}ÿc8等级 1 狼姿态
+11616	等级 6 狮子姿态(大幅增加物理伤害，减10物抗)
+11617	等级 12 狮子姿态
+11618	ÿc8等级 1 被动熊姿态
+11619	等级 6 鹰姿态(加强回血和回蓝，增加固伤)
+11620	等级 1 鹰姿态(加强回血和回蓝，增加固伤)
+11621	+1% 攻击速度 - 每 25 力量
+11622	〈爆发打击〉获得 8% 火焰伤害加成 - 每高于 137 的人物等级
+11623	〈爆发打击〉获得 16% 火焰伤害加成 - 每高于 137 的人物等级
+11624	于〈赫拉迪姆方块〉中重塑以升级}在〈虚无边界〉的战斗中生存 11 分钟}必须拥有至少 3000 点力量}〈猎人〉专属升级:}
+11625	深渊也报以回视
+11626	等级 12 狼姿态(增加物理伤害和作战速度)
+11627	完美彩虹石
+11628	索尔 Sol, 塔尔 Tal, 欧特 Ort 符文
+11629	2 奥术水晶
+11630	黄金珠宝
+11631	怀特的腿 Wirt's Leg
+11632	毁灭纹章 (秘密) Emblem of Destruction (Secret)
+11633	苦难纹章 (秘密) Emblem of Suffering (Secret)
+11634	恐惧纹章 (秘密) Emblem of Terror (Secret)
+11635	憎恨纹章 (秘密) Emblem of Hatred (Secret)
+11636	苦痛纹章 (秘密) Emblem of Pain (Secret)
+11637	谎言纹章 (秘密) Emblem of Lies (Secret)
+11638	ÿc0与各成分于方块中重塑以设计
+11639	ÿc0与锻造油于方块中重塑以创造}
+StrStashPageLocal	储藏页: 
+StrStashPageShared	共享储藏页: 
+StrStashToggleShared	切换至共享储物箱
+StrStashToggleLocal	切换至本地储物箱
+StrStashNextPage	后一页
+StrStashPrevPage	前一页
+11646	10% 魔法物品获取率 (MF) - 每镶有一颗〈彩虹石〉}+1 所有技能 - 每镶有 2 颗〈彩虹石〉
+11647	〈闪电场〉伤害提高 2000%
+11648	〈 女鬼 〉(Churel) 增益持续时间提高 66%
+11649	ÿc3300% 的致命攻击(DS)加至伤害乘数加成}200% 的致命攻击(DS)加至火焰穿透}ÿc8烈焰路径 (Path of Flames):
+11650	〈 黑暗之力 〉增加 1% 固有元素伤害 (IED) - 每技能等级
+11651	〈火焰舞步〉不增加法术伤害
+11652	〈蜂巢〉增加 1% 毒素法术伤害 - 每技能等级
+11653	20% 魔法物品获取率 (MF) - 每镶有一颗〈彩虹石〉}+1 所有技能 - 每镶有 2 颗〈彩虹石〉
+11654	40% 更少的来自药水的治疗
+11655	(仅限武器)
+11656	(仅限护甲)
+11657	(仅限戒指、护符或箭袋)
+11658	(任意可装备物品)
+11659	200% 加成至〈瘴气〉鬼缠持续时间
+11660	〈瘴气〉鬼缠持续时间提高 4 秒
+11661	+50% 加成至〈瘴气〉鬼缠持续时间
+11662	+150% 加成至〈瘴气〉鬼缠持续时间
+11663	+200% 增强伤害至〈咏月决〉
+11664	变形德鲁伊 Druid Morph
+11665	30% 增强伤害 - 对死灵机器人 (Necrobot)
+11666	提高来自苹果的治疗速率 50%
+11667	提高来自苹果的治疗速率 100%
+11668	+1 所有技能 - 当使用苹果时
+11669	+2 所有技能 - 当使用苹果时
+11670	+3 所有技能 - 当使用苹果时
+11671	+15% 伤害至〈护卫者英灵〉嗜血}
+11672	+30% 伤害至〈护卫者英灵〉嗜血}
+11673	+50% 伤害至〈护卫者英灵〉嗜血}
+11674	炽炎辉光: 炫目 (Dazzle) 减少敌人 5% 攻击准确率
+11675	获得 10% 的总精力为生命
+StrSkillTabsAma	神圣
+x	弓
+x	标枪
+x	矛
+x	风暴
+x	鲜血
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsAss	忍者
+x	投掷
+x	爪
+x	薙刀
+x	陷阱
+x	念力
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsBar	游牧民
+x	撼地者
+x	刻风者
+x	元素使
+x	好战者
+x	萨满
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsDru	自然
+x	熊人
+x	狼人
+x	鸮人
+x	猎人
+x	预言
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsNec	亡语者
+x	召唤
+x	近战
+x	弩
+x	咒怨
+x	图腾
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsPal	多面
+x	圣殿骑士
+x	神使
+x	奈非天
+x	祭师
+x	术士
+x	精通
+x	奖励
+x	
+x	
+StrSkillTabsSor	奥术
+x	火焰
+x	闪电
+x	冰冷
+x	毒素
+x	近战
+x	精通
+x	巫师会
+x	奖励
+x	
+11746	你的冰冷伤害无效化 (Nullified)
+11747	当与〈夹竹桃〉(Acokanthera) 同时装备时: +1 秒持续时间至〈噬灵暗云〉
+11748	-1% 敌人元素抗性 - 每 150 敏捷
+11749	〈残杀〉现在转换 100% 物理伤害为火焰
+11750	百万冲击:大幅提高范围，持续时间和效能
+RightClickToUnsummon	右键点击以取消召唤
+11752	疫病: 每秒恢复 4% 最大生命}疫病: 持续时间减少 50%
+11753	+5-10 伤害 - 高于 138 的每一级角色等级
+11754	ÿc516.6 码半径}+1% 伤害 - 每 7 精力}激发频率 效能: 20%}附近敌人每 1.2 秒受到 1200 闪电伤害}ÿc8神圣冲击 (Holy Shock)
+11755	〈符文大师〉有 15 基础等级: 10% 致命攻击 (DS)}〈符文大师〉至少有 1 基础等级: 最大毒素抗性 +4%
+11756	(取最高值)}+1% 武器物理伤害 (WPD) - 每 50 力量或敏捷
+11757	灵魂嗥叫: +4 秒持续时间 
+11758	+100% 加成火焰伤害至〈报复〉
+strConfigDungeonTimer	在时限关卡中显示倒计时
+11760	等级 1 〈希望闪耀〉
+11761	-3% 武器物理伤害 (WPD) - 每 1% 失去的法力}+200% 武器物理伤害 (WPD)
+11762	+1 〈狩猎恶灵〉投射物
+11763	〈通灵环〉现在在冲击时爆炸
+11764	〈夜游魂〉爆炸半径提高 2 码
+11765	低于 50% 生命: +200 杀敌获取生命}高于 70% 生命: -10 杀敌获取生命
+11766	ÿc4(请选择一项)}圣体技能 Paragon Skill}}}}}}}}}}}}}}}}}(请选择一项)}终极技能 Ultimate Skill
+11767	〈火舌环〉(Ring Of Flames) 获得 +1% 总伤害 - 每一级角色等级
+11768	〈灵焰〉给予 +1% 火焰法术伤害 - 每 8 角色等级
+11769	诡道: +10 生命 - 每〈死亡波动〉技能等级}强化〈死亡波动〉
+11770	(锁定其他〈专精〉)}ÿc8神圣专精 Holy Devotion
+11771	(锁定其他〈专精〉)}ÿc;不洁专精 Unholy Devotion
+11772	(锁定其他〈专精〉)}ÿc0中立专精 Neutral Devotion
+11773	ÿc8-5% 固有元素伤害 (IED) - 每 1% 火焰吸收
+11774	+1% 最大冰冷抗性 - 每 80% 冰冷抗性
+11775	+25 火焰伤害 - 每 100 敏捷
+11776	敌人火焰抗性被闪电穿透以 25% 的效能降低
+11777	+10% 最大法力 - 若〈日耀〉生效}+40 法术专注 - 若〈血契〉生效
+11778	在〈狼人〉形态时: -25% 敌人冰冷抗性}在〈鸮人〉形态时: 增加 10-15 伤害
+11779	深渊骑士: 击杀时释放〈混沌新星〉几率加倍
+11780	+1% 最大元素抗性 - 每 200% 闪电法术伤害
+11781	当低于 80% 生命时，击杀时 12% 几率施放等级 42 烈焰前线 (Flamefront)
+11782	〈饥荒〉不再获得武器物理伤害 (WPD)}〈饥荒〉获得 1% 力量和敏捷为固有元素伤害 (IED)
+11783	若你拥有 90% 火焰抗性: +50% 火焰法术伤害
+11784	泽瑞伊之锤: 闪电法术伤害所加成的闪电伤害仅为 50%
+11785	每秒恢复 0.05% 生命 - 每 1% 失去的法力
+11786	高于等级 100: +6-12 闪电伤害 - 每一级角色等级}最高至等级 100: +2-4 闪电伤害 - 每一级角色等级
+11787	ÿc5 -5% 敌人物理抗性 至〈竞技场〉}+10% 躲避 (Avoid)}ÿc8若〈竞技场〉拥有 20 基础等级:
+11788	当低于 50% 生命时，致死一击 7% 几率施放等级 5 生命闪耀 ( Lifespark )
+11789	〈深渊骑士〉减少 10% 敌人魔法抗性
+11790	ÿc5(你不可双持)}ÿc8需要近战元素型武器
+11791	ÿc5〈挽歌〉施放几率提高 10%}ÿc8当〈灵魂锁链〉生效:
+11792	ÿc5〈暴风之眼图腾〉致死一击时 6% 几率施放等级 44 〈风暴冲突〉}ÿc5〈火焰之心图腾〉致死一击时 6% 几率施放等级 44 〈火焰连发〉}ÿc5〈冰霜之爪图腾〉致死一击时 6% 几率施放等级 44 〈暴风雪〉}ÿc8当〈灵魂锁链〉生效时:
+11793	重构: +30 威能
+11794	+3 所有属性}ÿc4武器, 护甲:}
+11795	+3 最大伤害}ÿc4护甲:}}ÿc0+5 最大伤害}ÿc4武器:}
+11796	+3% 火焰法术伤害}ÿc4武器, 护甲:}
+11797	+3% 闪电法术伤害}ÿc4武器, 护甲:}
+11798	+3% 冰冷法术伤害}ÿc4武器, 护甲:}
+11799	+3% 毒素法术伤害}ÿc4武器, 护甲:}
+11800	+3% 物理/魔法法术伤害}ÿc4武器, 护甲:}
+11801	火焰抗性 +25%}ÿc4护甲:}}ÿc0火焰抗性 +30%}ÿc4武器:}
+11802	闪电抗性 +25%}ÿc4护甲:}}ÿc0闪电抗性 +30%}ÿc4武器:}
+11803	冰冷抗性 +25%}ÿc4护甲:}}ÿc0冰冷抗性 +30%}ÿc4武器:}
+11804	毒素抗性 +25%}ÿc4护甲:}}ÿc0毒素抗性 +30%}ÿc4武器:}
+11805	+40 法力}ÿc4护甲:}}ÿc0+60 法力}ÿc4武器:}
+11806	+10% 加成至毒素技能持续时间}ÿc4护甲:}}ÿc0+15% 加成至毒素技能持续时间}ÿc4武器:}
+11807	+10% 召唤仆从生命}ÿc4武器, 护甲:}
+11808	+5% 召唤仆从伤害}ÿc4武器, 护甲:}
+11809	+50% 召唤仆从准确率}ÿc4武器, 护甲:}
+11810	+5% 召唤仆从元素抗性}ÿc4武器, 护甲:}
+11811	5% 力量}ÿc4武器, 护甲:}
+11812	5% 敏捷}ÿc4武器, 护甲:}
+11813	4% 敏捷}ÿc4武器, 护甲:}
+11814	5% 精力}ÿc4武器, 护甲:}
+11815	元素抗性 +10%}ÿc4武器, 护甲:}
+11816	+3% 所有属性}ÿc4武器, 护甲:}
+11817	+7% 魔法物品获取率(MF)}ÿc4护甲:}}ÿc0+10% 魔法物品获取率(MF)}ÿc4武器:}
+11818	+15% 攻击速度}ÿc4武器, 护甲:}
+11819	+15% 施法速度}ÿc4武器, 护甲:}
+11820	+15% 打击恢复}ÿc4武器, 护甲:}
+11821	+15% 格挡速度}ÿc4武器, 护甲:}
+11822	法力恢复 +5%}ÿc4护甲:}}ÿc0法力恢复 +15%}ÿc4武器:}
+11823	减慢攻击者 +2%}ÿc4护甲:}}ÿc0减慢目标 +3%}ÿc4武器:}
+11824	+15% 增强防御}ÿc4护甲:}}ÿc0+15% 增强伤害}ÿc4武器:}
+11825	最大法力 +2%}ÿc4护甲:}}ÿc0最大法力 +3%}ÿc4武器:}
+11826	+15 生命于击杀后获取}ÿc4武器, 护甲:}
+11827	ÿc3(4-7)% 压碎性打击}(6-12)% 力量}(6-28) 力量}ÿc8双手武器 或 身体护甲}}ÿc3(2-4)% 压碎性打击}(4-5)% 力量}(4-20) 力量}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性 Shrine stats:}
+11828	ÿc3(103-170)% 攻击准确率加成}(9-12)% 敏捷}(17-28) 敏捷}ÿc8双手武器 或 身体护甲}}ÿc3(72-120)% 攻击准确率加成}5% 敏捷}(12-20) 敏捷}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11829	ÿc3+(3-15) 生命恢复每秒}(6-12)% 体力}(6-28) 体力}ÿc8双手武器 或 身体护甲}}ÿc3+(1-10) 每秒恢复生命}(4-5)% 体力}(4-20) 体力}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}}
+11830	ÿc3(40-60) 法术专注}(6-12)% 精力}(6-28) 精力}ÿc8双手武器 或 身体护甲}}ÿc3(25-30) 法术专注}(4-5)% 精力}(4-20) 精力}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11831	ÿc3增加 (1-4) 至 (1-10) 伤害}ÿc8身体护甲}}ÿc3增加 (1-3) 至 (1-6) 伤害}ÿc8小型盔甲}}ÿc3(30-55)% 增强伤害}增加 (3-9) 至 (3-18) 伤害}ÿc8双手武器}}ÿc3(25-40)% 增强伤害}增加 (2-6) 至 (2-12) 伤害}ÿc8单手武器}ÿc0圣坛属性:}}
+11832	ÿc3(21-50)% 增强防御}物理抗性 +(1-2)%}ÿc8身体护甲}}ÿc3(11-30)% 增强防御}物理抗性 +(0-1)%}ÿc8小型盔甲}}ÿc3(35-50)% 增强伤害}需求 +30%}(2-4)% 致命攻击}ÿc8双手武器}}ÿc3(20-35)% 增强伤害}需求 +20%}(2-3)% 致命攻击}ÿc8单手武器}ÿc0圣坛属性:}
+11833	ÿc3(30-70)% 召唤仆从攻击准确率}(15-35)% 召唤仆从伤害}ÿc8双手武器 或 身体护甲}}ÿc3(16-50)% 召唤仆从攻击准确率}(8-25)% 召唤仆从伤害}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11834	ÿc3-(5-10)% 敌人火焰抗性}(2-15)% 火焰法术伤害}ÿc8双手武器 或 身体护甲}}ÿc3-(3-5)% 敌人火焰抗性}(2-8)% 火焰法术伤害}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}}
+11835	ÿc3-(5-10)% 闪电抗性}(2-15)% 闪电法术伤害}ÿc8双手武器 或 身体护甲}}ÿc3-(3-5)% 敌人闪电抗性}(2-8)% 闪电法术伤害}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11836	ÿc3-(5-10)% 敌人冰冷抗性}(2-15)% 冰冷法术伤害}ÿc8双手武器 或 身体护甲}}ÿc3-(3-5)% 敌人冰冷抗性}(2-8)% 冰冷法术伤害}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11837	ÿc3-(5-10)% 敌人毒素抗性}+(2-15)% 毒素法术伤害}ÿc8双手武器 或 身体护甲}}ÿc3-(3-5)% 敌人毒素抗性}+(2-8)% 毒素法术伤害}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11838	ÿc3法力回复 +(30-45)%}最大法力 +12%}(10-15)% 施法速度}ÿc8双手武器 或 身体护甲}}ÿc3法力回复 +(10-20)%}最大法力 +4%}(5-10)% 施法速度}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11839	ÿc3(6-25)% 召唤仆从抗性}(6-50)% 召唤仆从生命}ÿc8双手武器 或 身体护甲}}ÿc3(4-15)% 召唤仆从抗性}(4-30)% 召唤仆从生命}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}}
+11840	ÿc3(6-20)% 物理/魔法法术伤害}魔法抗性 +(2-4)%}ÿc8双手武器 或 身体护甲}}ÿc3(4-10)% 至物理/魔法法术伤害}魔法抗性 +(1-2)%}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11841	ÿc31% 几率复活为任意怪物}1% 几率复活为任意怪物}ÿc8双手武器或身体护甲}}ÿc31% 复活为任意怪物}1% 复活为任意怪物}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+11842	ÿc3(6-8)% 固有元素伤害}(2-4)% 所有属性}ÿc8双手武器 或 身体护甲}}ÿc3(3-4)% 固有元素伤害}(6-10) 所有属性}ÿc8单手武器/盾牌 或 小型盔甲}ÿc0圣坛属性:}
+strMercLabelStrength	力量
+strMercLabelDexterity	敏捷
+strMercLabelEnergy	精力
+strMercLabelLife	生命
+strMercLabelDefense	防御
+strMercLabelAttack	准确率
+strMercLabelResistFire	}火焰抗性
+strMercLabelResistCold	}冰冷抗性
+strMercLabelResistLtng	}闪电抗性
+strMercLabelResistPois	}毒素抗性
+strMercLabelMf	魔法物品获取率 (MF)
+strMercLabelGf	金币获取量 (GF)
+strMercLabelFireSpd	}火焰法术伤害
+strMercLabelColdSpd	}冰冷法术伤害
+strMercLabelLtngSpd	}闪电法术伤害
+strMercLabelPoisSpd	}毒素法术伤害
+11859	你可最多选择 2 项被动
+11860	你可最多选择 3 项精通
+11861	解锁精通技能: 坚韧 (Tenacity)
+11862	解锁精通技能: 化学 (Chemistry)
+11863	解锁精通技能: 特化 (Specialization)
+11864	解锁精通技能: 忍耐力 (Endurance)
+11865	解锁精通技能: 续航力 (Continuity)
+11866	解锁精通技能: PLACEHOLDER
+11867	解锁精通技能: PLACEHOLDER
+11868	解锁精通技能: PLACEHOLDER
+11869	解锁精通技能: PLACEHOLDER
+11870	解锁精通技能: PLACEHOLDER
+11871	解锁精通技能: PLACEHOLDER
+11872	解锁精通技能: PLACEHOLDER
+11873	所有技能需要熊人形态
+11874	所有技能需要狼人形态
+11875	所有技能需要鸮人形态
+11876	〈灵魂直列〉不再增加火焰/冰冷法术伤害}〈灵魂直列〉增加 5% 闪电法术伤害 - 每基础等级
+strPartyScreenKillCount	击杀怪物数
+strPartyScreenTimePlayed	游玩时长
+11879	进击: +1 最大〈狂怒〉集气
+strPartyScreenFriends	好友
+strPartyScreenAddFriend	添加好友
+11882	辩护: +200% 持续时间
+11883	飓风之力: +1.3 码溅射范围 (AoE)
+11884	获得 50% 你的最大法力为防御
+11885	- 且不受到时空风暴(Rift Storm)的伤害}- 且至少有一只〈冻结蹒跚者〉存活}ÿc2击败高阶时空行者}ÿc0(在完成时于方块中直接重塑神符)}ÿc7额外任务 2 Bonus Quest II}
+11886	- 且不受到时空风暴(Rift Storm)的伤害}ÿc2击败上级时空行者}ÿc0(在完成时于方块中直接重塑神符)}ÿc7额外任务 1 Bonus Quest I}
+11887	获得 20% 你的毒素抗性为毒素持续时间减少
+11888	箭毒: +5% 伤害乘数 - 每〈泽瑞伊之锤〉基础等级
+11889	ÿc8玄风: +5% 几率于打击时施放
+11890	(锁定其他〈专精〉)}ÿc0弓专精 Bow Devotion
+11891	(锁定其他〈专精〉)}ÿc0标枪专精 Javelin Devotion
+11892	(锁定其他〈专精〉)}ÿc0矛专精 Spear Devotion
+11893	(锁定其他〈专精〉)}ÿc0风暴专精 Storm Devotion
+11894	(锁定其他〈专精〉)}ÿc0鲜血专精 Blood Devotion
+11895	5 火焰符文
+11896	5 磐石符文
+11897	5 奥术符文
+11898	5 光明符文
+11899	5 寒冰符文
+11900	5 毒素符文
+11901	金币花费: 250,000}与 5 个符文石于方块重塑以创造
+11902	+100 闪电伤害 - 每高于 130 的角色等级
+11903	+6 生命 - 每点〈认知〉
+11904	+4-5 伤害 - 每〈泽瑞伊之锤〉基础等级
+11905	＋2.5% 固有元素伤害 (IED) - 每〈狼姿态〉基础等级
+11906	盾牌: 火焰抗性 +30%}护甲: 4% 体力}武器: +10 杀敌获取生命}
+11907	盾牌: 毒素抗性 +30%}护甲: +10 每秒恢复生命}武器: +5 最大伤害}
+11908	盾牌: 冰冷抗性 +30%}护甲: 冰冷抗性 +20%}武器: +8 杀敌获取法力}
+11909	盾牌: 闪电抗性 +30%}护甲: 5% 精力}武器: +10 法术专注}
+11910	盾牌: 元素抗性 +5%}护甲: 5% 力量}武器: +3% 法术伤害}
+11911	盾牌: +5 法力 - 被敌人打击时}护甲: 5% 敏捷}武器: 50% 准确率加成}
+11912	盾牌: 毒素持续时间减少 5%}护甲: +10% 增强防御}武器: +10% 增强伤害}
+11913	盾牌: 6% 诅咒持续时间减少}护甲: 8% 金币获取率}武器: 3% 固有元素伤害 (IED)}
+11914	盾牌: +5% 召唤仆从抗性}护甲: 火焰抗性 +20%, 最大火焰抗性 +1%}武器: +10% 召唤仆从生命}
+11915	盾牌: 减慢目标 2%}护甲: 冰冷抗性 +20%, 最大冰冷抗性 +1%}武器: +5% 召唤仆从伤害}
+11916	盾牌: 减慢攻击者 2%}护甲: 闪电抗性 +20%, 最大闪电抗性 +1%}武器: 2% 复生为: Walker}
+11917	盾牌: 8% 魔法物品获取率 (MF)}护甲: 毒素抗性 +20%, 最大毒素抗性 +1%}武器: 恢复法力 +10%}
+11918	+1% 格挡率 - 每 300 法力}+1 准确率 - 每 3 法力
+11919	属性种类: 技能类别(Skill Class) (红宝石)
+11920	属性种类: 速度 (绿宝石)
+11921	属性种类: 敌人抗性 (蓝宝石)
+11922	属性种类: 仆从 (骷髅)
+11923	属性种类: 属性值(Attr.) (黄宝石)
+11924	属性种类: 最大抗性 (钻石)
+11925	属性种类: 抗性 (紫宝石)
+11926	和谐之理 Tenet of Harmony
+11927	克制之理 Tenet of Restraint
+11928	活力之理 Tenet of Vigor
+11929	智慧之理 Tenet of Wisdom
+11930	审判之理 Tenet of Judgement
+11931	纷争之理 Tenet of Conflict
+11932	3 颗奥术水晶
+11933	2 颗腐化水晶
+11934	学习印章G (Greater Signet of Learning)
+11935	3 个暗金戒指
+11936	3 个暗金项链
+11937	3 个神圣暗金护甲类
+11938	3 个神圣暗金腰带
+11939	3 个神圣暗金手套
+11940	3 个神圣暗金靴子
+11941	4 个大型回环 (Large Cycles)
+11942	任一纹章 (Emblem)
+11943	5 个强化符文
+11944	遗物 (Relic)
+11945	25 个圣坛
+11946	3 个独特神秘球体
+11947	天气控制 (Weather Control)
+11948	长眠 (The Sleep)
+11949	卡兰之书 (Books of Kalan)
+11950	鬼魂出窍 (Ghost Trance)
+11951	卡扎克斯的幻象 (Xazax's Illusion)
+11952	中立条约 (Neutrality Pact)
+11953	(代价越高，回报越大)}根据所选的〈强化符文〉号数来决定所需金币}重塑所需金币: 20,000 - 500,000}与 1 个〈奥术水晶〉和 1 个〈强化符文〉重塑以开箱
+11954	于方块中重塑以打开
+11955	与〈强化符文〉于方块中重塑以解锁
+11956	ÿc0金币花费: 666,666}与锻造油于方块中重塑以创造}
+11957	ÿc0金币花费: 1,000,000}与锻造油于方块中重塑以创造}
+11958	ÿc0金币花费: 300,000}与锻造油于方块中重塑以创造}
+11959	ÿc0金币花费: 700,000}与锻造油于方块中重塑以创造}
+11960	
+11961	
+11962	
+11963	
+11964	
+11965	
+11966	
+11967	
+11968	
+11969	
+11970	
+11971	
+11972	
+11973	
+11974	
+11975	
+11976	
+11977	
+11978	
+11979	
+11980	
+11981	
+11982	
+11983	
+11984	
+11985	
+11986	
+11987	
+11988	金币花费: 5000}ÿc8+(2 ~ 3)% 魔法物品获取率(MF)}
+11989	金币花费: 5000}ÿc8需求 -(4 ~ 6)%}
+11990	金币花费: 5000}ÿc8+(4 ~ 6)% 召唤仆从生命}
+11991	金币花费: 10000}ÿc8元素抗性 +(3 ~ 5)%}
+11992	金币花费: 10000}ÿc8+(4 ~ 6) 杀敌获取法力}+(4 ~ 6) 杀敌获取生命}
+11993	金币花费: 10000}ÿc8+(2 ~ 4)% 召唤仆从抗性}
+11994	金币花费: 15000}ÿc8+(4 ~ 6) 所有属性}
+11995	金币花费: 15000}ÿc8+(4 ~ 6) 法力 - 近战攻击时}+(5 ~ 10) 生命 - 近战攻击时}
+11996	金币花费: 15000}ÿc8+(2 ~ 3)% 召唤仆从伤害}
+11997	金币花费: 25000}ÿc8+(1 ~ 2)% 法术伤害}
+11998	金币花费: 25000}ÿc8+(2 ~ 3)% 每次击中偷取法力}+(1 ~ 2)% 每次击中偷取生命}
+11999	金币花费: 25000}ÿc8+(2 ~ 4) 最大伤害}
+12000	金币花费: 50000}ÿc8+(5 ~ 10) 法术专注}
+12001	金币花费: 50000}ÿc8+1-2% 获得的经验}
+12002	金币花费: 50000}ÿc8 +(1-2%) 周期性技能的 激发频率}
+12003	jewelcraft placeholder
+12004	jewelcraft placeholder
+12005	jewelcraft placeholder
+12006	jewelcraft placeholder
+12007	jewelcraft placeholder
+12008	致死一击 5% 几率施放等级 50 杀手 (Slayer)
+12009	允许召唤一只额外的〈熊伙伴〉(Bear Companion)
+12010	+4〈暴风乌鸦〉投射物
+12011	+25 防御 - 每 1% 火焰法术伤害
+12012	30% 加为武器物理伤害 (WPD) (最大 +150%)
+12013	36% 加为武器物理伤害 (WPD) (最大 +150%)
+12014	6% 加为固有元素伤害 (IED) (最大 +25%)
+12015	8% 加为固有元素伤害 (IED) (最大 +25%)
+12016	15% 加为火焰与闪电法术伤害 (最大 +40%)
+12017	18% 加为火焰与闪电法术伤害 (最大 +40%)
+12018	15% 加为冰冷与毒素法术伤害 (最大 +40%)
+12019	18% 加为冰冷与毒素法术伤害 (最大 +40%)
+12020	15% 加为物理与魔法法术伤害 (最大 +40%)
+12021	18% 加为物理与魔法法术伤害 (最大 +40%)
+12022	10% 加为魔法物品获取率(MF) (最大 +100%)
+12023	12% 加为魔法物品获取率(MF) (最大 +100%)
+12024	ÿc8;基于你对亡灵与恶魔的伤害加成总值给予属性
+12025	近战法术施法者技能树
+12026	英勇仆人: 每秒恢复 2% 自身生命
+12027	允许召唤一个额外的〈杀手〉
+12028	增加 1% 压碎性打击 (CB) - 每 4% 火焰法术伤害
+12029	+6% 〈夜鹰〉总伤害}〈深渊骑士〉与〈夜鹰〉召唤后即死
+12030	〈弱点〉持续时间提升 0.2 秒
+strMercLabelResistPhys	}物理抗性
+CfgDisplayGamePing	在小地图中显示游戏的ping值
+StrAutomapPing	Ping 值: 
+12034	＋1 目标至〈奇袭〉
+12035	-100% 敌人闪电抗性 (需要 100% 压碎性打击 (CB))
+12036	〈反物质〉也回复耐力
+12037	奥术激流: +20% 额外投射物
+12038	群箭齐射: +2 投射物
+12039	仪式烽火: 自我牺牲状态时 +30% 移动速度
+12040	祸根: +100% 持续时间
+12041	强化〈死亡波动〉(Death Ripple)
+12042	炎爆击: +5 投射物
+12043	黑暗之力: 双倍魔法伤害加成
+12044	〈灵魂漫步〉+5% 额外生命恢复}当持有全部〈萨满〉召唤物遗物时 (保卫者 - 守卫者 - 护卫者)
+12045	+1 额外〈保卫者英灵〉数量
+12046	+1 额外〈护卫者英灵〉数量
+12047	空爆击: +100% 提高火焰伤害
+12048	+1 〈狩猎恶灵/灰烬之灵〉投射物}当持有〈预言〉元素灵魂遗物时 (狩猎恶灵/灰烬之灵)
+12049	获得 5% 冰/火/电吸收}当持有所有元素类图腾遗物时 (冰/火/电图腾)
+12050	〈分叉闪电〉: +12% 伤害乘数加成
+12051	当〈堡垒〉生效时 +2% 〈符文大师〉防御加成
+12052	暴风: 恢复 100% 生命 - 于 20 秒内
+12053	霜寒新星: 双倍冰冻持续时间
+12054	血祭: 每等级获得 66 魔法伤害
+12055	大追猎: +1 灵数量
+12056	泽瑞伊之锤: 物理伤害加成提高 25%
+12057	洗礼: +10% 伤害乘数加成
+12058	饥渴之焰: 每次施法恢复的最大生命 +2% 
+12059	裁决化身: +1 目标
+12060	惩戒化身: +1 目标
+12061	旋涡五式箭弹: +10% 魔法伤害加成
+12062	法力狂扫: +10% 总伤害
+12063	毁灭交响曲:〈杀手〉作用范围内 +1 光线数
+12064	冷血注能: 同样穿透闪电抗性
+12065	迷锁: 双倍持续时间
+12066	ÿc5(〈蜂巢〉 - 〈新星充能〉 - 〈烈焰路径〉)}当持有周期性增益遗物时 +10 至 冰冻之心 (Frozen Heart)
+12067	吸附激光: +1 投射物
+12068	暗影庇护: 每 1 级〈暗影冲刺〉基础等级 50 每秒恢复生命
+12069	疫病: +10 秒持续时间
+12070	火葬: 双倍物理抗性加成
+12071	暴风之眼: 不再减少伤害
+12072	+1 额外〈深渊骑士〉数量
+12073	风雷斩: 5% 几率触发额外投射物
+12074	旋涡一号箭弹: 〈七伤刃〉的弱点持续期间 +5% 物理抗性
+12075	每 5 点〈认知〉+1% 物理/魔法法术伤害
+12076	ÿc7+100% 仆从伤害及准确率}ÿc7+666 生命}允许你一次性召唤全部上述仆从}ÿc8〈召唤神〉之力}}ÿc5获得ÿc8〈召唤神〉之力}ÿc5持有全部的召唤三件套遗物(光蘑人，冰霜行者，罪人遗物)时
+12077	石头澡: -5% 敌人物理抗性
+12078	旋涡一式箭弹：+10% 魔法伤害加成
+12079	ÿc3〈残杀〉冷却时间减少 1.72 秒}ÿc8残杀: 双倍火焰伤害
+12080	
+12081	〈魔仆〉被击杀/取消召唤时施放〈处刑〉(Crucify)
+12082	ÿc5使用〈天界之风〉塑像与〈次元之钥〉重塑}完成以上所有迷宫任务后}ÿc4奈非天试炼 Trial of the Nephalem
+12083	}ÿc5在迷宫深处击败〈火卫二(黛莫丝)〉后重塑〈次元之钥〉}ÿc4入侵终止 End the Invasion
+12084	}ÿc5(这些迷宫Boss会掉落相应碎片和星象图)}然后把〈星象图〉和〈幻梦碎片〉与〈次元之钥〉重塑}击败盘踞在迷宫内的英雄，冠军和领主怪物(boss)}ÿc4净化试炼 Trial of Purity
+12085	}ÿc5(请以从低到高顺序进行重塑)}并将每一层的〈秘境石〉和〈次元之钥〉重塑}深层探索〈次元迷宫〉}ÿc4探秘试炼 Trial of Discovery
+12086	}ÿc5并与〈赦免徽记〉塑像重塑}在 5 个难度词条下击败〈火卫二(黛莫丝)〉}ÿc4次元秘术 Dimensional Alchemy
+12087	}ÿc5剩余充能数会在顶部显示}ÿc5会返还该神符并将〈秘境石〉转换为随机〈遗物〉}与〈枯竭的秘境石 (6)〉进行重塑}ÿc4次元秘术解锁 Dimensional Alchemy Unlocked
+12088	}ÿc5并与〈元素之怒〉塑像重塑}在 3 个难度词条下击败〈火卫二(黛莫丝)〉}ÿc4玄秘精锻 Occult Smithing
+12089	}ÿc5会返还该神符并给予你一个更高级的〈玄秘塑像〉}与两个相同的〈塑像〉进行重塑}ÿc4玄秘精锻解锁 Occult Smithing Unlocked
+12090	ÿc5充能数:0
+12091	ÿc5充能数: 1
+12092	ÿc5充能数: 2
+12093	ÿc5充能数: 3
+12094	ÿc5充能数: 4
+12095	ÿc5充能数: 5
+12096	天雷引：施放几率加倍
+12097	天雷引：+1% 于击中时施放〈阿斯卡利雷劫〉的几率
+12098	释雷: 雷电释放频率加快 0.4 秒
+12099	蝎刀: 必定爆炸，最大范围 -25%
+12100	+1〈暴风乌鸦〉攻击目标
+12101	守卫者英灵:杀敌 2% 几率复活为 等级 131 的腐化野蛮人
+12102	ÿc4卡丘斯的祝福}}ÿc5造成 50% 武器伤害}敌人可在接触时提前触发起爆}在爆炸为急速的引导冰箭的弹幕前}发射一个在前方缓速停止的冰雷}当持有弓时:}}ÿc5并在中心造成 2800% 武器伤害}打击前方地面，释放一圈冰冷脉冲光环}当持有矛时:}}主尖刺造成 200% 武器伤害, 每次分裂造成半数伤害}发射出大量分裂成小型爆裂后再次分裂的极寒尖刺}当持有标枪时:}}ÿc3+1 至 寒晶银装 (Crystalline Arsenal)
+12103	ÿc4蜡炬成灰泪始干}ÿc5受到伤害后, 仆人每秒失去 10% 自身生命直至死亡}继承双倍〈元素智慧〉的火焰穿透}获得双倍火焰伤害, 攻击速度, 与移动速度}ÿc8英勇仆人 (Servant of Valor):
+12104	ÿc4无限潜力之璞玉
+12105	
+12106	
+12107	
+12108	
+12109	ÿc1你只能携带一个遗物
+12110	}ÿc5并与〈元素统治〉重塑}击败 6 个难度词条加持下的〈火卫二(黛莫丝)〉}ÿc4虚空装甲 Void Armor
+12111	ÿc8废弃圣坛 Abandoned Shrine}
+12112	ÿc8惊悚圣坛 Creepy Shrine}
+12113	ÿc8可怖圣坛 Eerie Shrine}
+12114	ÿc8强化圣坛 Enchanted Shrine}
+12115	ÿc8迷人圣坛 Fascinating Shrine}
+12116	ÿc8隐藏圣坛 Hidden Shrine}
+12117	ÿc8威吓圣坛 Intimidating Shrine}
+12118	ÿc8魔法圣坛 Magical Shrine}
+12119	ÿc8华丽圣坛 Ornate Shrine}
+12120	ÿc8静谧圣坛 Quiet Shrine
+12121	ÿc8神圣圣坛 Sacred Shrine}
+12122	ÿc8微光圣坛 Shimmering Shrine}
+12123	ÿc8灵魂圣坛 Spiritual Shrine}
+12124	ÿc8堕落圣坛 Tainted Shrine}
+12125	ÿc8三合一圣坛 Trinity Shrine}
+12126	ÿc8怪异圣坛 Weird Shrine}
+12127	深渊必将报以回视}若你凝视深渊许久}}以免化身为龙}仍需小心谨慎}屠龙的勇士}
+12128	ÿc5获得 5% 火焰,冰冷,闪电吸收}20 码半径}ÿc8等级 1 救赎光环
+12129	+80 魔法伤害 - 每 1% 致命攻击 (DS)
+12130	〈龙颌〉减少敌人 30% 物理抗性 1 秒}〈龙颌〉攻击范围扩大 33%
+12131	ÿc5致死一击 2% 几率施放等级 60 恐异风暴}ÿc8当拥有 25 点至〈恐异风暴〉时
+12132	低于 7000 生命时每秒恢复 1000 生命
+12133	ÿc5〈收割〉持续时间现为 15 秒}〈收割〉获得〈绽放〉的加成}不能召唤〈收割者〉}ÿc8如果你没有点数于熊人，狼人，鸮人，猎人和预言技能树
+12134	ÿc5以开启〈黑暗之心〉的传送门}与一个〈学习印章G〉重塑}将已解锁〈次元秘术〉的〈次元之钥〉
+12135	炎爆击: +10 投射物
+strHotkeydescEsc	切换游戏菜单
+strHotkeydescCharScreen	切换角色界面以查看你的属性并分配属性点
+strHotkeydescInventory	切换储藏箱界面以设置你的物品
+strHotkeydescPartyScreen	切换团队界面以看到游戏里的玩家，仅在多人游戏生效
+strHotkeydescMercScreen	如果你的雇佣兵存活，切换至雇佣兵界面以设置他们的物品
+strHotkeydescMsgLog	切换聊天信息记录
+strHotkeydescQuestScreen	切换任务界面以查看当前目标
+strHotkeydescSkillTree	切换技能树以分配技能点
+strHotkeydescSkillSelect	切换右键技能选择
+strHotkeydescSprint	按住以冲刺
+strHotkeydescSprintToggle	切换为一直冲刺，无需按住冲刺键
+strHotkeydescStandstill	按住以将技能施放到位，允许你施放通常需要你去向目标的法术
+strHotkeydescSwapWeap	在主手物品栏和副手物品栏间切换
+strHotkeydescClear	清除所有在界面上打开的面板
+strHotkeydescShowItems	按住以显示接近你的地上的所有物品
+strHotkeydescTogglePickup	在不按住Ctrl键的情况下切换地面上的物品拾取以显示物品
+strHotkeydescTransmute	当你使用赫拉迪姆方块时, 使用此键以重塑，无需点击重塑键
+strHotkeydescSkill	快速分配给此键的技能。可以在技能速度栏中指定技能选择键
+strHotkeydescQuickCast	施放分配给此键的技能。可以在技能速度栏中指定快速施法键
+strHotkeydescNextPrevSkill	循环使用指定的技能选择键
+strHotkeydescUseBelt	消耗该栏的腰带中的物品
+strHotkeydescShowBelt	切换你腰带中的全部物品一览
+strHotkeydescChat	切换游戏内聊天提示
+strHotkeydescClearMsg	清除你界面上的全部聊天信息
+strHotkeydescShowPortraits	在屏幕左上角切换队友肖像的可见性
+strHotkeydescScreencap	制造一个屏幕截图并存入你的截图文件夹
+strHotkeydescAutomap	显示你的地图
+strHotkeydescRevealMap	显示当前所在场景(act)的整个地图
+strHotkeydescMapSize	当使用地图时切换小地图视野
+strHotkeydescMapFade	使用地图时，在不同的地图渐变设置之间循环
+strHotkeydescMinimapPos	当使用小地图时，切换地图上的位置
+strHotkeydescEmote	你周围的其他玩家会听到你角色发出的音频表情
+12168	ÿc3+60% 物理抗性}ÿc5如果你拥有超过力量和体力总和的敏捷:}ÿc3+600 法术专注}ÿc5如果你拥有超过体力和力量总和的精力:}ÿc3+60% 固有元素伤害}+70% 致命攻击 (DS)}ÿc5如果你拥有超过体力和敏捷总和二倍的力量:
+12169	ÿc3+30% 图腾伤害协同加成}ÿc5如果你点了 〈魔灵〉:}ÿc3每基础 〈召唤〉 技能树 +15% 武器物理伤害 (WPD)}ÿc3每基础 〈召唤〉 技能树 +12% 仆从生命}ÿc5如果你点了 〈拉斯玛的选择〉 :}ÿc3〈鲜血骷髅〉 获得双倍仆从生命加成}ÿc3〈鲜血骷髅〉 继承 〈空爆击〉 的火焰伤害}ÿc5如果你点了 〈帷幕之王〉
+12170	ÿc8+1% 躲避伤害几率 - 每 500 敏捷}ÿc1不可被翻新
+12171	ÿc8+1 闪电伤害 - 每 1% 总武器物理伤害加成}+1 闪电伤害 - 每 1% 防御加成}ÿc1不可被翻新
+12172	ÿc8火焰，冰冷，闪电穿透减少 100%}〈喜极而狂〉: +300% 总伤害
+12173	ÿc3+2 至所有属性 - 每高于 130 的角色等级}+3% 魔法物品寻获率 (MF) - 每高于130 的角色等级
+12174	ÿc5任务奖励可以升级〈圣体之锤〉}与一个〈尤特符文(强化9号)〉重塑以获得 2 份任务挑战卷轴}ÿc4崔斯特姆地下的恐惧 Horror Under Tristram (英雄级 Heroic)
+12175	ÿc8 (最大 +100% 于满法力值时)}将你当前的法力百分比增加为武器物理伤害 (WPD)}ÿc5(仅限头盔)
+12176	ÿc5 打击时 1% 几率施放等级 60 〈处刑〉}击杀时 10% 几率施放等级 60 〈处刑〉}〈激光刃〉(Laserblade) 生效于所有武器}ÿc8当使用〈处刑〉(Crucify) 攻击时:
+12177	ÿc4 猎手执. 猎物逝}ÿc5获得 3-5 近战武器的物理伤害 - 每 1 耐力}获得 1 最大耐力 - 每 100 体力}ÿc8 当处于人类形态时: 
+12178	ÿc3法力回复 +2% - 每高于 130 的角色等级}+1% 最大法力 - 每高于 130 的角色等级
+12179	ÿc5任务奖励可以升级〈圣体之锤〉}与〈特哈尔符文(强化7号)〉重塑以获得 2 份任务挑战卷轴}ÿc4死亡发射器 Death Projector (英雄级 Heroic)}
+12180	活祭品: -2 秒冷却时间}死亡塑像: +4 最大〈塑像〉数量}获得 50 生命恢复 - 每〈寡妇制造者〉基础等级}〈寡妇制造者〉与你的生命偷取无效化 (Nullified)
+12181	〈焰尾击〉继承〈空爆击〉的火焰伤害}药物配制:〈焰尾击〉+1 投射物 - 每 4 基础等级
+12182	泽瑞伊圣裁:获得 1% 闪电穿透 - 每 1% 致命攻击
+12183	奥术狂怒: 于技能增益持续期间内获得 5% 的法力与精力加成
+12184	获得 65% 你的〈白狼伙伴〉基础伤害为基本(Flat)物理伤害}+2% 火焰，冰冷与闪电抗性 - 每〈白狼伙伴〉基础等级
+12185	ÿc5任务奖励可以升级〈圣体之锤〉}与〈西斯符文(强化6号)〉重塑以获得 2 份任务挑战卷轴}ÿc4炼狱机械 (英雄级 Heroic)}
+12186	ÿc3+2% 召唤仆从抗性 - 每高于 130 的角色等级}+3% 元素抗性 - 每高于 130 的角色等级
+12187	
+12188	ÿc8冬潮: +100% 伤害乘数加成
+12189	}ÿc5"混沌"赛季奖杯}+}(拥有 130+ 等级的神圣暗金)}随机的 SSSU}ÿc8等级 150
+12190	}ÿc5+20% 致命攻击 (DS)}+50% 法术伤害}+30% 固有元素伤害 (IED)}ÿc8等级 149
+12191	}ÿc5两个随机〈遗物〉}ÿc8等级 148
+12192	}ÿc5奇术之息 Breath of Thaumaturgy}碧空之触 Empyrean Touch}ÿc8等级 147
+12193	}ÿc5两个随机〈遗物〉}ÿc8等级 146
+12194	}ÿc5最大生命与法力 +10%}ÿc8等级 145
+12195	}ÿc5两个随机〈遗物〉}ÿc8等级 144
+12196	}ÿc57 腐化水晶 Corrupted Crystals}ÿc8等级 143
+12197	}ÿc5两个随机〈遗物〉}ÿc8等级 142
+12198	}ÿc5樱桃 Cherry}ÿc8等级 141
+12199	}ÿc5随机〈遗物〉}ÿc8等级 140
+12200	}ÿc5最大元素抗性 +1%}ÿc8等级 138
+12201	}ÿc5随机〈遗物〉}ÿc8等级 136
+12202	}ÿc5物理抗性 +10%}ÿc8等级 134
+12203	}ÿc5随机〈遗物〉}ÿc8等级 132
+12204	}ÿc5黑暗信徒 Dark Disciple [神圣] (Sacred)}ÿc8等级 130
+12205	}ÿc5炫影神行靴 Boots of Blinding Bluster [神圣] (Sacred)}ÿc8等级 128
+12206	}ÿc5随机〈遗物〉}ÿc8等级 125
+12207	}ÿc5(7 秒内 +777% 魔法物品获取率 (MF))}地精狂喜 Goblin Glee}ÿc8等级 122
+12208	}ÿc5随机的 束带 Cincture [大师级] (Mastercrafted)}ÿc8等级 119
+12209	}ÿc5哥德之杖 Gothic Staff [大师级] (Mastercrafted)}ÿc8等级 116
+12210	}ÿc5牧牛杖设计图 Staff of Herding Design}ÿc8等级 115
+12211	ÿc4(未领取的奖励将会被清空)}ÿc52 奥术水晶 Arcane Crystals}ÿc4于等级 126+ 时重塑以升级 需求: 
+12212	ÿc4(未领取的奖励将会被清空)}ÿc54x 25 学习印章 Signets of Learning}2 颠茄萃取物 Belladonna Extracts }ÿc4于等级 137+ 时重塑以升级 需求:
+12213	ÿc4(未领取的奖励将会被清空)}ÿc56x 25 学习印章 Signets of Learning}3 颠茄萃取物 Belladonna Extracts }ÿc4于等级 144+ 时重塑以升级 需求:
+12214	ÿc4(未领取的奖励将会被清空) }ÿc510x 25 学习印章 Signets of Learning}5 颠茄萃取物 Belladonna Extracts }ÿc4于等级 149+ 时重塑以升级 需求:
+12215	ÿc8 混沌赛季物品，当前不起作用}ÿc1不可被翻新
+12216	ÿc8 混沌赛季物品，当前不起作用}ÿc1不可被翻新
+12217	ÿc8 混沌赛季物品，当前不起作用}ÿc1不可被翻新
+12218	ÿc8 混沌赛季物品，当前不起作用}ÿc1不可被翻新
+12219	ÿc8 混沌赛季物品，当前不起作用}ÿc1不可被翻新
+12220	混沌赛季物品，当前不起作用
+12221	恭喜达到等级 150!
+12222	混沌赛季物品，当前不起作用
+12223	和创造限定暗金物品}只能用于改变神圣级(Sacred)和天使级(Angelic)黄装(Rare)武器/盔甲}在英雄级〈命运图书馆〉收集〈天堂之魂〉以锻造
+12224	<重塑以展现锻造配方 下一个: 钻石 Diamond>}}ÿc1包括: 凹槽镶嵌 / 球体应用 / 祝福 / 祝福 / 在锻造前腐化}警告: 物品的属性变动将干扰熔炉的运作
+12225	ÿc3}[4] + [6] = (5-8)% 致命攻击 (DS)}[3] + [4] = (90-120) 法术专注 (双手武器)}[3] + [4] = (60-80) 法术专注 (单手武器)}[2] + [4] = (126-162) 最小伤害 (双手武器)}[2] + [4] = (55-81) 最小伤害 (单手武器)}[1] + [2] = 120% 增强伤害 (ED)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的钻石 + 油类}ÿc8当前改变黄装的物品: 钻石 Diamond
+12226	<重塑以改变锻造配方 下一个: 红宝石 Ruby>}---}ÿc3[6] + [4] = (6-10)% 物理抗性 (身体护甲，盾牌)}[5] + [2] = (21-25) 伤害减少 }[4] + [2] = (2-3)% 物理抗性}盔甲类后缀 (Armor Suffixes)}}[3] + [4] = (180-216) 最大伤害 (双手武器)}[3] + [4] = (111-135) 最大伤害 (单手武器)}[2] + [2] = 10% 减速目标}[1] + [2] = (39-50)% 仆从伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]}}ÿc3[5] + [2] = 150% 增强防御}盔甲类前缀 (Armor Prefixes)
+12227	ÿc3[4] + [4] = (21-30)% 火焰法术伤害 (身体护甲)}[4] + [4] = 10% 火焰法术伤害}盔甲类的前缀 (Armor Prefixes)}}[3] + [2] = 10% 生命偷取}[2] + [2] = (301-400) 生命}[1] + [4] = (55-65)% 火焰法术伤害 (双手武器)}[1] + [4] = (25-35)% 火焰法术伤害 (单手武器)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5 每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的红宝石 + 油类}ÿc8当前改变黄装的物品: 红宝石 Ruby
+12228	<重塑以改变锻造配方 下一个: 蓝宝石 Sapphire>}---}ÿc3[6] + [4] = 15% 火焰穿透 (身体护甲)}[6] + [4] = +5% 火焰穿透 }[5] + [2] = 1% 最大火焰抗性 }盔甲类后缀 (Armor Suffixes)}}[4] + [2] = +60% 仆从生命 (双手武器)}[4] + [2] = 30% 仆从生命 (单手武器)}[3] + [2] = (81-100) 杀死后获得生命}[2] + [4] = 25% 火焰穿透 (双手武器)}[2] + [4] = 15% 火焰穿透 (单手武器)}[1] + [2] = (250-400) 火焰伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]ÿc3}}[6] + [2] = 50 生命恢复}[5] + [2] = (136-170) 生命
+12229	ÿc3[4] + [4] = 10% 冰冷法术伤害}[3] + [1] = -15% 技能法力消耗}盔甲类前缀 (Armor Prefixes)}}[3] + [1] = 10% 法力偷取}[2] + [1] = (201-250) 法力 }[1] + [4] = (55-65)% 冰冷法术伤害 (双手武器)}[1] + [4] = (25-35)% 冰冷法术伤害 (单手武器)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5 每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的蓝宝石 + 油类}ÿc8当前改变黄装的物品: 蓝宝石 Sapphire
+12230	<重塑以改变锻造配方 下一个: 黄宝石 Topaz>}---}ÿc3[6] + [4] = 15% 精力 (身体护甲)}[5] + [4] = 15% 冰冷穿透 (身体护甲)}[5] + [4] = 5% 冰冷穿透}[4] + [2] = 1% 最大冰冷抗性}盔甲类后缀 (Armor Suffixes)}}[3] + [2] = (41-50) 杀死后获得法力}[2] + [4] = 25% 冰冷穿透 (双手武器)}[2] + [4] = 15% 冰冷穿透 (单手武器)}[1] + [2] = (300-350) 冰冷伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]ÿc3}}[5] + [2] = (51-90) 法力}[4] + [4] = (21-30)% 冰冷法术伤害 (身体护甲)
+12231	ÿc3[4] + [2] = 10% 闪电法术伤害}盔甲类前缀 (Armor Prefixes)}}[3] + [2] = 70% 攻击速度 (双手武器)}[3] + [2] = 40% 攻击速度 (单手武器)}[2] + [2] = 40% 施法速度}[1] + [4] = (55-65)% 闪电法术伤害 (双手武器)}[1] + [4] = (25-35)% 闪电法术伤害 (单手武器)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5 每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的黄宝石 + 油类}ÿc8当前改变黄装的物品: 黄宝石 Topaz
+12232	<重塑以改变锻造配方 下一个: 绿宝石 Emerald>}---}ÿc3[5] + [4] = 15% 敏捷 (身体护甲)}[4] + [4] = 15% 闪电穿透 (身体护甲)}[4] + [4] = 5% 闪电穿透}[3] + [2] = 1% 最大闪电抗性}盔甲类后缀 (Armor Suffixes)}}[2] + [4] = 25% 闪电穿透 (双手武器)}[2] + [4] = 15% 闪电穿透 (单手武器)}[1] + [2] = (1-750) 闪电伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]ÿc3}}[5] + [2] = (41-50)% 魔法物品获取率 (MF) (身体护甲)}[4] + [2] = (21-30)% 闪电法术伤害 (身体护甲)
+12233	[3] + [4] = +10% 毒素法术伤害}[2] + [2] = (41-50)% 毒素持续时间减少 (身体护甲)}[2] + [2] = 25% 毒素持续时间减少}盔甲类前缀 (Armor Prefixes)}}[1] + [4] = (55-65)% 毒素法术伤害 (双手武器)}[1] + [4] = (25-35)% 毒素法术伤害 (单手武器)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5 必须拥有足够的灵魂}每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的绿宝石 + 油类}ÿc8当前改变黄装的物品: 绿宝石 Emerald
+12234	<重塑以改变锻造配方 下一个: 骷髅 Skull>}---}ÿc3[7] + [4] = 20% 力量 (身体护甲)}[6] + [4] = +15% 毒素穿透 (身体护甲)}[6] + [4] = 5% 毒素穿透}[5] + [2] = 1% 最大毒素抗性}[4] + [2] = 1% 格挡几率 (非职业限定盾牌)}盔甲类后缀 (Armor Suffixes)}}[3] + [2] = 200% 攻击准确率 }[2] + [2] = 25% 毒素穿透 (双手武器)}[2] + [2] = 15% 毒素穿透 (单手武器)}[1] + [2] = 538 每秒毒素伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]ÿc3}}[3] + [2] = (21-30)% 毒素法术伤害 (身体护甲)
+12235	}[2] + [4] = (25-35)% 物理/魔法法术伤害 (身体护甲)}[2] + [4] = 12% 物理/魔法法术伤害}盔甲类前缀 (Armor Prefixes)}}[1] + [4] = (70-80)% 物理/魔法法术伤害 (双手武器)}[1] + [4] = (30-40)% 物理/魔法法术伤害 (单手武器)}武器前缀 (Weapon Prefixes)}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5每组词缀只能生成一个词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的骷髅 + 油类}ÿc8当前改变黄装的物品: 骷髅 Skull
+12236	<重塑以改变锻造配方 下一个: 彩虹石 Rainbow Stone>}---}ÿc3[3] + [4] = 15% 体力 (身体护甲)}[2] + [2] = 25% 金币获取量 (GF) (身体护甲)}盔甲类后缀 (Armor Suffixes)}}[1] + [2] = (350-400) 魔法伤害}武器后缀 (Weapon Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]ÿc3
+12237	}[2] + [4] = 14 至 黎明初升 (Rising Dawn) [刺客盾牌, 圣骑士单手武器, 亚马逊头盔]}}[1] + [4] = (8-16) 至 死星 (Death Star) [爪, 刺客盾牌, 亚马逊/野蛮人头盔]}物品专属技能 (oSkills) - 后缀 (Suffixes)}ÿc;[强化油数量] + [灵魂数量] = [锻造效果]}}ÿc5 必须拥有足够的灵魂}物品不能拥有超过一个相同的词缀}物品不能拥有超过 3 个前缀和 3 个后缀}合成公式: 灵魂熔炉 + 黄装物品 + 完美的彩虹石 + 油类}ÿc8当前改变黄装的物品: 彩虹石 Rainbow Stone
+12238	<重塑以改变锻造配方 下一个: 锻造暗金>}---}ÿc3[6] + [4] = 18 至 瞬怒 (Tantrum) [弓/弩]}}[1] + [4] = 12 至 炫光 (Flash) [爪/野蛮人/圣骑士头盔]}}[5] + [4] = (4-14) 至 灼热辉光 (Searing Glow) [亚马逊/圣骑士盾牌, 德鲁伊头盔, 死灵法师法杖]}}[4] + [4] = (8-16) 至 凤凰波 (Phoenix Wave) [爪, 法杖, 亚马逊盾牌]}}[3] + [4] = 14 至 混沌火花 (Chaotic Spark) [圣骑士头盔, 法师身体护甲]
+12239	100% 的物理/魔法法术伤害增加至每秒生命恢复
+12240	刀锋女王: +50% 生效范围
+12241	[2] + [20] = ÿc4弃道 Faithlessÿc3（物理系用爪)}[1] + [20] = ÿc4渡鸦斗篷 Raven Mantleÿc3 (物理/魔法系身体护甲)}}ÿc;[锻造油数量] + [灵魂数量] = [锻造效果]}}ÿc5合成公式: 灵魂熔炉 + 灵魂 + 油类}ÿc8锻造暗金
+12242	神圣判决:攻击时获得 1.5% 火焰穿透 - 每基础等级
+12243	ÿc1不可被锻造 (否则圣坛消失)}不可被翻新
+12244	ÿc5在方块内重塑以获得该主题挑战的"智慧珍珠"}ÿc5;需要〈命运圣体〉和〈命运之徽〉以进行深入调查}}ÿc5与一颗〈完美的宝石〉和 50,000 金币重塑以开启 130 的等级区域}ÿc;奖励: 〈天使级〉(Angelic) 物品, 可锻造类黄装, 限定锻造类暗金物品}ÿc8英雄级〈命运图书馆〉Heroic Library of Fate}
+12245	打击时 1% 获得〈群落之心〉的效果 3 秒
+12246	ÿc5+25% 致命攻击 (DS)}+10% 闪电吸收}+10% 寒冷吸收}+10% 火焰吸收}ÿc8如果你拥有至少 450% 对恶魔伤害 (DTD)
+StrCfgTabLootFilterSettings	}过滤器设置
+StrLootFilterCfgConditions	筛选条件:
+StrLootFilterCfgItemQuality	物品的稀有度为: 
+StrLootFilterCfgClvl	生效的角色等级范围
+StrLootFilterCfgIlvl	生效的物品等级范围
+StrLootFilterCfgItemClass	物品类别为: 
+StrLootFilterCfgItemCode	物品为: 
+StrLootFilterCfgLowQual	低劣的 Low Quality
+StrLootFilterCfgNormal	普通 Normal
+StrLootFilterCfgSuperior	超强的 High Quality
+StrLootFilterCfgMagic	蓝装 Magic
+StrLootFilterCfgSet	套装 Part of a Set
+StrLootFilterCfgRare	黄装 Rare
+StrLootFilterCfgUnique	暗金 Unique
+StrLootFilterCfgCraft	手工(橙装) Crafted
+StrLootFilterCfgTempered	荣耀 Honorific
+StrLootFilterCfgUnknown	未知 Unknown
+StrCfgTitleLootFilter	掉落物过滤器设置
+StrCfgDisplayToggleShowLoot	是否ALT键开启掉落常显
+StrCfgDisplayNoLootFilterTown	是否在城镇应用过滤器
+StrCfgLootFilterBtnNewConfig	新配置
+StrCfgLootFilterBtnImportConfig	从剪切版导入配置
+StrCfgLootFilterBtnRevert	取消上次未保存的更改 (ctrl+z)
+StrCfgLootFilterBtnSave	保存更改 (ctrl+s)
+StrCfgLootFilterBtnDelete	删除配置
+StrCfgLootFilterBtnExport	导出至剪切版
+StrCfgLootFilterBtnAddRule	增加条目
+StrCfgLootFilterBtnUndoAll	取消所有未保存的更改
+StrCfgNone	无
+StrCfgAny	所有
+StrCfgTo	至
+StrCfgLootFilterOutcomeShow	显示
+StrCfgLootFilterOutcomeHide	隐藏
+StrCfgLootFilterLabelName	名字:
+StrCfgLootFilterLabelShowItemDefault	默认全显物品:
+StrCfgLootFilterLabelConfiguration	配置:
+StrCfgLootFilterLabelRuleSettings	- 条目设置 -
+StrCfgLootFilterLabelRuleShowItem	显示物品:
+StrCfgLootFilterLabelRuleActive	激活该条目
+StrCfgLootFilterLabelRuleConditions	- 筛选条件 -
+StrCfgLootFilterLabelItemQuality	物品的稀有度为:
+StrCfgLootFilterLabelItemEthereal	物品是否为无形:
+StrCfgLootFilterLabelIlvl	生效的物品等级范围:
+StrCfgLootFilterLabelClvl	生效的角色等级范围:
+StrCfgLootFilterLabelSpecificCondition	- 特定筛选条件 -
+StrCfgLootFilterMatchItemByCategory	分类选取物品
+StrCfgLootFilterMatchItemByCode	选取指定物品
+StrCfgLootFilterLabelYes	是
+StrCfgLootFilterLabelNo	否
+StrCfgLootFilterLabelEither	全选
+StrCfgLootFilterItemIsEthereal	物品无形
+StrCfgLootFilterItemIsNotEthereal	物品有形
+StrCfgLootFilterLabelAnd	与
+StrCfgLootFilterUnsavedChanges	你确定要放弃所有更改吗？}当前配置有未保存的更改
+StrCfgLootFilterLabelDiscard	放弃
+StrCfgLootFilterLabelCancel	取消
+StrCfgLootFilterWarnDeleteConfig	你确定要删除吗？}配置将会被永久删除
+StrCfgLootFilterLabelDelete	删除
+StrCfgLootFilterFavoriteOn	设定为"心选
+StrCfgLootFilterFavoriteOff	取消"心选
+StrCfgHotkeyFavoriteLf	心选"掉落物过滤器
+StrCfgHotkeyDefaultLf	默认"掉落物过滤器
+StrCfgHotkeyDescFavoriteLf	切换至"心选"掉落过滤配置
+StrCfgHotkeyDescDefaultLf	切换至"默认"掉落过滤配置
+StrCfgLootFilterLabelMoveRule	移动此"条目"的位置}选择你想要
+StrCfgLootFilterLabelMoveRuleHere	点击以移动该"条目"到此位置
+12313	ÿc8可以从"稀有词缀"中生成任一"物品专属技能" (oSkill)}ÿc1不可被翻新
+12314	ÿc81% 致命攻击 - 每 7% 移动速度}ÿc1不可被翻新
+12315	ÿc8湮灭之球: +10% 总伤害 - 每个当前穿戴的腐化装备}每次成功腐化增加 10 等级需求}腐化失败不增加等级需求}腐化效果增强}可被腐化 10 次}ÿc1已腐化
+StrCfgLootFilterLabelNotify	通知:
+StrCfgLootFilterLabeShowOnMap	在地图上显示:
+StrCfgLootFilterNotifyDesc	你的界面会弹出通知}当符合选取标准的物品掉落时
+StrCfgLootFilterShowOnMapDesc	你的小地图会显示}当符合选取标准的物品掉落时
+StrPushNotifGoblinAppear	 出现了！
+StrPushNotifHighThreat	前方发现高威胁目标！
+DescBaalTrophy	80}毁灭的前夕-奖杯挑战}任务需求:}在不受到"黑毯轰炸"攻击的情况下击败"巴尔"}不可死亡}}在 10 秒内重塑〈创造之魂〉以获得加成: }元素抗性 +10%}仅限当前角色职业}
+DescAzmoTrophy	80}罪恶之心-奖杯挑战}任务需求: }在不受到"火血兽"攻击的情况下}击败"阿兹莫丹"}不可死亡}}在 10 秒内重塑〈阿兹莫丹的心脏〉以获得加成: }+150 生命}+75 法力}仅限当前角色职业}
+DescBremmTrophy	80}布雷姆堂-奖杯挑战}任务需求:}在进图后 30 秒内击败"黑星龙"}不可死亡}}在 10 秒内重塑〈龙爪〉以获得加成: }+10% 经验获取}
+RevealTrophyChallenge	ÿc8右键以打开"奖杯挑战"相关说明
+12326	ÿc8菇毒: 2000% 固有元素伤害(IED)加成至伤害乘数}ÿc3+28 至 菇毒 (Amatoxin)}ÿc1禁用远程技能
+StrPushNotifFavoriteFilter	切换至"心选"过滤器设置
+StrPushNotifDefaultFilter	切换至"默认"过滤器设置
+strObjectNameDeusExMachina	ÿc1你不可返回}ÿc1只能启动一次}ÿc0以终结这场噩梦}ÿc0在其作用范围内坚持 15 秒}ÿc0点击以启动装置}ÿc4出世神机 Deus Ex Machina
+12330	ÿc5物理伤害减少 150}+20% 几率造成压碎性打击 (CB)}+100 杀死后获得生命}+20% 减慢目标}ÿc4机枪岗哨 (ATMG), 充能一击 (Charged Strike), 智天使 (Cherubim)} 警戒塔 (Guard Tower), 以眼还眼 (Lex Talionis), 撼石击 (Rock Shock), 时间波动 (Time Wave)}ÿc8如果你拥有至少 30 点技能等级 至下列任一技能:}智天使: +(50-75) 魔法伤害 - 每技能等级}警戒塔: +1 箭矢
+StrCfgSearch	查找...
+12332	力量/敏捷
+12333	ÿc1不造成魔法伤害
+StrCfgTabGraphics	设置}画质
+StrCfgGfxFullscreen	全屏
+StrCfgGfxWindowSize	窗口模式
+StrCfgGfxDriver	画质引擎
+StrCfgGfxVsync	垂直同步
+StrCfgGfxStretch	自适应尺寸
+StrCfgGfxSharpen	锐化图像
+StrCfgGfxBadDriver	某些设置可能被禁用}未识别的画质驱动
+StrCfgGfxShaderPreset	高级着色器预设
+12343	+13 至 所有属性}ÿc4武器，盔甲:}
+12344	+10 至最小伤害}ÿc4盔甲:}}ÿc0+20 至 最大伤害}ÿc4武器:}
+12345	+5% 至 火焰法术伤害}ÿc4武器，盔甲:}
+12346	+5% 至 闪电法术伤害}ÿc4武器，盔甲:}
+12347	+5% 至 冰冷法术伤害}ÿc4武器，盔甲:}
+12348	+5% 至 毒素法术伤害}ÿc4武器，盔甲:}
+12349	+5% 至 物理/魔法法术伤害}ÿc4武器，盔甲:}
+12350	火焰抗性 +45%}ÿc4盾牌:}}ÿc0火焰抗性 +35%}ÿc4盔甲:}}ÿc0火焰抗性 +35%}ÿc4武器:}
+12351	闪电抗性 +45%}ÿc4盾牌:}}ÿc0闪电抗性 +35%}ÿc4盔甲:}}ÿc0闪电抗性 +35%}ÿc4武器:}
+12352	冰冷抗性 +45%}ÿc4盾牌:}}ÿc0冰冷抗性 +35%}ÿc4盔甲:}}ÿc0冰冷抗性 +35%}ÿc4武器:}
+12353	毒素抗性 +45%}ÿc4盾牌:}}ÿc0毒素抗性 +35%}ÿc4盔甲:}}ÿc0毒素抗性 +35%}ÿc4武器:}
+12354	+75 至 法力}ÿc4盾牌:}}ÿc0+75 至 法力}ÿc4盔甲:}}ÿc0+100 至 法力}ÿc4武器:}
+12355	+15% 毒素技能持续时间加成}ÿc4盔甲:}}ÿc0+20% 毒素技能持续时间加成}ÿc4武器:}
+12356	+20% 至 召唤仆从生命}ÿc4武器，盔甲:}
+12357	+10% 至 召唤仆从伤害}ÿc4武器，盔甲:}
+12358	+70% 至 召唤仆从攻击准确率}ÿc4武器，盔甲:}
+12359	+7% 至 召唤仆从抗性}ÿc4武器，盔甲:}
+12360	7% 至 力量}ÿc4武器，盔甲:}
+12361	7% 至 敏捷}ÿc4武器，盔甲:}
+12362	6% 至 体力}ÿc4武器，盔甲:}
+12363	7% 至 精力}ÿc4武器，盔甲:}
+12364	元素抗性 +13%}ÿc4武器，盔甲:}
+12365	+4% 至 所有属性}ÿc4武器，盔甲:}
+12366	+10% 魔法物品寻获率 (MF)}ÿc4盔甲:}}ÿc0+13% 魔法物品寻获率 (MF)}ÿc4武器:}
+12367	+30% 攻击速度}ÿc4盔甲:}}ÿc0+40% 攻击速度}ÿc4武器:}
+12368	+30% 施法速度}ÿc4盔甲:}}ÿc0+40% 施法速度}ÿc4武器:}
+12369	+40% 快速打击恢复}ÿc4盾牌:}}ÿc0+30% 快速打击恢复}ÿc4武器，盔甲:}
+12370	+40% 格挡速度}ÿc4盾牌:}}ÿc0+30% 格挡速度}ÿc4武器，盔甲:}
+12371	法力回复 +11%}ÿc4盾牌:}}ÿc0法力回复 +11%}ÿc4盔甲:}}ÿc0法力回复 +22%}ÿc4武器:}
+12372	减慢攻击者 +5%}ÿc4盾牌:}}ÿc0减慢攻击者 +4%}ÿc4盔甲:}}ÿc0减速目标 +5%}ÿc4武器:}
+12373	+25% 增强防御}ÿc4盔甲:}}ÿc0+25% 增强伤害}ÿc4武器:}}ÿc0+25% 增强防御}ÿc4盾牌:}
+12374	最大生命 +3%}ÿc4盾牌:}}ÿc0最大生命和法力 +2%}ÿc4盔甲:}}ÿc0最大法力 +5%}ÿc4武器:}
+12375	+1 至 所有技能}ÿc4盾牌:}}ÿc0+1 至 所有技能}ÿc4盔甲:}}ÿc0+1 至 所有技能}ÿc4武器:}
+12376	可以被升级以解锁"圣体"技能
+12377	可在 [英雄级] 地城挑战任务中升级
+12378	你的标枪触发物必定穿透
+12379	ÿc0重塑: 圣体之锤 + 3 天堂之魂 + 200,000 金币 = 命运图书馆 等级 139 入场卷轴}ÿc4等级 139}}ÿc0重塑: 圣体之锤 + 2 天堂之魂 + 100,000 金币 = 命运图书馆 等级 136 入场卷轴}ÿc4等级 136}}ÿc0重塑: 圣体之锤 + 天堂之魂 + 50,000 金币 = 命运图书馆 等级 133 入场卷轴}ÿc4等级 133}ÿc2(放在物品栏以获得加成)}解锁专精技能: 命运圣体 (Paragon of Fate)
+12380	ÿc/<重塑>}}ÿc5〈天庭试炼邀约〉可在等级 139 的命运图书馆掉落}ÿc4等级 147}}ÿc3-5% 敌人魔法抗性}最大生命 +5%}ÿc4等级 145}}ÿc5〈天庭奇物〉可在等级 139+ 的命运图书馆内掉落}ÿc4等级 143}}ÿc5重塑: 天堂之魂 + [天使级] 物品 以刷新词缀}ÿc4等级 141
+12381	爱国者导弹岗哨: 开火频率加倍，持续时间减半
+12382	ÿc8每〈之道〉技能等级增加 1 敏捷}ÿc8你的〈之道〉不再获得元素伤害
+12383	ÿc/<重塑>}}ÿc0重塑: 圣体之锤 + 天堂之魂 + 50,000 金币 = 命运图书馆 等级:133 入场卷轴}提升 [天使级] 物品在等级 133+ 命运图书馆内的掉率}ÿc4等级 133}}ÿc0〈天堂之魂〉掉率大幅提升}ÿc4等级 130}ÿc0在以下关卡中解锁奖励}}并升级你的〈圣体之锤〉}重塑 5 个〈天堂之魂〉以锻造〈命运之徽〉}学习〈命运圣体〉专精}ÿc8揭露所有的英雄级〈命运图书馆〉之秘，需要:}
+12384	ÿc/<重塑>}}ÿc0重塑: 圣体之锤 + 3 天堂之魂 + 200,000 金币 = 命运图书馆 等级 139 入场卷轴}可在等级 133+ 的〈命运图书馆〉内寻找〈魂艺球体〉}ÿc4等级 139}}ÿc0重塑: 圣体之锤 + 2 天堂之魂 + 100,000 金币 = 命运图书馆 等级 136 入场卷轴}ÿc4等级 136}}ÿc5+1% 至 最大元素抗性}+10% 物理抗性}ÿc8当你在英雄级〈命运图书馆〉时:}ÿc4等级 135
+12385	(仅限盾牌)
+12386	(仅限身体护甲)
+12387	每件装备上限:
+12388	ÿc5(黄字效果可叠加)}ÿc8+1% 经验获取直至等级 100 
+12389	ÿc5(黄字效果可叠加)ÿc8}+2% 移动速度直至等级 100 
+12390	ÿc5(黄字效果可叠加)ÿc8}+2 最大三元素伤害 - 每 5 角色等级
+12391	ÿc5(黄字效果可叠加)ÿc8}+15 法术专注直至等级 100
+12392	你的仆从失去攻击准确率}〈召唤神〉召唤物不再限制彼此
+12393	ÿc8+3% 物理/魔法法术伤害 - 每个 黄装/手工 装备上的随机词缀 }+2% 移动速度 - 每个 黄装/手工 装备上的随机词缀}ÿc:与〈魂艺球体〉重塑以应用双倍效果
+12394	ÿc8+5% 武器物理伤害 (WPD) - 每件 黄装/手工 装备上的随机词缀}+2% 移动速度 - 每件 黄装/手工 装备上的随机词缀}ÿc:与〈魂艺球体〉重塑以应用双倍加成
+Stoneharpe	诛神石刃 Stoneharpe
+12396	蛇魔斩: 减速目标 1% - 每 2 技能等级
+12397	ÿc5力量: 火焰 ÿc8| ÿc5敏捷: 冰冷 ÿc8| ÿc5精力: 闪电 ÿc8| ÿc5体力: 毒素}ÿc5若属性相同，则加成多个}ÿc8获得 0.75% 最高的属性点至该元素的元素穿透
+12398	}复生者获得 100 每秒生命回复 - 每〈复活术〉技能等级
+12399	〈地精狂喜〉持续时间增加 3 秒，但会减少你的 66% 最大生命
+12400	ÿc3+1% 至 最大元素抗性 - 若你的 黄装/手工 装备上拥有至少 36 个随机词缀
+12401	ÿc2星象图 Star Chart (4)
+12402	ÿc2星象图 Star Chart (3)
+12403	ÿc2星象图 Star Chart (2)
+12404	ÿc2星象图 Star Chart (1)
+12405	ÿc2幻梦碎片 Dream Fragment (5)
+12406	ÿc2幻梦碎片 Dream Fragment (4)
+12407	ÿc2幻梦碎片 Dream Fragment (3)
+12408	ÿc2幻梦碎片 Dream Fragment (2)
+12409	ÿc2幻梦碎片 Dream Fragment (1)
+12410	ÿc5- 已觉醒 -
+12411	}ÿc5(必须由低到高顺序进行重塑)}探索每一层秘境，并将每一层的秘境石与钥匙进行重塑}ÿc4探秘试炼 Trial of Discovery
+12412	ÿc1每秒损耗 5% 最大生命和法力}ÿc8〈飞锤时刻〉从饮用药水获得的加成翻倍}药水额外持续 5 秒，可同时饮用三种不同的药水
+12413	ÿc57% 几率移除 10 需求等级}ÿc567% 几率成功丨33% 增加 50 需求等级}可被多次腐化}
+12414	ÿc82% 最大生命加成至物理伤害 - 若持有盾}ÿc1〈剜心剔骨〉不再发射额外投射物 - 如果你最近格挡过
+12415	炫光: 力量和致盲效果范围加倍
+12416	ÿc3-200 生命 - 于近战攻击时}ÿc1你也会受到影响}ÿc8施展一个随机的致命诅咒 - 于近战攻击时
+12417	〈高洁〉与〈祝圣〉: 移除负面效果
+12418	ÿc7圣尊遗词 Famous last words}
+12419	ÿc8仅能生成"触发"词条}可以生成同样的"触发"词条多次}可以从稀有词缀中生成任一"触发"(Proc)词条
+12420	ÿc8 磁场: 造成 65% 武器闪电伤害 至 法术伤害 - 每次击中，不造成击中时效果}ÿc835% 当前法力增加 至 闪电伤害
+12421	获得 20 火焰伤害至武器 - 每 1% 击中时生命偷取
+12422	ÿc5;(至多 5 次, 祝福效果强化)}ÿc8可被祝福
+12423	ÿc5+30 生命于杀死后获得}ÿc5最大火焰与冰冷抗性 +1%}ÿc5+1 至所有技能}ÿc8身上每个被祝福的装备:
+DescRvgsteal	% 火焰伤害 - 每 1% 生命偷取
+12425	ÿc81% 火焰法术伤害 - 每 5 超过上限的法术专注
+12426	ÿc81% 闪电法术伤害 - 每 5 超过上限的法术专注
+12427	ÿc81% 冰冷法术伤害 - 每 5 超过上限的法术专注
+12428	ÿc81% 毒素法术伤害 - 每 5 超过上限的法术专注
+12429	+1% 毒素法术伤害 - 每 3% 攻击速度
+12430	ÿc5精力: +15% 毅力值}体力: 你的 600% 对亡灵伤害增加至武器冰冷伤害}敏捷: +300% 武器物理伤害}力量: +5000 攻击准确率}ÿc1不生效于"野蛮人"}ÿc8基于你最高属性获得加成 - 若你持有单手武器且一只手为空手时
+12431	ÿc5(光环效果关闭)
+12432	ÿc5(召唤火元素 - 召唤冰元素)}当持有下述两个遗物时，每次召唤一个额外的元素
+12433	ÿc0重塑: 圣体之锤 + 2 神圣精华 + 300,000 金币 = 邓卡 等级 139 入场卷轴}ÿc4等级 139}}ÿc0重塑: 圣体之锤 + 神圣精华 + 200,000 金币 = 邓卡 等级 134 入场卷轴}ÿc4等级 134}}ÿc0重塑: 圣体之锤 + 任意神圣暗金 + 100,000 金币 = 邓卡 等级 130 入场卷轴}重塑: 圣体之锤 + 4 (8) 神圣暗金 = 1 (2) 神圣精华}ÿc4等级 130}ÿc2(放在物品栏以获得其加成)}解锁专精技能: 至高圣体 (Paragon of Sanctity)
+12434	在方块里重塑以获得该主题挑战的"智慧珍珠"}}ÿc5以学习"至高圣体"技能的"至高之徽"}与 5 个神圣暗金重塑以制造}ÿc;奖励: 亚述尔之灾 升级, 神圣暗金 锻造, 限定暗金}ÿc8邓卡 [英雄级] Heroic Duncraig}
+12435	ÿc5最大元素抗性 -10%}ÿc3如果同时装备两个戒指}ÿc8亚述尔之咒 Assur's Curse}
+12436	<重塑>}}ÿc1(若拥有 75% 诅咒抗性，则移除惩罚)}惩罚降低 1% - 每 15% 诅咒抗性}-5% 最大元素抗性}ÿc8咒骨者的圣所 Bonehexer's Sanctum}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12437	<重塑>}}ÿc;击败 咒骨者 以获得奖杯}}ÿc1(若拥有 150% 诅咒抗性，则移除惩罚)}惩罚减少 1% - 每 15% 诅咒抗性}-10% 最大元素抗性}ÿc8咒骨者的圣所 Bonehexer's Sanctum}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12438	<重塑>}}ÿc1-1% 魔法抗性 - 每 1% 躲避伤害}ÿc1折跃技能范围大幅减少}-100% 攻击准确率加成}ÿc8挖眼者的圣庭 Eyegouger's Sanctuary}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12439	<重塑>}}ÿc;击败 挖眼者 以获得奖杯}ÿc1-1% 魔法抗性 - 每 1% 躲避伤害}ÿc1折跃技能范围大幅减少}-300% 攻击准确率加成}ÿc8挖眼者的圣庭 Eyegouger's Sanctuary}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12440	<重塑>}}ÿc1-1 至所有技能 - 每 250 精力}法力恢复 -50%}ÿc8笞心者的育灵堂 Mindflayer's Sanatorium}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12441	<重塑>}}ÿc;击败 笞心者 以获得奖杯}}ÿc1-1 至所有技能 - 每 250 精力}法力恢复 -150%}ÿc8笞心者的育灵堂 Mindflayer's Sanatorium}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12442	<重塑>}}ÿc1生命回复: -20 - 每秒 - 每 1000 最大生命per }生命闪耀效能: -3% - 每 1000 最大生命}打击时获得生命: -1 - 每 5000 最大生命}ÿc8裂肤者的残识 Skinrender's Fragmentary}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12443	<重塑>}}ÿc;击败 裂肤者 以获得奖杯}}ÿc1生命回复: -20 - 每秒 - 每 1000 最大生命}生命闪耀效能: -3% - 每 1000 最大生命}打击时获得生命: -1 - 每 5000 最大生命}ÿc8裂肤者的残识 Skinrender's Fragmentary}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12444	<重塑>}}ÿc1-1% 物理抗性 - 每 15,000 防御}ÿc8碎脊者的隐修院 Spinecracker's Abbey}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12445	<重塑>}}ÿc;击败 碎脊者 以获得奖杯}}ÿc1-1% 物理抗性 - 每 15,000 防御}ÿc8碎脊者的隐修院 Spinecracker's Abbey}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12446	ÿc1火药桶: 7,000 魔法攻击}基础攻击准确率: +125%}}ÿc2+20% 装备掉落}+25% 暗金掉落倾向}}ÿc4场景等级: 130}邓卡 [英雄级] Duncraig (Heroic)}
+12447	<重塑以获得更多信息>}}ÿc1关卡变体拥有额外的难度词条}火药桶: 7,000 魔法伤害}基础攻击准确率: +200%}}ÿc2+50% 装备掉率}+40% 暗金掉落倾向}}ÿc4场景等级: 134}邓卡 [英雄级] Duncraig (Heroic)}
+12448	<重塑以获得更多信息>}}ÿc1关卡变体拥有额外的难度词条}火药桶: 14,000 魔法伤害}基础攻击准确率: +400%}}ÿc2+60% 装备掉率}+80% 暗金掉落倾向}}ÿc4场景等级: 139}邓卡 [英雄级] Duncraig (Heroic)}
+12449	<重塑以获得更多信息>}}ÿc1关卡变体拥有额外的难度词条}火药桶: 14,000 魔法伤害}基础攻击准确率: +650%}}ÿc2+75% 装备掉率}+120% 暗金掉落倾向}}ÿc4场景等级: 140}邓卡 [英雄级] Duncraig (Heroic)}
+12450	闪电护盾: 元素伤害减少以 33% 的效能应用于非"亚马逊"的所有职业
+12451	5% 的已损失生命加成至直接物理伤害减少
+12452	ÿc5重塑以绑定至你的职业}ÿc7如果你已击杀超过 50 000 个敌人 - 于等级 130 邓卡
+12453	与配对的〈遗物〉重塑以进行特化
+12454	<重塑以了解更多>}}ÿc0使用神圣暗金 (等级: 105) 创造祭坛 - 于邓卡 等级 130+}重塑: 圣体之锤 + 任意神圣暗金 + 100,000 金币 = 邓卡 等级 130 入场卷轴}重塑: 圣体之锤 + 4 (8) 神圣暗金 = 1 (2) 神圣精华}ÿc4等级 130}ÿc0在下列关卡中解锁奖励}}升级你的〈圣体之锤〉 (3 次数) 并学习〈至高圣体〉技能}将〈恶魔之灾〉与重塑 5 个神圣暗金以创造〈至高之徽〉}ÿc8说明书}
+12455	<重塑>}}ÿc4等级 138: ÿc5+20% 魔法抗性 - 于邓卡 等级 130+}}ÿc4等级 136: ÿc3〈净化〉与〈圣光弹〉伤害提升 20%}}ÿc0使用神圣暗金 (等级: 120) 属性重置祭坛 - 于邓卡 等级 134+}使用 亚述尔之灾 升级祭坛 (等级 1) - 于邓卡 等级 134+}重塑: 圣体之锤 + 神圣精华 + 200,000 金币 = 邓卡 等级 134 入场卷轴}ÿc4等级 134}
+12456	<重塑>}}ÿc4等级 145: ÿc0使用从亚述尔的堕落仆从处获得的 奖杯 以进入 亚述尔圣域}}ÿc4等级 143: ÿc3+4% 毅力值}}ÿc4等级 140: ÿc0 使用 神圣暗金双倍腐化 祭坛 - 于邓卡 等级 139+}}ÿc0使用神圣暗金 (等级: 105-130) 属性重置祭坛 - 于邓卡 等级 139+}使用 亚述尔之灾 升级祭坛 (等级 2) - 于邓卡 等级 139+}重塑: 圣体之锤 + 2 神圣精华 + 300,000 金币 = 邓卡 等级 139 入场卷轴}ÿc4等级 139}
+12457	ÿc4视作 10 个珠宝}ÿc4每秒回复 2% 最大生命}ÿc4最大元素抗性 +1%}ÿc5(当这是唯一镶嵌在所有装备上的珠宝)}ÿc8至臻明珠 Crown Jewel}
+12458	幽灵旋舞: 持续选择单个目标输出 - 当受到〈火焰舞步〉加成时
+12459	12% 受到伤害先于生命扣取法力
+12460	<重塑>}}ÿc1炼狱-咒骨裂肤 Bonehexer and Skinrender maluses}ÿc8亚述尔的要塞 Assur's Fortress}}ÿc4场景等级: 140}邓卡 [英雄级] Duncraig (Heroic)}
+12461	<重塑>}}ÿc1炼狱-挖眼笞心 Eyegouger and Mindflayer maluses}ÿc8亚述尔的魔都 Assur's Stronghold}}ÿc4场景等级: 140}邓卡 [英雄级] Duncraig (Heroic)}
+12462	ÿc5(减速敌人 25% 并沉默敌人的大部分传送技能)}ÿc817% 几率钉住敌人 - 于近战攻击时
+12463	智天使: -1.5 秒冷却 - 当持有 双手近战武器 时
+12464	ÿc8+1% 武器物理伤害 (WPD) - 每 1% 移动速度}1-4 魔法伤害至武器 - 每 1 法术专注 直至上限
+12465	ÿc5获得最大物理伤害增益 - 基于最大耐力}ÿc5全部恢复, 则治疗 20 生命 - 每点回复}ÿc8无耐力回复 - 当你跑步耗尽所有的耐力时:
+12466	+1 至 最大耐力 - 每 60 体力
+12467	风刃: +1 额外投射物 - 每 350 攻击速度
+12468	ÿc5与〈神圣精华〉和一个〈伊斯特(24#)〉符文重塑以充能
+12469	ÿc5与〈神圣精华〉和一个〈乌姆(22#)〉符文重塑以充能
+12470	周期性火焰系技能 激发频率 +20%
+12471	周期性冰冷系技能 激发频率 +20%
+12472	周期性闪电系技能 激发频率 +20%
+12473	周期性毒素系技能 激发频率 +20%
+12474	ÿc8击杀获得生命 或 生命回复 - 取最高值}ÿc5(激发频率充能 逐渐衰减 - 当移动时)}ÿc8累积获得周期性冰冷系 激发频率充能 衰减 - 当站立时}ÿc5(范围充能 逐渐衰减 - 当站立时)}ÿc8累积获得冰冷系技能 范围充能 衰减 - 当移动时
+12475	ÿc5(祝福总是最高值)}ÿc8可被祝福
+12476	ÿc8使用〈分解催化剂〉重塑 以打开直面 伊纳瑞斯 的 虚空 大门}
+12477	ÿc5(黄字效果可叠加)}ÿc8+3 至最大〈充沛〉充能
+12478	ÿc1〈灯标〉也会伤害你}ÿc8〈灯标〉生成于你的位置
+12479	过热: 只伤害一个敌人，但击中多次
+12480	ÿc5(神秘球体和其它升级效果会在变化时消失)}ÿc7与 3 个 神圣精华 重塑以变化为 弩箭袋}
+12481	ÿc5(神秘球体和其它升级效果会在变化时消失)}ÿc7与 3 个 神圣精华 重塑以变化为 弓箭袋}
+12482	ÿc4来自未来...甚至一个完全不同的时间线}...抑或往昔...}}}与 时间精华 重塑以解锁一个技能，配方或暗金物品修改公式
+12483	ÿc5(最多 125)}ÿc81% 你的盾牌总防御加至 直接物理伤害}xx
+12484	ÿc8〈冰冷之锥〉体积增加 50% - 每 10 个拥有的奖杯化的神符}近战攻击时几率施放 等级 60 冰冷之锥 - 等同于你的 致死一击/暴击几率
+12485	ÿc5+23% 火焰/冰冷/闪电吸收}ÿc8若你最大或未达到上限的 火焰/冰冷/闪电 抗性低于 80%
+12486	过热: 减少 33% 热能流失 - 当生效时
+12487	ÿc5+1% 经验获取}+20 每秒生命回复}+6% 对恶魔伤害}ÿc8如果角色死亡次数为 0 ，那么超过 90 的双倍化属性依然存在}ÿc8每 30 角色等级 - 以下属性加倍一次 - 上至 90 级
+12488	}ÿc7生命药水 + 翻新油 => 月之符号}}ÿc5 致那些试图转译的人:}"回忆是没有人熟悉的语言，如此深邃，注定我的卑微"}ÿc8上古法师工艺指南 Ancient Sorceress Cookbook
+12489	ÿc7(被伤害时 4% 几率施放等级 50 火花新星)}ÿc7此刻 ÿc9肃霆正威}}ÿc8当你的闪电抗性未达到上限，或闪电法术伤害和法术专注总和为恰好 2000 时
+12490	+20 防御 - 每 1% 技能增益 持续时的 冰冷抗性}寒冬化身: 冷却减少 3 秒
+12491	ÿc5+2% 物理抗性}+2% 闪电吸收}+50% 快速打击恢复}ÿc8每 2000 此头盔的防御，给予的属性加倍一次
+12492	ÿc5(变成一个全新的物品，镶嵌的物品会丢失，无法生效于已腐化的物品)}ÿc7与 10 个"神圣精华"重塑以单手使用这把武器}ÿc4如果你的力量和精力总和超过 9000}
+12493	ÿc4欲戴王冠必得其力
+12494	漩涡: 只生成最大的漩涡
+12495	泽瑞伊之锤: 在抛射轨迹内造成范围武器伤害}你只能使用近战,召唤和支援类技能}不造成元素伤害
+12496	元素类"之道"不再造成伤害}影舞者: 也作用于"飞刀"
+12497	〈夜鹰〉+6% 总伤害}〈夜鹰〉召唤后立刻自爆
+12498	+1 〈稳定瞄准〉充能 - 每次〈稳定射击〉
+12499	ÿc8你在击杀敌人时有几率获得额外的 药水}药水 额外持续 1 秒
+12500	ÿc5(于 125% 效能)}ÿc8激发频率 也降低〈奇点〉的冷却}奇点: 基础冷却时间提升 1 秒
+ShyansFocus	夏桉的聚法刃 Shyan's Focus
+VizHunter	维兹杰雷猎手 Vizjerei Hunter
+12503	弹幕: 50% 穿刺几率
+12504	手里剑乱舞: 手里剑造成 150% 武器伤害
+Mekanism	千机 Mekanism
+12506	ÿc5+15% 暴击几率}增加 75-100 伤害}+100 体力}ÿc8当持有任意两爪时:
+LifeShear	裁生剪 Life Shear
+ShardRefraction	光华残锋 Shard of Refraction
+12509	半数仆从 物理抗性 加成为 你的物理抗性}帷幕之王: 死后不再复生
+12510	+30% 魔法抗性 - 于"英雄级 邓卡"时
+strBuyWindow	禁用商人确认窗口
+strDocsTitleCatalystDisenchant	分解催化剂 Catalyst of Disenchantment
+strDocsTitleCatalystLearning	学习催化剂 Catalyst of Learning
+strDocsCatalystDisenchantCaption1	ÿc5(最多一次分解 10 个暗金装备)}ÿc0以获得 ÿc8奥术碎片}ÿc0与 ÿc4分解催化剂 ÿc0重塑}ÿc0将 ÿc4暗金ÿc0 装备 在 ÿc4赫拉迪姆方块 ÿc0内
+strDocsCatalystDisenchantCaption2	ÿc0以获得 ÿc8奥术水晶}ÿc0将五个 ÿc8奥术碎片 ÿc0放在一起重塑}ÿc0于 ÿc4赫拉迪姆方块 ÿc0内
+strDocsCatalystDisenchantCaption3	ÿc0以及完成特殊任务和挑战}ÿc0你可用来升级物品}ÿc8奥术水晶 ÿc0是珍贵的重塑材料
+strDocsCatalystDisenchantCaption4	ÿc0以获得一个新的}ÿc0别担心，与 ÿc4迪卡.凯恩 ÿc0交谈}ÿc0如果你丢失了 ÿc4催化剂
+strKnowledgeBaseInitialCaption	于此添加.}随着你的旅程进度, 信息会}现在在 基础知识 里还没有解锁.
+strDocsCatalystLearningCaption1	ÿc5(每次最多 25 个暗金物品)}ÿc0以获得 ÿc:学习印章}ÿc0与 ÿc4学习催化剂 ÿc0进行重塑}ÿc0将 ÿc4神圣暗金 ÿc0物品于 ÿc4赫拉迪姆方块
+strDocsCatalystLearningCaption2	ÿc0你可以使用最多 ÿc3400 ÿc0个印章}ÿc0它给予你额外的属性点}ÿc:学习印章 ÿc0是可使用的材料
+strDocsCatalystLearningCaption3	ÿc0以获得一个新的}ÿc0别担心，与 ÿc4迪卡.凯恩 ÿc0交谈}ÿc0如果你丢失了 ÿc4催化剂

@@ -1,0 +1,598 @@
+/* ========================================================
+ * Median XL 官方同款多层级筛选面板样式表 (自包含)
+ * ======================================================== */
+
+/* 基础控件辅助类 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .25rem .5rem;
+  font-size: 12px;
+  border-radius: .25rem;
+  transition: all .15s ease-in-out;
+  background: #2b3140;
+  color: #cfd2da;
+}
+.btn-sm {
+  padding: .15rem .45rem;
+  font-size: 11px;
+  border-radius: .2rem;
+}
+.btn-outline-secondary {
+  color: #94a3b8;
+  background: #141722;
+  border-color: #2e384d;
+}
+.btn-outline-secondary:hover:not(:disabled) {
+  color: #fff;
+  background: #1e2638;
+  border-color: #3b82f6;
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .25rem .5rem;
+  font-size: 12px;
+  color: #d7d7d7;
+  background-color: #0d0d0d;
+  border: 1px solid #303030;
+  border-radius: .25rem;
+  outline: none;
+  box-sizing: border-box;
+}
+.form-check-input {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #2563eb;
+}
+
+/* 一键清除筛选 Ⓧ 按钮 */
+#repository-view-clear-filters {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: #141720;
+  border: 1px solid #303746;
+  border-radius: 50%;
+  color: #8f9aa8;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 1;
+  transition: all .15s;
+  flex-shrink: 0;
+}
+#repository-view-clear-filters:hover {
+  background: #2b1d24;
+  border-color: #ef4444;
+  color: #ef4444;
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+}
+
+/* Flags 按钮三态样式 */
+.flag-btn.st-any {
+  background: #151822;
+  border-color: #333d4e;
+  color: #8f9ba8;
+  opacity: 0.65;
+}
+.flag-btn.st-yes {
+  background: #064e3b !important;
+  border-color: #10b981 !important;
+  color: #ecfdf5 !important;
+  font-weight: 600;
+  opacity: 1;
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.4);
+}
+.flag-btn.st-no {
+  background: #450a0a !important;
+  border-color: #ef4444 !important;
+  color: #fee2e2 !important;
+  text-decoration: line-through;
+  opacity: 0.85;
+}
+
+.repository-tag-filter {
+  position: relative;
+  min-width: 0;
+}
+
+.repository-tag-filter summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  background: #0d0d0d;
+  border: 1px solid #303030;
+  color: #d7d7d7;
+  font-size: 12px;
+  line-height: 1.35;
+  border-radius: .25rem;
+  padding: .22rem 1.9rem .22rem .5rem;
+  min-height: 31px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+}
+
+.repository-tag-filter summary::-webkit-details-marker {
+  display: none;
+}
+
+.repository-tag-filter summary::after {
+  content: '\25BE';
+  position: absolute;
+  right: .55rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8f8f8f;
+  font-size: 10px;
+}
+
+.repository-tag-filter[open] > summary {
+  border-color: #3f7da5;
+  box-shadow: 0 0 0 .15rem rgba(24, 154, 211, .18);
+  color: #fff;
+}
+
+.repository-tag-filter-panel {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  width: 250px;
+  max-width: min(250px, 92vw);
+  padding: 8px;
+  border-radius: 6px;
+  background: #0a0a0a;
+  border: 1px solid #303030;
+  box-shadow: 0 10px 24px rgba(0,0,0,.48);
+  z-index: 30;
+}
+
+.repository-flag-filter-panel {
+  width: 320px;
+  max-width: min(320px, 92vw);
+}
+
+.repository-group-panel {
+  width: auto;
+  min-width: 320px;
+  max-width: min(520px, 92vw);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  overflow: visible;
+  z-index: 50;
+}
+
+.repository-group-panel > .repository-tag-filter {
+  flex: 0 0 auto;
+}
+
+.repository-group-panel > .repository-tag-filter > .repository-tag-filter-panel {
+  z-index: 70;
+}
+
+.repository-settings-panel {
+  align-items: center;
+  width: 330px;
+  max-width: min(330px, 92vw);
+}
+
+.repository-settings-panel-compact {
+  width: auto;
+  min-width: 0;
+  max-width: min(180px, 92vw);
+}
+
+.repository-settings-control {
+  flex: 0 0 auto;
+}
+
+.repository-settings-control .form-select {
+  width: auto;
+}
+
+.repository-price-filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.repository-price-filter-controls .form-select {
+  width: auto;
+  min-width: 130px;
+  max-width: 150px;
+}
+
+.repository-price-filter-controls .form-control {
+  width: 110px;
+  max-width: 110px;
+}
+
+.repository-view-filter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #1f6f9f;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.repository-view-filter-badge[hidden] {
+  display: none;
+}
+
+.repository-tag-filter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+/* OW-61 saved filter defaults: an action row at the foot of the shop's
+   Filters panel, separated from the price controls above it. */
+.repository-filter-defaults {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #333;
+}
+
+.repository-filter-defaults-status {
+  color: #9c9c9c;
+  font-size: 10px;
+}
+
+.repository-tag-filter-options {
+  max-height: 220px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-right: 2px;
+}
+
+.repository-tag-filter-option {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.05);
+  border-radius: 4px;
+  padding: 3px 6px 3px 4px;
+  color: #d7d7d7;
+  font-size: 11px;
+}
+
+.repository-tag-filter-option input {
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.repository-tag-filter-meta {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.repository-tag-filter-meta small {
+  color: #8f8f8f;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.repository-filter-option-copy {
+  min-width: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.repository-filter-option-copy > span:first-child {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.repository-filter-option-copy small {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.repository-filter-option-count {
+  flex: 0 0 auto;
+  color: #8f8f8f;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.repository-flag-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.repository-flag-filter-options .flag-btn {
+  padding: 0 .28rem;
+  min-height: 18px;
+  font-size: 10px;
+  line-height: 1.1;
+  border-radius: .2rem;
+  white-space: nowrap;
+}
+
+.repository-tag-empty {
+  color: #8f8f8f;
+  font-size: 11px;
+  padding: 6px 4px;
+}
+
+/* OW-62: the type tree popover — a tier chip row above a tri-state checkbox
+   tree. 340 px because 250 truncates the longer Misc labels; the 92vw cap is
+   the same one every other popover has. */
+.repository-type-tree-panel {
+  width: 340px;
+  max-width: min(340px, 92vw);
+}
+
+.repository-type-tree-buttons {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.repository-type-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #262626;
+}
+
+.repository-type-tiers:empty {
+  display: none;
+}
+
+.repository-type-tiers-divider {
+  width: 1px;
+  align-self: stretch;
+  margin: 0 2px;
+  background: #3a3a3a;
+}
+
+.repository-type-tiers .tier-btn.cond-superior.st-on {
+  border-color: #8fbf5f;
+  box-shadow: 0 0 0 1px #8fbf5f;
+}
+
+/* typeahead above the chips: matches at any depth, ancestors opened */
+.repository-type-search {
+  margin-bottom: 6px;
+}
+
+.repository-type-search .form-control {
+  width: 100%;
+  font-size: 11px;
+  min-height: 26px;
+  background-color: #0d0d0d;
+  border-color: #303030;
+  color: #d7d7d7;
+}
+
+.repository-type-search .form-control:focus {
+  background-color: #0d0d0d;
+  color: #fff;
+  border-color: #3f7da5;
+  box-shadow: 0 0 0 .15rem rgba(24, 154, 211, .18);
+}
+
+.rtt-node.is-hidden {
+  display: none;
+}
+
+.rtt-label mark {
+  background: transparent;
+  color: #ffd76a;
+  padding: 0;
+}
+
+.repository-type-tree.is-search-empty::after {
+  content: 'No type matches.';
+  display: block;
+  color: #8f8f8f;
+  font-size: 11px;
+  padding: 6px 4px;
+}
+
+.repository-type-tiers .tier-btn {
+  padding: 0 .4rem;
+  min-height: 18px;
+  font-size: 10px;
+  line-height: 1.1;
+  border-radius: .2rem;
+  white-space: nowrap;
+  color: #bfbfbf;
+  border-color: #4a4a4a;
+  opacity: .55;
+}
+
+.repository-type-tiers .tier-btn .n {
+  color: #8f8f8f;
+  font-variant-numeric: tabular-nums;
+  margin-left: 3px;
+}
+
+.repository-type-tiers .tier-btn.st-on {
+  opacity: 1;
+  color: #fff;
+  border-color: #3f7da5;
+  box-shadow: 0 0 0 1px #3f7da5;
+}
+
+.repository-type-tiers .tier-btn.tier-angelic.st-on {
+  border-color: #c9a24a;
+  box-shadow: 0 0 0 1px #c9a24a;
+}
+
+/* zero-count chips and nodes step back in colour but stay clickable, so a
+   filter can be saved before anything matching it is listed */
+.repository-type-tiers .tier-btn.is-empty {
+  opacity: .3;
+}
+
+.repository-type-tiers .tier-btn.st-on.is-empty {
+  opacity: .7;
+}
+
+.repository-type-tree {
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 2px;
+  font-size: 11px;
+}
+
+.rtt-node {
+  --indent: 0px;
+}
+
+.rtt-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px 2px calc(4px + var(--indent));
+  border-radius: 4px;
+  color: #d7d7d7;
+  min-height: 22px;
+}
+
+.rtt-row:hover {
+  background: rgba(255,255,255,.03);
+}
+
+.rtt-node[data-depth="0"] > .rtt-row {
+  font-weight: 600;
+  color: #fff;
+}
+
+.rtt-node[data-depth="0"] + .rtt-node {
+  margin-top: 2px;
+}
+
+.rtt-toggle {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  border: 0;
+  background: transparent;
+  color: #8f8f8f;
+  padding: 0;
+  cursor: pointer;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.rtt-toggle:hover {
+  color: #fff;
+  background: rgba(255,255,255,.08);
+}
+
+.rtt-toggle::before {
+  content: '\25B8';
+  display: inline-block;
+  transition: transform .12s;
+}
+
+.rtt-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.rtt-toggle.is-spacer {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.rtt-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1 1 auto;
+  min-width: 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.rtt-check input {
+  margin: 0;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.rtt-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rtt-count {
+  color: #8f8f8f;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
+}
+
+.rtt-children[hidden] {
+  display: none;
+}
+
+.rtt-node.is-empty > .rtt-row {
+  color: #5e5e5e;
+}
+
+.rtt-node.is-empty > .rtt-row .rtt-count {

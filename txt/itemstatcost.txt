@@ -1,0 +1,512 @@
+Stat	ID	Send Other	Signed	Send Bits	Send Param Bits	UpdateAnimRate	Saved	CSvSigned	CSvBits	CSvParam	fCallback	fMin	MinAccr	Encode	Add	Multiply	Divide	ValShift	1.09-Save Bits	1.09-Save Add	Save Bits	Save Add	Save Param Bits	keepzero	op	op param	op base	op stat1	op stat2	op stat3	direct	maxstat	itemspecific	damagerelated	itemevent1	itemeventfunc1	itemevent2	itemeventfunc2	descpriority	descfunc	descval	descstrpos	descstrneg	descstr2	dgrp	dgrpfunc	dgrpval	dgrpstrpos	dgrpstrneg	dgrpstr2	stuff	*eol
+is0		1		11			1		11			1	1		63	28	1024		11	200	11	200																	90	1	1	ModStr1a	ModStr1a		1	1	1	Moditem2allattrib	Moditem2allattrib		6	0
+is1	1			11			1		11			1	1		50	28	1024		11	200	11	200			8			is9											87	1	1	ModStr1d	ModStr1d		1	1	1	Moditem2allattrib	Moditem2allattrib			0
+is2	2	1		11			1		11			1	1		63	28	1024		11	200	11	200																	89	1	1	ModStr1b	ModStr1b		1	1	1	Moditem2allattrib	Moditem2allattrib			0
+is3	3			11			1		11			1	1		50	28	1024		11	200	11	200			9			is7	is11										88	1	1	ModStr1c	ModStr1c		1	1	1	Moditem2allattrib	Moditem2allattrib			0
+is4	4			9			1		11								1024																																			0
+is5	5			9			1		9								1024																																			0
+is6	6			32			1		21								1024	8													1	is7																				0
+is7	7			32			1		21		1	1	1		28	10	1024	8	12	500	12	500																	79	1	1	ModStr1u	ModStr1u		11	1	1	customize_charm_yeah	customize_charm_yeah			0
+is8	8			32			1		21								1024	8						1							1	is9																				0
+is9	9			32			1		21		1	1			41	10	1024	8	12	500	12	500																	77	1	1	ModStr1e	ModStr1e		11	1	1	customize_charm_yeah	customize_charm_yeah			0
+is10	10			32			1		21								1024	8						1							1	is11																				0
+is11	11			32			1		21		1	1			38	10	1024	8	10	150	10	150																	73	1	1	ModStr5d	ModStr5d									0
+is12	12			9			1		8								1024																																			0
+is13	13			32			1		32								1024																																			0
+is14	14			32			1		25								1024																																			0
+is15	15			32			1		25								1024																																			0
+is16	16		1	11											24	10	1024		10	823	10	823			1			is31											95	4	1	Modstr2v	Modstr2v									0
+is17	17		1	11											8	5	1024		10	823	10	823			1			is22	is24	is160				1					179	3		ModStr2j	ModStr2j									0
+is18	18		1	11											8	5	1024		10	823	10	823			1			is21	is23	is159				1					180	3		ModStr2k	ModStr2k									0
+is19	19		1	16											8	5	1024		10		10													1					164	1	1	ModStr1h	ModStr1h									0
+is20	20		1	10											45	102	1024		5	10	5	10																	196	2	1	ModStr3g	ModStr3g									0
+is21	21		1	16											61	100	1024		11		11													1					172	1	1	ModStr1g	ModStr1g									0
+is22	22		1	16											47	50	1024		11		11													1					171	1	1	ModStr1f	ModStr1f									0
+is23	23		1	16											38	64	1024		11		11													1					124	1	1	ModStr1g	ModStr1g									0
+is24	24		1	16											44	64	1024		11		11													1					123	1	1	ModStr1f	ModStr1f									0
+is25	25		1	12											23	20	1024		11	500	11	500												1					123	4	2	ModTotPhysDmg	ModTotPhysDmg									0
+is26	26																1024		10		10																															0
+is27	27		1	16													1024		9	100	9	100																	74	4	2	ModStr4g	ModStr4g									0
+is28	28		1	16													1024		10		10																		72	2	2	ModStr3v	ModStr3v									0
+is29	29			32													1024																																			0
+is30	30			32													1024																																			0
+is31	31		1	17											9	5	1024		16	500	16	500																	93	1	1	ModStr1i	ModStr1i									0
+is32	32		1	19											6	3	1024		13		13																		92	1	1	ModStr6a	ModStr6a									0
+is33	33		1	16											7	4	1024		13		13																		92	1	1	ModStr6b	ModStr6b									0
+is34	34		1	10											94	100	1024		9	100	9	100																	52	3	2	ModStr2uu	ModStr2uu									0
+is35	35		1	10											199	170	1024		9	100	9	100																	51	3	2	ModStr2t	ModStr2t									0
+is36	36		1	9											76	34	1024		8	100	8	100																	53	2	2	ModStr2u	ModStr2u									0
+is37	37		1	9											82	34	1024		8	100	8	100																	65	4	2	ModStr1m	ModStr1m									0
+is38	38		1	9											546	205	1024		7	20	7	20																	70	4	1	ModStr5x	ModStr5x									0
+is39	39		1	9											22	10	1024		8	100	8	100																	64	4	2	ModStr1j	ModStr1j		2	4	2	ItemmodAllRes	ItemmodAllRes			0
+is40	40		1	9											292	128	1024		7	20	7	20																	69	4	2	ModStr5u	ModStr5u		7	4	2	ItemmodAllMaxRes	ItemmodAllMaxRes			0
+is41	41		1	9											22	10	1024		8	100	8	100																	63	4	2	ModStr1l	ModStr1l		2	4	2	ItemmodAllRes	ItemmodAllRes			0
+is42	42		1	9											292	128	1024		7	20	7	20																	68	4	2	ModStr5w	ModStr5w		7	4	2	ItemmodAllMaxRes	ItemmodAllMaxRes			0
+is43	43		1	9											22	10	1024		8	100	8	100																	62	4	2	ModStr1k	ModStr1k		2	4	2	ItemmodAllRes	ItemmodAllRes			0
+is44	44		1	9											292	128	1024		7	20	7	20																	67	4	2	ModStr5v	ModStr5v		7	4	2	ItemmodAllMaxRes	ItemmodAllMaxRes			0
+is45	45		1	9											22	10	1024		8	100	8	100																	61	4	2	ModStr1n	ModStr1n		2	4	2	ItemmodAllRes	ItemmodAllRes			0
+is46	46		1	9											263	128	1024		7	20	7	20																	66	4	2	ModStr5y	ModStr5y		7	4	2	ItemmodAllMaxRes	ItemmodAllMaxRes			0
+is47	47		1	16													1024																																			0
+is48	48		1	16											6	5	1024		12		12													1					156	1	1	ModStr1p	ModStr1p									0
+is49	49		1	16											10	5	1024		12		12													1					155	1	1	ModStr1o	ModStr1o									0
+is50	50		1	16											6	5	1024		12		12													1					154	1	1	ModStr1r	ModStr1r									0
+is51	51		1	16											9	5	1024		12		12													1					153	1	1	ModStr1q	ModStr1q									0
+is52	52		1	16											98	10	1024		12		12													1					158	1	1	ModMagicMin	ModMagicMin									0
+is53	53		1	16											92	10	1024		12		12													1					157	1	1	ModMagicMax	ModMagicMax									0
+is54	54		1	16											226	256	1024		12		12													1					152	1	1	ModStr1t	ModStr1t									0
+is55	55		1	16											64	170	1024		12		12													1					151	1	1	ModStr1s	ModStr1s									0
+is56	56		1	16											39	2	1024		9		9													1																		0
+is57	57		1	19											6	14	1024		14		14													1					150	1	1	ModStr4i	ModStr4i									0
+is58	58		1	19											6	17	1024		14		14													1					147	1	1	ModStr4h	ModStr4h									0
+is59	59		1	16											1	2	1024		9		9													1																		0
+is60	60		1	16											522	171	1024		7		7													1					144	2	1	ModStr2z	ModStr2z		13	2	1	LifeManaLeechCombo	LifeManaLeechCombo			0
+is61	61		1	16													1024																	1																		0
+is62	62		1	16											590	171	1024		7		7													1					143	2	1	ModStr2y	ModStr2y		13	2	1	LifeManaLeechCombo	LifeManaLeechCombo			0
+is63	63		1	16													1024																	1																		0
+is64	64		1	16											644	171	1024		7		7													1					145	2	1	ModitemStamDrain	ModitemStamDrain									0
+is65	65		1	16													1024																	1																		0
+is66	66			16											13	2	1024		10		10													1					142	3		Moditemstun	Moditemstun									0
+is67	67	1	1	10		1											1024		9	50	9	50																														0
+is68	68	1	1	10		1											1024		9	50	9	50												1																		0
+is69	69	1	1	10		1											1024																																			0
+is70	70		1	16													1024																1	1																		0
+is71	71		1	9													1024		8	100	8	100											1																			0
+is72	72		1	9													1024		9	150	9	150									1	is73	1																			0
+is73	73		1	9											5	2	1024		9	90	9	90											1																			0
+is74	74														23	21	1024		14	1000	14	1000																	80	32	1	ModStr2l	ModStr2l									0
+is75	75		1	7											59	5	1024		8	100	8	100			1			is73											8		2	ModStr2i	ModStr2i									0
+is76	76		1	16											56	4	1024		8	100	8	100			11			is7											78	4	2	ModStr2g	ModStr2g		10	4	2	ModitemHPManaP	ModitemHPManaP			0
+is77	77		1	16											56	4	1024		8	100	8	100			11			is9											76	4	2	ModStr2h	ModStr2h		10	4	2	ModitemHPManaP	ModitemHPManaP			0
+is78	78		1	16							1				56	64	1024		10		10															6		6	29	3	2	ModStr1v	ModStr1v									0
+is79	79		1	10											94	17	1024		9	100	9	100																	16	2	1	ModStr1w	ModStr1w									0
+is80	80		1	10											289	51	1024		9	100	9	100																	14	2	1	ModStr1x	ModStr1x									0
+is81	81		1	8							1				53	1	1024		2		2													1		7		7	115	3		ModStr1y	ModStr1y									0
+is82	82		1	10													1024		9	20	9	20																														0
+is83	83		1	3	3						1				112	26	1024		4		4		3																207	13	1	ModStr3a	ModStr3a									0
+is84	84																1024																																			0
+is85	85		1	9											56	4	1024		8	25	8	25																	17	4	1	Moditem2ExpG	Moditem2ExpG									0
+is86	86		1	15							1				15	51	1024		10		10															28			41	1	1	ModitemHPaK	ModitemHPaK		12	1	1	LifeManaOnKillCombo	LifeManaOnKillCombo			0
+is87	87			8											9479	102	1024		8	50	8	50																	13	20	1	ModitemRedVendP	ModitemRedVendP									0
+is88	88	1	1	32	16		1		32	16							1024		32		32		16																													0
+is89	89		1	5							1				8	26	1024		8	5	8	5																	10	1	1	ModStr3f	ModStr3f									0
+is90	90		1	24							1				78	1	1024		24		24																															0
+is91	91		1	8											13	-17	1024		10	100	10	100																	7	4	2	ModStr3h	ModStr3h									0
+is92	92																1024		8		8																		6	1	1	ModitemRLZOMG	ModitemRLZOMG									0
+is93	93	1	1	11		1									521	78	1024		9	150	9	150												1					192	2	1	ModStr4m	ModStr4m		9	2	1	DescStringMyAss	DescStringMyAss			0
+is94	94														521	-26	1024		10	64	10	64			1			is92											76	4	2											0
+is95	95																1024																																			0
+is96	96	1	1	9		1									2042	78	1024		9	100	9	100																	206	2	1	ModStr4s	ModStr4s									0
+is97	97		1	15	12						1			1	91	164	1024		7	1	7	1	12																127	28												0
+is98	98	1		1	11						1				208	32	1024		1		1		11																													0
+is99	99	1	1	10											533	36	1024		9	100	9	100																	188	2	1	ModStr4p	ModStr4p		9	2	1	DescStringMyAss	DescStringMyAss			0
+is100	100																1024																																			0
+is101	101			8													1024		6		6																															0
+is102	102	1	1	10		1									742	36	1024		9	100	9	100																	189	2	1	ModStr4y	ModStr4y		9	2	1	DescStringMyAss	DescStringMyAss			0
+is103	103			1											101	7753	1024		1		1																		197	3		Moditemiru	Moditemiru									0
+is104	104			1											101	7753	1024		1		1																		197	3		Moditemird	Moditemird									0
+is105	105	1	1	9		1									1938	78	1024		9	100	9	100																	191	2	1	ModStr4v	ModStr4v		9	2	1	DescStringMyAss	DescStringMyAss			0
+is106	106			1											101	7753	1024		1		1																		197	3		Moditemirb	Moditemirb									0
+is107	107		1	15	11						1			1	91	128	1024		5	1	5	1	11																128	27												0
+is108	108			1							1				994	1	1024		1		1													1		29			23	3		ModitemSMRIP	ModitemSMRIP									0
+is109	109		1	9											80	17	1024		8	100	8	100																	54	2	2	Moditemcures	Moditemcures									0
+is110	110		1	9											14	5	1024		8	100	8	100																	55	2	2	ModStr3r	ModStr3r									0
+is111	111		1	8											47	50	1024		10	100	10	100												1					169	1	2	ModStr5b	ModStr5b									0
+is112	112		1	8							1				28	5	1024		7	25	7	25												1		8		8	119	5	2	ModStr3u	ModStr3u									0
+is113	113		1	8							1				166	512	1024		8	50	8	50												1		9		9	120	12	2	ModStr6d	ModStr6d									0
+is114	114		1	7							1				22	10	1024		7		7															13		13	18	2	1	ModStr3w	ModStr3w									0
+is115	115		1	2											544	512	1024		1		1													1					167	3		ModStr3y	ModStr3y									0
+is116	116		1	8											34	10	1024		7		7													1					166	20	1	ModStr5o	ModStr5o									0
+is117	117		1	8											24	25	1024		1		1													1					121	3		ModStr4a	ModStr4a									0
+is118	118		1	2											2548	494	1024		1		1																		33	3		ModStr4b	ModStr4b									0
+is119	119		1	12											491	20	1024		10	100	10	100												1					165	2	1	ModStr4c	ModStr4c									0
+is120	120		1	8											12	-10	1024		10	500	10	500												1					113	1	1	ModStr4d	ModStr4d									0
+is121	121		1	12											10	6	1024		11	500	11	500												1					162	4	1	ModStr4e	ModStr4e									0
+is122	122		1	12											7	6	1024		11	500	11	500												1					161	4	1	ModStr4f	ModStr4f									0
+is123	123		1	13											8	4	1024		10	100	10	100												1					162	1	1	ModStr4j	ModStr4j									0
+is124	124		1	13											6	4	1024		10	100	10	100												1					161	1	1	ModStr4k	ModStr4k									0
+is125	125		1	2											41	512	1024		1		1																		9	3		ModStr5a	ModStr5a									0
+is126	126		1	3	3						1				38	512	1024		3		3		3																202	1	1											0
+is127	127		1	6							1				4	1	1024		5		5																		208	1	1	ModStr3k	ModStr3k									0
+is128	128		1	6							1				2	51	1024		10		10															10		10	27	3	2	ModStr3j	ModStr3j		14	3	2	ModitemAllThorns				0
+is129	129		1	10													1024																																			0
+is130	130		1	10													1024																																			0
+is131	131			12											17	1	1024		8	100	8	100																	26	2	1	Moditemthornsper	Moditemthornsper									0
+is132	132		1	32													1024																																			0
+is133	133		1	32													1024																																			0
+is134	134		1	5							1				333	6	1024		5	5	5	5												1		14		14	117	12	2	ModStr3l	ModStr3l									0
+is135	135		1	7							1				12	5	1024		7		7													1		15		15	122	2	1	ModStr3m	ModStr3m									0
+is136	136		1	7							1				49	20	1024		8		8													1		16		16	125	2	1	ModStr5c	ModStr5c									0
+is137	137		1	7											39	26	1024		10		10																		168	1	1	ModStr5e	ModStr5e									0
+is138	138		1	7							1				9	51	1024		10		10															17			40	1	1	ModStr5f	ModStr5f		12	1	1	LifeManaOnKillCombo	LifeManaOnKillCombo			0
+is139	139		1	7							1				9	51	1024		10		10															18			40	1	1	ModStr6c	ModStr6c									0
+is140	140		1	7											8	5	1024		10		10													1																		0
+is141	141		1	8											16	13	1024		8		8													1					124	2	1	ModStr5q	ModStr5q									0
+is142	142		1	7											2743	51	1024		8		8																		58	2	2	ModStr5g	ModStr5g									0
+is143	143		1	7											870	102	1024		10		10																		58	1	1	ModStr5h	ModStr5h									0
+is144	144		1	7											2743	51	1024		8		8																		57	2	2	ModStr5i	ModStr5i									0
+is145	145		1	7											870	102	1024		10		10																		57	1	1	ModStr5j	ModStr5j									0
+is146	146		1	7											2743	51	1024		8		8																		59	2	2	ModStr5k	ModStr5k									0
+is147	147		1	7											870	102	1024		10		10																		59	1	1	ModStr5l	ModStr5l									0
+is148	148		1	7											2743	51	1024		8		8																		56	2	2	ModStr5m	ModStr5m									0
+is149	149		1	7											870	102	1024		10		10																		56	1	1	ModStr5n	ModStr5n									0
+is150	150		1	7							1				51	20	1024		8	50	8	50												1		19		19	115	2	2	ModStr5r	ModStr5r									0
+is151	151		1								1						1024		7	1	7	1	11																													0
+is152	152		1	1													1024		1		1																		205			ModStre9s	ModStre9s									0
+is153	153		1	2											7506	1024	1024		1		1																		33	3		ModStr5z	ModStr5z									0
+is154	154		1	7											51	10	1024		8	50	8	50												1					72	20	1	ModStr6e	ModStr6ee									0
+is155	155			7	12						1						1024		7		7		12											1		31			30	23	1	Moditemreanimas	Moditemreanimas									0
+is156	156		1	7											962	1024	1024		10		10													1																		0
+is157	157		1	7											256	512	1024		7		7																		184	3		ModStr6h	ModStr6h									0
+is158	158		1	7											246	768	1024		7		7																		185	3		ModStr6i	ModStr6i									0
+is159	159		1	6											38	64	1024		10		10													1																		0
+is160	160		1	7											44	64	1024		10		10													1																		0
+is161	161		1	12											26	5	1024		6	10	6	10																														0
+is162	162		1	13													1024								1			is11																								0
+is163	163		1	12													1024								1			is11																								0
+is164	164		1	12											168	425	1024		8	20	8	20																	34	2	1	ModitemUninter	ModitemUninter									0
+is165	165		1	12													1024																																			0
+is166	166		1	12													1024																																			0
+is167	167		1	12													1024																																			0
+is168	168		1	12													1024																																			0
+is169	169		1	12													1024																																			0
+is170	170		1	12													1024																																			0
+is171	171		1	16											165	389	1024		11	500	11	500																	35	2	1	ModitemTotalAC	ModitemTotalAC									0
+is172	172	1		2													1024																																			0
+is173	173			32													1024																																			0
+is174	174			32													1024																																			0
+is175	175			24													1024																																			0
+is176	176			8													1024																																			0
+is177	177			16													1024																																			0
+is178	178			16													1024																																			0
+is179	179			9	10										10	7	1024		10		10		10											1																		0
+is180	180			9	10										14	9	1024		10		10		10											1																		0
+is181	181	1		7															3		3																															0
+is182	182	1	1	8											44	51	1024		8	100	8	100																	11	3		ModitemACLess	ModitemACLess									0
+is183	183		1	5													1024		5		5																															0
+is184	184			8													1024		8		8																															0
+is185	185		1	11			1		12			1	1				1024																							3	2											0
+is186	186		1	6			1		8			1	1				1024																							3	2											0
+is187	187		1	9													1024		3		3																															0
+is188	188		1	3	6						1				5521	384	1024		3		3		16																201	14		StrSklTabItem1	StrSklTabItem1									0
+is189	189			17													1024		16		16																															0
+is190	190		1	12													1024																																			0
+is191	191		1	9											1006	251	1024		7	24	7	24																														0
+is192	192		1	7	17						1			2	43	10	1024		8		8		17											1		34			205	15		ModitemskonKill	ModitemskonKill									0
+is193	193		1	9													1024		2	1	2	1																														0
+is194	194		1	4											19	85	1024		4		4												1																			0
+is195	195		1	7	17						1			2	95	128	1024		8		8		17											1		20			205	15		ItemExpansiveChancX	ItemExpansiveChancX									0
+is196	196		1	7	17						1			2	43	10	1024		8		8		17											1		20			205	15		ModitemskonKill	ModitemskonKill									0
+is197	197		1	7	17						1			2	6	5	1024		8		8		17													30			205	15		Moditemskondeath	Moditemskondeath									0
+is198	198		1	7	17						1			2	95	128	1024		8		8		17											1		20		20	205	15		ItemExpansiveChanc1	ItemExpansiveChanc1									0
+is199	199		1	7	17						1			2	4	3	1024		7		7		17													30			205	15		ModitemskonLevel	ModitemskonLevel									0
+is200	200		1	7	17						1			2	95	128	1024		7		7		17											1		20			247	3		ModitemMegaImpact	ModitemMegaImpact									0
+is201	201		1	7	17						1			2	95	128	1024		7		7		17													21		21	205	15		ItemExpansiveChanc2	ItemExpansiveChanc2									0
+is202	202		1	5													1024		20		20																															0
+is203	203		1	6											101	89	1024		10		10				2	5	is12	is25											83	8	2	ModTotPhysDmg	ModTotPhysDmg	increaseswithplaylevelX								0
+is204	204		1	30							1			3	201	128	1024		16		16		16																204	24		ModStre10d	ModStre10d									0
+is205	205		1	9													1024		7	20	7	20																	49	4	2	ModMaxAvoid	ModMaxAvoid									0
+is206	206		1	7	17						1			2	95	128	1024		8		8		17											1		20		20														0
+is207	207		1	5													1024																																			0
+is208	208		1	7							1				41	25	1024		7		7															28		28	45	1	1	ModitemHealAttack	ModitemHealAttack		15	1	1	LifeManaStrikingCombo	LifeManaStrikingCombo			0
+is209	209		1	7							1				41	25	1024		7		7															17		17	44	1	1	ModitemManaAttack	ModitemManaAttack		15	1	1	LifeManaStrikingCombo	LifeManaStrikingCombo			0
+is210	210		1	15							1				33	16	1024		10		10															28			43	1	1	ModitemHealAttM	ModitemHealAttM									0
+is211	211		1	12													1024																																			0
+is212	212		1	12													1024																																			0
+is213	213		1	10											292	128	1024		8	100	8	100																	66	4	2	ModMaxBlock	ModMaxBlock									0
+is214	214		1	6											22	21	1024		10		10				4	5	is12	is31											93	6	1	ModStr1i	ModStr1i	increaseswithplaylevelX								0
+is215	215		1	6											44	50	1024		10		10				5	5	is12	is31											94	8	1	Modstr2v	Modstr2v	increaseswithplaylevelX								0
+is216	216		1	6											46	32	1024	8	10		10				2	5	is12	is7											77	6	1	ModStr1u	ModStr1u	increaseswithplaylevelX								0
+is217	217		1	6											45	64	1024	8	10		10				2	5	is12	is9											75	6	1	ModStr1e	ModStr1e	increaseswithplaylevelX								0
+is218	218		1	6											27	102	1024		10		10				4	5	is12	is22	is24	is160				1					170	6	1	ModStr1f	ModStr1f	increaseswithplaylevelX								0
+is219	219		1	12											3	1	1024		5		5																		249	3		ModitemBlessed	ModitemBlessed									0
+is220	220		1	14	17										3	1	1024		13		13																															0
+is221	221		1	14	17										3	1	1024		13		13																															0
+is222	222		1	14	17										3	1	1024		13		13																															0
+is223	223		1	14	17										3	1	1024		13		13																															0
+is224	224		1	14	17										3	1	1024		13		13																															0
+is225	225		1	6											5	128	1024		10		10				2	5	is12	is119						1					165	7	1	ModStr4c	ModStr4c	increaseswithplaylevelX								0
+is226	226		1	12											7	2	1024		5		5																															0
+is227	227		1	12											7	2	1024		5		5																															0
+is228	228		1	8													1024		8	100	8	100																	43	4	1	ModItemManaCost	ModItemManaCost									0
+is229	229		1	7													1024		7	50	7	50																	102	4	1	ItemSummonPhysRes	ItemSummonPhysRes									0
+is230	230		1	6											51	64	1024		10		10				2	5	is12	is43											62	7	2	ModStr1k	ModStr1k	increaseswithplaylevelX								0
+is231	231		1	6											51	64	1024		10		10				2	5	is12	is39											64	7	2	ModStr1j	ModStr1j	increaseswithplaylevelX								0
+is232	232		1	6											51	64	1024		10		10				2	5	is12	is41											63	7	2	ModStr1l	ModStr1l	increaseswithplaylevelX								0
+is233	233		1	6											51	64	1024		10		10				2	5	is12	is45											61	7	2	ModStr1n	ModStr1n	increaseswithplaylevelX								0
+is234	234		1	16											10	5	1024		12		12																		90	1	1	ModStr1a	ModStr1a									0
+is235	235		1	5													1024																																			0
+is236	236		1	5													1024																																			0
+is237	237		1	5													1024																																			0
+is238	238		1	5													1024																																			0
+is239	239		1	6											21	128	1024		10		10				2	5	is12	is79											16	7	1	ModStr1w	ModStr1w	increaseswithplaylevelX								0
+is240	240		1	6											407	512	1024		10		10				2	5	is12	is80											14	7	1	ModStr1x	ModStr1x	increaseswithplaylevelX								0
+is241	241		1	5													1024		7	30	7	30																														0
+is242	242		1	5													1024		2		2																															0
+is243	243		1	12													1024																																			0
+is244	244		1	12													1024																																			0
+is245	245		1	9											1006	251	1024		2	1	2	1																														0
+is246	246		1	9											1006	251	1024		2	1	2	1																														0
+is247	247		1	6											107	512	1024		10		10				2	5	is12	is136						1					125	7	1	ModStr5c	ModStr5c	increaseswithplaylevelX								0
+is248	248		1	6											91	64	1024		10		10				2	5	is12	is135						1					122	7	1	ModStr3m	ModStr3m	increaseswithplaylevelX								0
+is249	249		1	12													1024																																			0
+is250	250		1	6											59	256	1024		10		10																															0
+is251	251		1	9											1006	251	1024		2	1	2	1																														0
+is252	252		1	5											53	128	1024		6		6																		7			ModStre9t	ModStre9t									0
+is253	253		1	5											53	128	1024		6		6																		8	3		ModStre9v	ModStre9v									0
+is254	254		1												50	5	1024		8		8																		9	3		ModStre9i	ModStre9i									0
+is255	255		1	5													1024																																			0
+is256	256		1	5													1024																																			0
+is257	257		1	9											1006	251	1024		2	1	2	1																	239	3		ModItemAdjudicator	ModItemDefiler									0
+is258	258		1	11	17						1				3	1	1024		10	100	10	100																														0
+is259	259		1	11											3	1	1024		10	1	10	1																	240	3	2	ModitemJewelCharges	ModitemJewelCharges									0
+is260	260		1	7	17						1			2	95	128	1024		7		7		17											1		20		20	247	3		ModitemThunderfury	ModitemThunderfury									0
+is261	261		1	12											300	85	1024		5		5																		196	1	1	ModitemTotemsMax	ModitemTotemsMax									0
+is262	262		1	12													1024																																			0
+is263	263		1	5													1024																																			0
+is264	264		1	5													1024																																			0
+is265	265		1	15							1				15	51	1024		10		10															33			41	1	1	ModitemHPaK	ModitemHPaK									0
+is266	266		1	7	17						1			2	95	128	1024		7		7		17											1		20		20	247	3		ModitemWarpBlue	ModitemWarpBlue									0
+is267	267		1	12											133	512	1024		5		5																															0
+is268	268		1	12													1024																																			0
+is269	269		1	12													1024																																			0
+is270	270		1	12													1024		3		3																															0
+is271	271		1	7	17						1			2	6	5	1024		8		8		17													30			205	15		Moditemskondeath	Moditemskondeath									0
+is272	272		1	5													1024																																			0
+is273	273		1	8							1				28	5	1024		7	25	7	25														16		16														0
+is274	274		1	5													1024																																			0
+is275	275		1	5													1024																																			0
+is276	276		1	6													1024		1		1																		4	3		ModItemNoDisenchant	ModItemNoDisenchant									0
+is277	277		1	7	17						1			2	95	128	1024		7		7		17											1		20		20	247	3		ModitemWarpAttack	ModitemWarpAttack									0
+is278	278		1	5													1024																																			0
+is279	279		1	9											14	6	1024		9		9																		195	2	2	DescLionsgateSyn	DescLionsgateSyn									0
+is280	280		1	12											8	2	1024		10		10																															0
+is281	281		1	5													1024																																			0
+is282	282		1	7	17						1			2	6	5	1024		7		7		17													30			205	15		DescExpansiveC	DescExpansiveC									0
+is283	283		1	7	17						1			2	95	128	1024		7		7		17											1		20			205	15		DescExpansiveA	DescExpansiveA									0
+is284	284		1	7	17						1			2	95	128	1024		7		7		17											1		21			205	15		DescExpansiveB	DescExpansiveB									0
+is285	285		1	5													1024																																			0
+is286	286		1	5													1024																																			0
+is287	287		1	5													1024																																			0
+is288	288		1	9											1006	251	1024		2	1	2	1																	240	3		ModItemWmaster	ModItemNats									0
+is289	289			9											1	1	1024		8		8																		234	36		ModitemHonorific	ModitemHonorific									0
+is290	290			9	10												1024		8		8		10																													0
+is291	291		1	9											32	11	1024		8		8																															0
+is292	292		1	7	17						1			2	43	10	1024		7		7		17											1		30			206	15		ModitemSkillAnyKill	ModitemSkillAnyKill									0
+is293	293		1	5													1024																																			0
+is294	294		1	8											7	2	1024		8		8																		236	3	2	ModitemRunewording	ModitemRunewording									0
+is295	295		1	7							1				41	25	1024		11	500	11	500														17			42	1	1	ModitemManaAttackMelee	ModitemManaAttackMelee									0
+is296	296		1	5													1024																																			0
+is297	297		1	9											1006	251	1024		2	1	2	1																														0
+is298	298		1	12											7	2	1024		5		5																															0
+is299	299		1	6											4	1	1024		9		9				2	8	is0	is25											253	2	2	ModitemStrWpnAdder	ModitemStrWpnAdder									0
+is300	300		1	6											4	1	1024		9		9				2	8	is2	is25											194	2	2	ModitemDexWpnAdder	ModitemDexWpnAdder									0
+is301	301		1	5													1024																																			0
+is302	302		1	5													1024																																			0
+is303	303		1	5													1024																																			0
+is304	304		1	9											1006	251	1024		7	24	7	24																														0
+is305	305		1	9											716	257	1024		10	500	10	500																														0
+is306	306		1	9											620	249	1024		10	500	10	500																														0
+is307	307		1	9											594	241	1024		10	500	10	500																														0
+is308	308		1	9											661	253	1024		10	500	10	500																														0
+is309	309		1	9	17										305	15	1024		12	2048	12	2048	17																174	33	2	ModitemReduceCooldown	ModitemIncreaseCooldown									0
+is310	310		1	9											1006	251	1024		7	24	7	24																														0
+is311	311		1	5													1024																																			0
+is312	312		1	5													1024																																			0
+is313	313		1	12											7	2	1024		10		10																															0
+is314	314		1	9													1024		2	1	2	1																														0
+is315	315		1	16											16	1	1024		8		8																															0
+is316	316		1	16											4	1	1024		8		8																			3												0
+is317	317		1	16											4	1	1024		8		8																			3												0
+is318	318		1	3													1024																							3												0
+is319	319		1	3													1024																							3												0
+is320	320		1	3													1024																																			0
+is321	321		1	3													1024																																			0
+is322	322		1	3													1024																																			0
+is323	323		1	3													1024																																			0
+is324	324		1	6													1024		6		6												1	1																		0
+is325	325		1	16													1024																																			0
+is326	326		1	5													1024																	1																		0
+is327	327		1	8													1024																																			0
+is328	328		1	6													1024																																			0
+is329	329		1	12											81	30	1024		10	200	10	200																	138	4	1	ModitemdamFiresk	ModitemdamFiresk		5	4	1	ModitemAllsk	ModitemAllsk			0
+is330	330		1	12											81	30	1024		10	200	10	200																	136	4	1	ModitemdamLtngsk	ModitemdamLtngsk		5	4	1	ModitemAllsk	ModitemAllsk			0
+is331	331		1	12											81	30	1024		10	200	10	200																	134	4	1	ModitemdamColdsk	ModitemdamColdsk		5	4	1	ModitemAllsk	ModitemAllsk			0
+is332	332		1	12											81	30	1024		10	200	10	200																	132	4	1	ModitemdamPoissk	ModitemdamPoissk		5	4	1	ModitemAllsk	ModitemAllsk			0
+is333	333		1	9												1289	1024		8	100	8	100																	137	20	1	Moditemenresfiresk	Moditemenresfiresk		6	20	1	ModitemResallsk	ModitemResallsk			0
+is334	334		1	9												1247	1024		8	100	8	100																	135	20	1	Moditemenresltngsk	Moditemenresltngsk		6	20	1	ModitemResallsk	ModitemResallsk			0
+is335	335		1	9												992	1024		8	100	8	100																	133	20	1	Moditemenrescoldsk	Moditemenrescoldsk		6	20	1	ModitemResallsk	ModitemResallsk			0
+is336	336		1	9												1173	1024		8	100	8	100																	131	20	1	Moditemenrespoissk	Moditemenrespoissk		6	20	1	ModitemResallsk	ModitemResallsk			0
+is337	337		1	9													1024		8		8																															0
+is338	338		1	9											4	7	1024		7		7																		50	2	1	ModitemArrrgh	ModitemArrrgh		8	2	1	ModitemAvoidance	ModitemAvoidance			0
+is339	339		1	9											4	7	1024		7		7																		49	2	1	ModitemArrrgh	ModitemArrrgh		8	2	1	ModitemAvoidance	ModitemAvoidance			0
+is340	340		1	9											4	7	1024		7		7																		48	2	1	ModitemArrrgh	ModitemArrrgh		8	2	1	ModitemAvoidance	ModitemAvoidance			0
+is341	341		1	9													1024		8		8																															0
+is342	342		1	11	10												1024		8		8																															0
+is343	343		1	11	10										8	104	1024		8		8																								4	3						0
+is344	344		1	9	10												1024		8		8																															0
+is345	345		1	11	10												1024		8		8																															0
+is346	346		1	11	10										8	104	1024		8		8																															0
+is347	347		1	9	10												1024		8		8																															0
+is348	348		1	9	10												1024		8		8																															0
+is349	349		1	9											261	90	1024		9		9																															0
+is350	350			9													1024																																			0
+is351	351			8													1024																																			0
+is352	352		1	8													1024																																			0
+is353	353			5													1024																																			0
+is354	354			32													1024																																			0
+is355	355			16													1024																																			0
+is356	356																1024		2		2																															0
+is357	357		1	12											606	216	1024		10	200	10	200																	140	4	1	ModitemdamPMsk	ModitemdamPMsk		5	4	1	ModitemAllsk	ModitemAllsk			0
+is358	358		1	9												1406	1024		8	100	8	100																	141	20	1	ModItemMagPierce	ModItemMagPierce									0
+is359	359		1	11											24	10	1024		9	100	9	100			11			is0											90	2	1	Modstrpercent	Modstrpercent		3	2	1	ModitemAllpercents	ModitemAllpercents			
+is360	360		1	11											24	10	1024		9	100	9	100			11			is2											89	2	1	Moddexpercent	Moddexpen		3	2	1	ModitemAllpercents	ModitemAllpercents			
+is361	361		1	11											24	10	1024		9	100	9	100			11			is1											87	2	1	Modenrpercent	Modenrpen		3	2	1	ModitemAllpercents	ModitemAllpercents			
+is362	362		1	11											24	10	1024		9	100	9	100			11			is3											88	2	1	Modvitpercent	Modvitpen		3	2	1	ModitemAllpercents	ModitemAllpercents			
+is363	363		1	7							1				51	20	1024		8	50	8	50														19		19	114	2	2	Moditemslowthorns	Moditemslowthorns									
+is364	364		1	8							1				28	5	1024		7	25	7	25														8			118	2	2	Moditemhowlthorns	Moditemhowlthorns									
+is365	365		1	5							1				1402	154	1024		5	5	5	5												1		14			116	12	2	Moditembrrr	Moditembrrr									
+is366	366		1	5							1				333	49	1024		8	50	8	50												1		9			120	12	2	ModitemBlindthorns	ModitemBlindthorns									
+is367	367		1	6							1				2	51	1024		11		11															12			26	3	2	ModitemColdThorns	ModitemColdThorns		14	3	2	ModitemAllThorns				
+is368	368		1	6							1				2	51	1024		11		11															11		11	28	3	2	ModitemFireThorns	ModitemFireThorns		14	3	2	ModitemAllThorns				
+is369	369		1	5													1024																																			
+is370	370		1	5													1024																																			
+is371	371		1	7	17						1			2	95	128	1024		7		7		17											1		20		20	247	3		ModitemAmazingGrace	ModitemAmazingGrace									
+is372	372		1	2													1024		1		1																		4			ModItemNoUnsocket	ModItemNoUnsocket									
+is373	373		1	9												1406	1024		9	300	9	300																														
+is374	374		1	12													1024		10	50	10	50																														
+is375	375			15	15										1006	251	1024		15		15		15																241	31												
+is376	376		1	5													1024																																			
+is377	377			15	15										1006	251	1024		15		15		15																3	31												
+is378	378			15	15										1006	251	1024		15		15		15																232	31												
+is379	379		1	12											300	85	1024		5		5																			3												
+is380	380		1	12											331	91	1024		9	100	9	100																	195	4	1	ModitemBloodlustDmg	ModitemBloodlustDmg									
+is381	381		1	12											331	91	1024		8	50	8	50																	195	4	1	ModitemBloodlustElem	ModitemBloodlustElem									
+is382	382		1	17	12												1024		14	1001	14	1001	12																													
+is383	383		1	17	12												1024		14	1001	14	1001	12																													
+is384	384		1	12													1024		8		8																															
+is385	385			15	15										1006	251	1024		15		15		15																241	34												
+is386	386		1	12													1024		8		8																															
+is387	387		1	12											331	91	1024		9	100	9	100																	195	4	1	ModitemMotwDmg	ModitemMotwDmg									
+is388	388		1	12											331	91	1024		8	50	8	50																	195	4	1	ModitemMotwElem	ModitemMotwElem									
+is389	389		1	12											80	29	1024		10		10																		195	2	1	ModitemMotwDur	ModitemMotwDur									
+is390	390		1	12											2	51	1024		5		5																		248	3		ModitemShadowCorpse	ModitemShadowCorpse									
+is391	391		1	12											2	51	1024		5		5																		249	3		ModitemCursedCurse	ModitemCursedCurse									
+is392	392		1	5													1024																																			
+is393	393		1	17	12												1024		14	1001	14	1001	12																													
+is394	394		1	5													1024																																			
+is395	395		1	12													1024		3	1	3	1																														
+is396	396		1	17	12												1024		14	1001	14	1001	12																													
+is397	397		1	17	12												1024		14	1001	14	1001	12																													
+is398	398		1	12											7	2	1024		5		5																															
+is399	399		1	17	12												1024		14	1001	14	1001	12																													
+is400	400		1	17	12												1024		14	1001	14	1001	12																													
+is401	401		1	5													1024																																			
+is402	402		1	5													1024																																			
+is403	403		1	5													1024																																			
+is404	404		1	6											22	21	1024		10		10				4	5	is12	is329											138	7	1	ModitemdamFiresk	ModitemdamFiresk	increaseswithplaylevelX								
+is405	405		1	6											22	21	1024		10		10				4	5	is12	is330											136	7	1	ModitemdamLtngsk	ModitemdamLtngsk	increaseswithplaylevelX								
+is406	406		1	6											22	21	1024		10		10				4	5	is12	is331											134	7	1	ModitemdamColdsk	ModitemdamColdsk	increaseswithplaylevelX								
+is407	407		1	6											22	21	1024		10		10				4	5	is12	is332											132	7	1	ModitemdamPoissk	ModitemdamPoissk	increaseswithplaylevelX								
+is408	408		1	5													1024																																			
+is409	409		1	12											334	95	1024		8	100	8	100																	168	2	1	ModitemDurMod	ModitemDurMod									
+is410	410		1	5													1024		4		4																		253	3	2	ItemPrefixCounter	ItemPrefixCounter									
+is411	411		1	5													1024		4		4																		252	3	2	ItemSuffixCounter	ItemSuffixCounter									
+is412	412		1	5													1024																																			
+is413	413		1	5													1024																																			
+is414	414		1	12											81	16	1024		9	50	9	50																	173	4	1	ModitemEdyremBonus	ModitemEdyremBonus									
+is415	415			12	16												1024		12		12		16																254	35		ModitemEleInnateSeq	ModitemEleInnateSeq									
+is416	416		1	12													1024																																			
+is417	417			17	5												1024		16		16		5																													
+is418	418		1	12											4	1	1024		2		2																		225	3		ModitemNeedsLCed	ModitemNeedsLCed									
+is419	419		1	12													1024		10		10																															
+is420	420		1	12													1024																																			
+is421	421		1	5													1024		4		4																															
+is422	422			8											4	1	1024		8		8				2	7	is423	is424											194	2	2	AnotherCurrentBonus	AnotherCurrentBonus									
+is423	423			8											4	1	1024		8		8																															
+is424	424			8											4	1	1024		8		8																															
+is425	425			5											4	1	1024		5		5																															
+is426	426		1	3													1024																																			
+is427	427		1	9	5										261	90	1024		9		9		5																45	38	2	ModitemAfreq	ModitemAfreq									
+is428	428		1	12											50	35	1024		6	5	6	5																	132	1	1	ModitemMaxExoMin	ModitemMaxExoMin									
+is429	429		1	12											50	35	1024		6	5	6	5																	197	1	1	ModitemMaxPalaMin	ModitemMaxPalaMin									
+is430	430		1	5													1024																																			
+is431	431		1	12											4	1	1024		9	100	9	100																	195	4	1	ModitemPASyn	ModitemPASyn									
+is432	432		1	11													1024		10	1	10	1																														
+is433	433		1	12													1024																																			
+is434	434		1	12													1024																																			
+is435	435		1	12													1024																																			
+is436	436		1	12													1024																																			
+is437	437		1	12													1024																																			
+is438	438		1	12													1024																																			
+is439	439		1	7							1				6	2	1024		9		9															28			20	1	1	ModitemHealThorns	ModitemHealThorns									
+is440	440		1	7							1				6	2	1024		9		9															17			19	1	1	ModitemManaThorns	ModitemManaThorns									
+is441	441		1	12											50	35	1024		6	5	6	5																	195	1	1	ModitemExtraPets	ModitemExtraPets									
+is442	442		1	6											4	1	1024		9		9				2	8	is0	is25											194	2	2	ModitemStrBBB	ModitemStrBBB									
+is443	443		1	12											4	1	1024		5		5																		248	3		ModitemUpgraded	ModitemUpgraded									
+is444	444		1	12											55	41	1024		9	100	9	100																	105	4	1	ModitemHPMinBonus	ModitemHPMinPenality									
+is445	445		1	12											50	35	1024		6		6																		196	1	1	ModitemMoreBarbs	ModitemMoreBarbs									
+is446	446		1	12											52	58	1024		8		8																		195	4	1	ModitemSPSyn	ModitemSPSyn									
+is447	447		1	10													1024		9		9																		234	7	2	ModitemFragmentation	ModitemFragmentation	ModitemReallyBlank								
+is448	448		1	12											22	21	1024		8	100	8	100																	100	2	1	ModitemPotEff	ModitemPotEff									
+is449	449		1	17	12												1024		14	1001	14	1001	12																234	37	2	ModitemMaxSkill										
+is450	450		1	12											3	1	1024		5		5																															
+is451	451		1	12													1024																																			
+is452	452		1	6													1024		5	1	5	1																														
+is453	453		1	6													1024		5	1	5	1																														
+is454	454		1	6													1024		5	1	5	1																														
+is455	455		1	6													1024		5	1	5	1																														
+is456	456		1	5													1024		5	1	5	1																														
+is457	457		1	6													1024		10		10																															
+is458	458		1	6													1024		5	1	5	1																														
+is459	459		1	6													1024		5	1	5	1																														
+is460	460		1	6													1024		5	1	5	1																														
+is461	461		1	5													1024																																			
+is462	462		1	12													1024		8		8																		187	4	1	ModitemVoJDmgSyn	ModitemVoJDmgSyn									
+is463	463		1	5													1024		5		5																															
+is464	464		1	6													1024		10		10																															
+is465	465		1	9													1024		8		8																															
+is466	466		1	8													1024		7		7																		9	3	2	ModitemGemSpace	ModitemGemSpace									
+is467	467		1	12											55	41	1024		4		4																															
+is468	468		1	12													1024		8		8																		187	4	1	ModitemVDmgSyn	ModitemVDmgSyn									
+is469	469		1	12													1024		8		8																		187	1	1	ModitemVTgtSyn	ModitemVTgtSyn									
+is470	470		1	12											55	41	1024		9	50	9	50																	104	4	1	ModitemDmgMinBonus	ModitemDmgMinBonus									
+is471	471		1	12											55	41	1024		9	50	9	50																														
+is472	472		1	12											55	41	1024		9	50	9	50																														
+is473	473		1	12											6	2	1024		4		4																		233	3		ModitemLernEnnead	ModitemLernEnnead									
+is474	474		1	12											6	2	1024		4		4																		233	3		ModitemLearnBlackroad	ModitemLearnBlackroad									
+is475	475		1	5													1024																																			
+is476	476		1	12											55	41	1024		11	50	11	50																														
+is477	477		1	12											55	41	1024		9	50	9	50																														
+is478	478		1	8													1024		7	10	7	10																														
+is479	479		1	12													1024		4		4																															
+is480	480		1	12											451	114	1024		5		5																		85	1	1	ModitemParagon	ModitemParagon									
+is481	481		1	12											451	114	1024		5		5																		85	4	1	ModitemRunemaster	ModitemRunemaster									
+is482	482		1	6													1024		10		10				2	5	is480	is3																								
+is483	483		1	6													1024		10		10				4	5	is481	is182																								
+is484	484		1	12											55	41	1024		8	50	8	50																	149	2	1	ModItemInnateEleDmg	ModItemInnateEleDmg									
+is485	485		1	12											2	1	1024		10	200	10	200																	194	1	1	ModitemEnrFactor	ModitemEnrFactor									
+is486	486		1	12													1024		8	50	8	50																														
+is487	487		1	12											55	41	1024		8	50	8	50																	103	4	1	ModitemResMinBonus	ModitemResMinBonus									
+is488	488		1	11											506	145	1024		8	100	8	100			11			is485											193	4	1	ModitemEFPct	ModitemEFPct									
+is489	489		1	16							1				56	64	1024		11		11															6		6	25	3	2	ModitemDoomed	ModitemDoomed									
+is490	490		1	6													1024		5	1	5	1																														
+is491	491		1	6													1024		5	1	5	1																														
+is492	492		1	6													1024		5	1	5	1																														
+is493	493		1	6													1024		5	1	5	1																														
+is494	494		1	6													1024		5	1	5	1																														
+is495	495		1	9											1006	251	1024		7	24	7	24																														
+is496	496		1	12											4	1	1024		5		5																		250	3		ModitemCorruptedPlz										
+is497	497		1	12											4	1	1024		5		5																		251	3		ModitemCorrupted	ModitemCorrupted									
+is498	498		1	6													1024		14	6383	14	6383																														
+is499	499		1	6											53	64	1024		10		10				2	5	is12	is1											87	6	1	ModStr1d	ModStr1d	increaseswithplaylevelX								
+is500	500		1	12											44	46	1024		8	100	8	100																	102	4	1	ModitemMinionAttack	ModitemMinionAttack									
+is501	501		1	12													1024		10	23	10	23																	84	3	2	ModItemShrineCount	ModItemShrineCountEmpty									
+is502	502			8													1024		8	1	4	1																														
+is503	503		1	5													1024		4	1	4	1																														
+is504	504		1	6													1024		14	6383	14	6383																														
+is505	505		1	6											111	68	1024		10		10				2	5	is12	is74											80	32	1	ModStr2lx	ModStr2lx									
+is506	506		1	9													1024		2	1	2	1																														
+is507	507		1	12											1	1	1024																																			
+is508	508		1	12											4	1	1024		9	100	9	100																														
+is509	509		1	12											4	1	1024		9	100	9	100																														
+is510	510		1	7	17						1			2	95	128	1024		7		7		17													30			205	15		ItemBlock	ItemBlock									
